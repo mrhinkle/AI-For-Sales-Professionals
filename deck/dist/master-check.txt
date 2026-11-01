@@ -1,0 +1,55 @@
+master: 46 slides
+render: 46 slides measured, 0 overflow
+pdf: deck/dist/master.pdf (593 KB)
+
+PROBLEMS: none
+
+WARNINGS: none
+
+per-slide bottom edge (px from slide top; floor 620):
+  1  464  ok  AI for Sales Professionals
+  2  457  ok  I've been on both sides of this table
+  3  451  ok  The AI drafts. You send.
+  4  517  ok  Here's how we'll spend the time
+  5  466  ok  About half of a seller's week isn't selling.
+  6  405  ok  What it's good at today, and what it isn't
+  7  588  ok  Your week, with an assistant in the chair next to you
+  8  396  ok  You probably already own the tools
+  9  450  ok  Set it up once
+  10  430  ok  Three files your assistant reads before every task
+  11  478  ok  Brief it like a new hire, not like a search box
+  12  339  ok  Three habits that fix most bad answers
+  13  356  ok  Build your voice file right now
+  14  465  ok  Research an account in ten minutes
+  15  436  ok  Collect, brief, verify, then one sentence on why now
+  16  404  ok  The account brief prompt
+  17  445  ok  Four things it gets wrong, and how you catch them
+  18  396  ok  Pick a real target account and run it
+  19  465  ok  Outreach that sounds like you
+  20  481  ok  Personalization isn't their name in the first line. It's proof you did the ten minutes.
+  21  356  ok  Under ninety words, one ask, an easy out
+  22  423  ok  The same email, before and after the brief
+  23  427  ok  What to automate in your sequencer and what stays in your hands
+  24  451  ok  Nothing goes out that you didn't read. Not because the AI is bad. Because it's your name.
+  25  445  ok  Write the first touch for the account you just researched
+  26  465  ok  Before, during and after the call
+  27  415  ok  Five minutes before, nothing during, ten minutes after
+  28  332  ok  The prep sheet prompt
+  29  382  ok  Rehearse the hard conversation before you have it
+  30  406  ok  Follow up in ten minutes from the transcript
+  31  339  ok  Three rounds with your toughest buyer
+  32  432  ok  Proposals and the paperwork
+  33  356  ok  First draft from your template and the call
+  34  445  ok  The same move works for RFPs and the business case
+  35  432  ok  Keep the pipeline honest
+  36  332  ok  Ask it to be the skeptic in your deal review
+  37  426  ok  Hygiene without the Friday afternoon
+  38  465  ok  The rules that keep you employed
+  39  504  ok  Four rules
+  40  481  ok  At 99 percent accuracy, a thousand automated sends is ten mistakes with your signature on them.
+  41  432  ok  Your first week
+  42  493  ok  Five days, one habit each
+  43  339  ok  Measure three things, nothing fancy
+  44  420  ok  Pick one workflow. Do it every day for two weeks. Then add the next.
+  45  396  ok  Everything from today lives in one place
+  46  450  ok  Thanks. Go brief three accounts before Friday.

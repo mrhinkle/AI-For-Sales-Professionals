@@ -1,0 +1,34 @@
+# The master program. Every other audience inherits these values and overrides what differs.
+title: AI for Sales Professionals
+subtitle: What it's good at today, what it isn't, and the five things to do this week.
+eyebrow: a working session for sellers
+footer: AI for Sales Professionals
+length: full            # full | half | short  (picks each module's minutes)
+duration_minutes: 260   # teaching minutes; add breaks and lunch in the run of show
+format: in-person
+brand: peripety         # peripety | aie | cobrand
+presenter: Mark R. Hinkle
+presenter_line: CEO, Peripety Labs · Publisher, The AIE Network
+vars:
+  company: your company
+  product: your product
+  buyer: your buyers
+  crm: your CRM
+  sequencer: your sequencer
+  recorder: your meeting recorder
+  assistant: ChatGPT, Claude, Gemini or Copilot
+  repo_url: github.com/mrhinkle/ai-for-sales-training
+  contact_email: mrhinkle@peripety.com
+  presenter: Mark R. Hinkle
+modules:
+  - 00-opening
+  - 01-where-ai-fits
+  - 02-three-files
+  - 03-research
+  - 04-outreach
+  - 05-calls
+  - 06-proposals
+  - 07-pipeline
+  - 08-guardrails
+  - 09-first-week
+  - 99-close

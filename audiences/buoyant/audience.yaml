@@ -1,0 +1,37 @@
+# Buoyant: "AI Primer with Mark", a 60-minute remote session for the go-to-market team.
+# Inherits everything from audiences/master/audience.yaml; only the differences are here.
+title: Selling with AI at Buoyant
+subtitle: What it's good at today, what it isn't, and the five things your team can do this week.
+eyebrow: ai primer · 60 minutes
+footer: AI Primer · Buoyant
+date: 2026-11-04
+length: short
+duration_minutes: 60
+format: remote
+brand: cobrand
+vars:
+  company: Buoyant
+  product: Linkerd
+  buyer: platform engineering teams running Kubernetes
+  crm: HubSpot
+  sequencer: Apollo
+  recorder: Zoom's AI Companion or a recorder like Fireflies
+  assistant: ChatGPT, Claude or Gemini
+modules:
+  - id: 00-opening
+  - id: 01-where-ai-fits
+  - id: 02-three-files
+    exclude: [exercise-voice-file]
+  - id: 03-research
+    exclude: [exercise-research]
+  - id: 04-outreach
+    minutes: 8
+    exclude: [exercise-outreach]
+  - id: buoyant-inbound
+    override: overrides/buoyant-inbound.md
+  - id: 05-calls
+    exclude: [exercise-roleplay]
+  - id: 08-guardrails
+  - id: 09-first-week
+    exclude: [measure]
+  - id: 99-close

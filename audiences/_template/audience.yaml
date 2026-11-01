@@ -1,0 +1,36 @@
+# __COMPANY__: fill in the title, date, length and vars. Everything else is inherited from audiences/master.
+title: Selling with AI at __COMPANY__
+subtitle: What it's good at today, what it isn't, and the five things your team can do this week.
+eyebrow: a working session for sellers
+footer: AI for Sales · __COMPANY__
+date: YYYY-MM-DD
+length: half            # full (about 4.5 teaching hours) | half (about 2.5) | short (about 1)
+duration_minutes: 150
+format: in-person       # in-person | remote
+brand: cobrand          # peripety | aie | cobrand (company name × Peripety Labs in the footer)
+vars:
+  company: __COMPANY__
+  product: your product          # in the buyer's words, e.g. "Linkerd"
+  buyer: your buyers             # e.g. "platform engineering teams running Kubernetes"
+  crm: your CRM                  # HubSpot, Salesforce...
+  sequencer: your sequencer      # Apollo, Outreach, Salesloft...
+  recorder: your meeting recorder
+  assistant: ChatGPT, Claude, Gemini or Copilot
+modules:
+  - id: 00-opening
+  - id: 01-where-ai-fits
+  - id: 02-three-files
+  - id: 03-research
+  - id: 04-outreach
+  - id: 05-calls
+  - id: 06-proposals
+  - id: 07-pipeline
+  - id: 08-guardrails
+  - id: 09-first-week
+  - id: 99-close
+# To drop a slide:        - id: 03-research
+#                           exclude: [exercise-research]
+# To replace a module:    - id: 04-outreach
+#                           override: overrides/04-outreach.md
+# To add a company slide: - id: __NAME__-extra
+#                           override: overrides/__NAME__-extra.md
