@@ -34,6 +34,7 @@ Transcript in, out comes the summary, the follow-up email in your voice, the CRM
 
 notes:
 Ask for consent on recording every time; most teams already do. The "during" box is the point: the best sellers in the room already don't take notes. Now nobody has to. After the call, ten minutes, before you open the next tab, or the follow-up slides to tomorrow and the energy is gone.
+@short Preview of the rules: a transcript is customer data, so the demo uses a redacted one in the company's approved tool.
 
 ---
 
@@ -46,11 +47,12 @@ Ask for consent on recording every time; most teams already do. The "during" box
 Using the account brief for [Company] and my product file, prepare me for a 30-minute discovery call
 with [names and titles]. Give me: five open questions in the order I'd ask them; the two objections
 I'm most likely to hear and a one-line honest answer to each; what each person in the room probably
-cares about; one thing I should not bring up yet. Keep it to one page I can read in five minutes.
+cares about; the two technical terms from the brief I should be able to explain in one sentence;
+one thing I should not bring up yet. Keep it to one page I can read in five minutes.
 ```
 
 notes:
-"One thing I should not bring up yet" is my favorite line in this prompt. Pricing, a competitor, a feature that isn't shipped. The model is good at spotting the landmine when you ask.
+"One thing I should not bring up yet" is my favorite line in this prompt. Pricing, a competitor, a feature that isn't shipped. The model is good at spotting the landmine when you ask. The two technical terms line is for anyone selling to engineers: if you can't explain the buyer's words in one sentence, they'll know in the first five minutes.
 
 ---
 

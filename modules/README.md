@@ -69,3 +69,7 @@ Write `{{company}}`, `{{product}}`, `{{crm}}`, `{{buyer}}` and so on anywhere in
 ## Exercises and prompts
 
 Put the exercise on its own slide (eyebrow `exercise`) with the prompt in a `prompt` code block, and keep the full prompt text in `prompts/` too so people can copy it from the repo after the session.
+
+## Lines and slides for one program length
+
+A line that starts with `@short `, `@full ` or `@full,half ` is kept only when the audience's `length` matches, and the tag is stripped. Use it in speaker notes so the hands-on sentence shows for full and half and the demo sentence shows for short, or on `### ` rows to drop a row from the primer. A whole slide can carry `<!-- only: short -->` (or `full,half`) as its first directive; the live-demo statement slides in modules 03 and 04 use it.

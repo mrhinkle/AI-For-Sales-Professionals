@@ -14,7 +14,10 @@ outcomes:
 {{subtitle}}
 
 notes:
-Welcome. Say the time budget out loud and the promise: by the end you will have run three real prompts on your own accounts and you'll know which one to do tomorrow morning. Housekeeping: questions any time, I'd rather go off script than leave you behind.
+Welcome. Say the time budget out loud and the promise.
+@full,half By the end you will have run three real prompts on your own accounts and you'll know which one to do tomorrow morning.
+@short By the end you'll have seen three real prompts run on one live target account, and you'll know which one to run on your own tomorrow morning. Nothing to open, nothing to install. I drive, you watch and heckle, and you get every prompt afterward.
+Housekeeping: questions any time, I'd rather go off script than leave you behind.
 
 ---
 
@@ -51,4 +54,6 @@ Say it twice. This is the rule that keeps the whole thing safe and useful at the
 ## Here's how we'll spend the time
 
 notes:
-Walk the agenda in thirty seconds. Flag the hands-on bits so people get a real account ready. Ask them to open the assistant they already use. Any of them is fine for today.
+Walk the agenda in thirty seconds.
+@full,half Flag the hands-on bits so people get a real account ready. Ask them to open the assistant they already use. Any of them is fine for today.
+@short Flag the demo bits so people have a real target account in mind. Following along in their own assistant is optional; don't wait on them.

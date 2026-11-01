@@ -1,0 +1,13 @@
+You are a senior presentation editor and instructional designer. Review the attached deck text for a 60-minute remote session called "Selling with AI at Buoyant," given over Zoom on Wednesday November 4, 2026 by Mark Hinkle to about seven people on the go-to-market team at Buoyant, the company behind Linkerd (a service mesh for Kubernetes). Their buyers are platform engineering and SRE teams. They use HubSpot, Apollo and HockeyStack. The session is a primer: no hands-on exercises, one live demo thread (account research, a first-touch email, a follow-up from a transcript) run by the presenter on a real target account.
+
+The presenter's voice, which the deck must match: Mark talks to one person across a table. Slide titles are sentences he would say, not headlines. Contractions, plain words, the point first and then the reassurance. He tells short stories from thirty years in enterprise tech (dot-com, open source, cloud) and he sells every day for his own company. He never cheerleads, never uses exclamation points, no "Honestly," no cute asides, no magazine taglines, no corporate register ("unlock value," "drive outcomes," "journey"). Density rule: at most four bullets a slide, about twelve words each; speaker notes are the talk track and stay under 140 words.
+
+Review against these criteria, in this order of importance:
+
+1. Accuracy and risk: any claim that is wrong, unverifiable, dated, or that could embarrass the presenter in front of a technical audience. Any advice that is bad practice for sales teams (email law, LinkedIn automation, data handling).
+2. Voice: slides or notes that do not sound like the presenter described above. Quote the exact phrase and propose the replacement.
+3. Density and clarity: slides a remote audience cannot absorb in the time, jargon used before it is explained, prompts that are too long to read on screen.
+4. Flow and timing: does the sequence build, does 60 minutes hold, are there slides that should be cut or merged for a remote primer. The run of show: opening 5, where AI fits 7, three files 8, research demo 10, outreach demo plus the inbound-plan slide 10, calls 8, guardrails 5, first week 5, close 2.
+5. Audience fit: anything that will land badly with a small, technical-adjacent GTM team selling to platform engineers, or that misses an obvious opportunity specific to them.
+
+Output format: a two-sentence verdict, then findings ranked by how much fixing them would help the room, each as: slide number · criterion · the problem in one or two sentences · the proposed fix (exact replacement text where it is wording). Then "Three slides to fix first." Be specific and blunt; do not praise; do not pad. Do not rewrite the whole deck.

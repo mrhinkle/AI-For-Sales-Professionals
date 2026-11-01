@@ -54,7 +54,9 @@ Before you write, ask me up to three questions if anything is unclear.
 ```
 
 notes:
-Five lines. Who you are, who it's for, what you want, what good looks like, what to avoid. Then the magic line: ask me questions first. A new hire who asks three good questions before starting beats one who guesses. Same here. Have everyone paste this into their assistant now and fill in the brackets for a real account.
+Five lines. Who you are, who it's for, what you want, what good looks like, what to avoid. Then the magic line: ask me questions first. A new hire who asks three good questions before starting beats one who guesses. Same here.
+@full,half Have everyone paste this into their assistant now and fill in the brackets for a real account.
+@short This is the skeleton I'll fill in live for our target account. Grab it from the repo after; don't type it now.
 
 ---
 

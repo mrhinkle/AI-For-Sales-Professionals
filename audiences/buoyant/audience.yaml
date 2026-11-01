@@ -16,6 +16,7 @@ vars:
   crm: HubSpot
   sequencer: Apollo
   recorder: Zoom's AI Companion or a recorder like Fireflies
+  demo_account: a real target account   # set this to the company you'll research live
   assistant: ChatGPT, Claude or Gemini
 modules:
   - id: 00-opening
@@ -33,5 +34,5 @@ modules:
     exclude: [exercise-roleplay]
   - id: 08-guardrails
   - id: 09-first-week
-    exclude: [measure]
+    exclude: [measure, pick-one]
   - id: 99-close

@@ -48,6 +48,19 @@ Ninety words is a real constraint and the model respects it. The easy out matter
 
 ---
 
+<!-- only: short -->
+<!-- layout: statement -->
+<!-- eyebrow: live demo · outreach -->
+<!-- id: demo-outreach -->
+# Now the email, from the brief we just built.
+
+Same account, same thread. Three versions, pick one, count the words.
+
+notes:
+Back to the screen share. Run the first-touch prompt with the brief still in the conversation. Read the three versions out loud, pick the one that sounds most like a person, cut anything you wouldn't say on the phone, and count the words. Under ninety or cut again. Then show the before-and-after slide.
+
+---
+
 <!-- layout: two-col -->
 <!-- eyebrow: outreach · before and after -->
 <!-- id: before-after -->
@@ -66,7 +79,7 @@ Sarah, your team posted four platform roles last month, which usually means the 
 Happy to point you at the right docs, or 20 minutes if talking is easier. If it's not on your radar, say so and I'll stop.
 
 notes:
-Read both out loud. The left one could have been sent by any company to any company. The right one proves homework in the first sentence, asks one real question, and makes no a free answer. Same model wrote both. The difference is what it was given.
+Read both out loud. The left one could have been sent by any company to any company. The right one proves homework in the first sentence, asks one real question, and makes "no" a free answer. Say up front that the left one was written to be bad on purpose; every phrase in it is from a real vendor email. Same model wrote both. The difference is what it was given.
 
 ---
 
@@ -76,12 +89,12 @@ Read both out loud. The left one could have been sent by any company to any comp
 ## What to automate in {{sequencer}} and what stays in your hands
 
 - Three emails, same thread, days 0, 3 and 8. The last one asks if you should close it out
-- LinkedIn stays a manual task. Automating connection requests gets company accounts restricted
+- LinkedIn stays a manual task. Automating connection requests gets your account restricted
 - Stops on reply, meeting, bounce, unsubscribe, or an opportunity. Nurture pauses while they're in it
 - The AI drafts every step. You approve the first send to each person
 
 notes:
-This is the sequence shape I use. Email can be automated once the drafts are approved. LinkedIn cannot, and it's not a style choice; the platform restricts accounts for it. The approval on first send is the human gate. Later, when the reply and complaint numbers look healthy, loosen it.
+This is the sequence shape I use. Email can be automated once the drafts are approved, and every automated send carries a working unsubscribe and your postal address; {{sequencer}} handles both if the template is set up right. LinkedIn cannot be automated, and it's not a style choice; the platform restricts the member's account for it. The approval on first send is the human gate. Later, when the reply and complaint numbers look healthy, loosen it.
 
 ---
 

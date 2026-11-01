@@ -24,7 +24,7 @@ Ask for a show of hands: who spent more than an hour yesterday on research, draf
 ## What it's good at today, and what it isn't
 
 ### Good at | Reading and summarizing
-A 10-K, forty job postings, a two-hour transcript. Faster than you, and it doesn't skim.
+A 10-K, forty job postings, a two-hour transcript. Faster than you, and it doesn't get tired. It does miss things, which is why the sources matter.
 
 ### Good at | First drafts and rehearsal
 Email, follow-ups, proposals, and playing the skeptical buyer so you can practice.
@@ -48,8 +48,8 @@ Keep this honest. The tools are good at volume and language. They are bad at tru
 ### Research | Account brief before the first call
 One prompt, a company name, ten minutes. Sources attached.
 
-### Prospect | Who to call, and why now
-Rank a list against your ICP file and surface the trigger events.
+@full,half ### Prospect | Who to call, and why now
+@full,half Rank a list against your ICP file and surface the trigger events.
 
 ### Reach out | First touch that sounds like you
 Under ninety words, one ask, written in your voice from your examples.
@@ -60,11 +60,13 @@ Five questions and the likely objections. Recorder on so you can stop typing.
 ### Follow up | Summary and next steps in ten minutes
 From the transcript: email, CRM notes, tasks.
 
-### Propose | First draft from your template and the call
-You check the numbers. It writes the words around them.
+@full,half ### Propose | First draft from your template and the call
+@full,half You check the numbers. It writes the words around them.
 
 notes:
-This is the map for the rest of the session. Every row is a module. The pattern is the same in every one: you give it the source material, it drafts, you check and send. Point, don't read. We'll do the top rows hands-on.
+This is the map for the rest of the session. Every row is a module. The pattern is the same in every one: you give it the source material, it drafts, you check and send. Point, don't read.
+@full,half We'll do the top rows hands-on.
+@short Ranking lists and drafting proposals are week two. Today we demo these four on screen.
 
 ---
 

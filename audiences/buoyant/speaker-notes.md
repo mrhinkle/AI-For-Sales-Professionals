@@ -1,6 +1,6 @@
 # Speaker notes: Selling with AI at Buoyant
 
-Date: Tue Nov 03 2026 19:00:00 GMT-0500 (Eastern Standard Time). 
+Date: 2026-11-04. 
 
 ## Run of show
 
@@ -23,7 +23,9 @@ Date: Tue Nov 03 2026 19:00:00 GMT-0500 (Eastern Standard Time).
 
 _Opening_
 
-Welcome. Say the time budget out loud and the promise: by the end you will have run three real prompts on your own accounts and you'll know which one to do tomorrow morning. Housekeeping: questions any time, I'd rather go off script than leave you behind.
+Welcome. Say the time budget out loud and the promise.
+By the end you'll have seen three real prompts run on one live target account, and you'll know which one to run on your own tomorrow morning. Nothing to open, nothing to install. I drive, you watch and heckle, and you get every prompt afterward.
+Housekeeping: questions any time, I'd rather go off script than leave you behind.
 
 ### 02. I've been on both sides of this table
 
@@ -41,7 +43,8 @@ Say it twice. This is the rule that keeps the whole thing safe and useful at the
 
 _Opening_
 
-Walk the agenda in thirty seconds. Flag the hands-on bits so people get a real account ready. Ask them to open the assistant they already use. Any of them is fine for today.
+Walk the agenda in thirty seconds.
+Flag the demo bits so people have a real target account in mind. Following along in their own assistant is optional; don't wait on them.
 
 ### 05. About half of a seller's week isn't selling.
 
@@ -59,7 +62,8 @@ Keep this honest. The tools are good at volume and language. They are bad at tru
 
 _Where AI fits in a seller's week_
 
-This is the map for the rest of the session. Every row is a module. The pattern is the same in every one: you give it the source material, it drafts, you check and send. Point, don't read. We'll do the top rows hands-on.
+This is the map for the rest of the session. Every row is a module. The pattern is the same in every one: you give it the source material, it drafts, you check and send. Point, don't read.
+Ranking lists and drafting proposals are week two. Today we demo these four on screen.
 
 ### 08. You probably already own the tools
 
@@ -83,7 +87,8 @@ Plain text, each under a page. Keep them in whatever your assistant calls a proj
 
 _Set it up once, the three files_
 
-Five lines. Who you are, who it's for, what you want, what good looks like, what to avoid. Then the magic line: ask me questions first. A new hire who asks three good questions before starting beats one who guesses. Same here. Have everyone paste this into their assistant now and fill in the brackets for a real account.
+Five lines. Who you are, who it's for, what you want, what good looks like, what to avoid. Then the magic line: ask me questions first. A new hire who asks three good questions before starting beats one who guesses. Same here.
+This is the skeleton I'll fill in live for our target account. Grab it from the repo after; don't type it now.
 
 ### 12. Three habits that fix most bad answers
 
@@ -108,128 +113,136 @@ Collect is where most of the ten minutes goes, and it's mostly copy and paste. I
 _Research an account in ten minutes_
 
 Read the last line out loud. UNVERIFIED in capital letters is the whole trick. The model will tell you what it's unsure of if you give it permission. Then the brief becomes a to-do list for your own checking instead of a trap.
+I'll paste each prompt in the chat as I run it; they're all in the repo. Nobody needs to transcribe a slide.
 
-### 16. Four things it gets wrong, and how you catch them
+### 16. Watch me do it on a real target account.
+
+_Research an account in ten minutes_
+
+Screen share. Run the prompt from the last slide on the target account, thinking out loud. When UNVERIFIED markers show up, stop and point at them; that's the moment to land. Click one link live, fix one wrong thing, then say the "why now" sentence in your own words. If the assistant stalls, read the prepared brief instead and keep moving.
+
+### 17. Four things it gets wrong, and how you catch them
 
 _Research an account in ten minutes_
 
 These four cover almost every embarrassing research mistake I've seen. They take ninety seconds to check and they are the difference between sounding prepared and sounding like you used a bot. Which is exactly what the buyer is listening for right now.
 
-### 17. Outreach that sounds like you
+### 18. Outreach that sounds like you
 
 _Outreach that sounds like you_
 
 Everyone in the room has received AI-written outreach this week. They can smell it. The goal is the opposite: email that reads like a person who did ten minutes of homework.
 
-### 18. Personalization isn't their name in the first line. It's proof you did the ten minutes.
+### 19. Personalization isn't their name in the first line. It's proof you did the ten minutes.
 
 _Outreach that sounds like you_
 
 "Hi Sarah, I saw you're the VP of Platform at Acme" is not personalization. It's mail merge. "Your team posted four Kubernetes roles last month" is. The research module feeds this one directly.
 
-### 19. Under ninety words, one ask, an easy out
+### 20. Under ninety words, one ask, an easy out
 
 _Outreach that sounds like you_
 
 Ninety words is a real constraint and the model respects it. The easy out matters: "if this isn't on your radar, tell me and I'll stop" gets replies because it costs the reader nothing. Three versions, then you pick and tune. Never the first draft.
 
-### 20. The same email, before and after the brief
+### 21. Now the email, from the brief we just built.
 
 _Outreach that sounds like you_
 
-Read both out loud. The left one could have been sent by any company to any company. The right one proves homework in the first sentence, asks one real question, and makes no a free answer. Same model wrote both. The difference is what it was given.
+Back to the screen share. Run the first-touch prompt with the brief still in the conversation. Read the three versions out loud, pick the one that sounds most like a person, cut anything you wouldn't say on the phone, and count the words. Under ninety or cut again. Then show the before-and-after slide.
 
-### 21. What to automate in Apollo and what stays in your hands
+### 22. The same email, before and after the brief
 
 _Outreach that sounds like you_
 
-This is the sequence shape I use. Email can be automated once the drafts are approved. LinkedIn cannot, and it's not a style choice; the platform restricts accounts for it. The approval on first send is the human gate. Later, when the reply and complaint numbers look healthy, loosen it.
+Read both out loud. The left one could have been sent by any company to any company. The right one proves homework in the first sentence, asks one real question, and makes "no" a free answer. Say up front that the left one was written to be bad on purpose; every phrase in it is from a real vendor email. Same model wrote both. The difference is what it was given.
 
-### 22. Nothing goes out that you didn't read. Not because the AI is bad. Because it's your name.
+### 23. What to automate in Apollo and what stays in your hands
+
+_Outreach that sounds like you_
+
+This is the sequence shape I use. Email can be automated once the drafts are approved, and every automated send carries a working unsubscribe and your postal address; Apollo handles both if the template is set up right. LinkedIn cannot be automated, and it's not a style choice; the platform restricts the member's account for it. The approval on first send is the human gate. Later, when the reply and complaint numbers look healthy, loosen it.
+
+### 24. Nothing goes out that you didn't read. Not because the AI is bad. Because it's your name.
 
 _Outreach that sounds like you_
 
 Say it plainly and move on. People remember the short version.
 
-### 23. This is the same rule the inbound plan runs on
+### 25. This is the same rule the inbound plan runs on
 
 _Where this meets the inbound plan_
 
-For anyone who saw the plan I sent Gary last week: this is the same idea at the system level. The automation does the sorting and the drafting. A person at Buoyant approves the first send and does every LinkedIn step by hand. Week one runs in shadow mode so you can see what it would have done before it does anything. Same rule, bigger machine.
+Quick context: Buoyant is building an inbound motion in HubSpot, with Apollo and HockeyStack doing the enrichment. If you didn't see the plan, this is it in four steps. It's the same idea at the system level. The automation does the sorting and the drafting. A person at Buoyant approves the first send and does every LinkedIn step by hand. Week one runs in shadow mode so you can see what it would have done before it does anything. Same rule, bigger machine.
 
-### 24. Before, during and after the call
+### 26. Before, during and after the call
 
 _Before, during and after the call_
 
 The call is where the relationship happens, so the assistant stays out of the room. It earns its keep on either side of it.
 
-### 25. Five minutes before, nothing during, ten minutes after
+### 27. Five minutes before, nothing during, ten minutes after
 
 _Before, during and after the call_
 
 Ask for consent on recording every time; most teams already do. The "during" box is the point: the best sellers in the room already don't take notes. Now nobody has to. After the call, ten minutes, before you open the next tab, or the follow-up slides to tomorrow and the energy is gone.
+Preview of the rules: a transcript is customer data, so the demo uses a redacted one in the company's approved tool.
 
-### 26. The prep sheet prompt
+### 28. The prep sheet prompt
 
 _Before, during and after the call_
 
-"One thing I should not bring up yet" is my favorite line in this prompt. Pricing, a competitor, a feature that isn't shipped. The model is good at spotting the landmine when you ask.
+"One thing I should not bring up yet" is my favorite line in this prompt. Pricing, a competitor, a feature that isn't shipped. The model is good at spotting the landmine when you ask. The two technical terms line is for anyone selling to engineers: if you can't explain the buyer's words in one sentence, they'll know in the first five minutes.
 
-### 27. Rehearse the hard conversation before you have it
+### 29. Rehearse the hard conversation before you have it
 
 _Before, during and after the call_
 
 Nobody wants to role-play with their manager. Everyone will do it with a chatbot at eleven at night. The feedback at the end is honest in a way colleagues rarely are. Managers: this is your new ride-along.
 
-### 28. Follow up in ten minutes from the transcript
+### 30. Follow up in ten minutes from the transcript
 
 _Before, during and after the call_
 
 The structure for CRM notes is whatever your team uses. Change the six headings to match HubSpot. The contradiction flag at the end is the quiet win: it catches the moment the buyer told you something that changes the deal and you were too busy listening to write it down.
 
-### 29. The rules that keep you employed
+### 31. The rules that keep you employed
 
 _The rules that keep you employed_
 
 Short module, serious tone. These aren't legal boilerplate. Every one of them is a story I've watched happen to someone.
 
-### 30. Four rules
+### 32. Four rules
 
 _The rules that keep you employed_
 
-Rule one is the one people break by accident, usually by pasting a whole transcript with a customer's architecture in it into a free consumer tool. Ask your security team which tool is approved and what can go in it. Rule two is the fix for most of rule one. Rules three and four you've heard all session.
+Rule one is the one people break by accident, usually by pasting a whole transcript with a customer's architecture in it into a free consumer tool. Ask your security team which tool is approved and what can go in it. Rule two is the fix for most of rule one. Rule four has a legal half: every commercial email needs a working unsubscribe and a real postal address, and the sequencer handles both if the template is set up right. Check with ops before the first send. The other half you've heard all session.
 
-### 31. At 99 percent accuracy, a thousand automated sends is ten mistakes with your signature on them.
+### 33. At 99 percent accuracy, a thousand automated sends is ten mistakes with your signature on them.
 
 _The rules that keep you employed_
 
-This is why the one rule exists. A model that's right 99 times out of 100 feels perfect in a demo. Run it unattended across a thousand contacts and the ten bad ones are the ones that get forwarded. Keep the person in the loop where the name goes on it.
+This is why the one rule exists. I'm not claiming models are 99 percent accurate; even if they were, the math still gets you. A model that's right 99 times out of 100 feels perfect in a demo. Run it unattended across a thousand contacts and the ten bad ones are the ones that get forwarded. Keep the person in the loop where the name goes on it.
 
-### 32. Your first week
+### 34. Your first week
 
 _Your first week_
 
 Don't try to do all of this Monday. Pick one. The research brief is the usual winner because it pays off on the very first call.
 
-### 33. Five days, one habit each
+### 35. Five days, one habit each
 
 _Your first week_
 
 Point, don't read. Each day is a module from today. By Friday they've done every workflow once on real accounts. Then they pick the one that paid off most and make it daily.
 
-### 34. Pick one workflow. Do it every day for two weeks. Then add the next.
-
-_Your first week_
-
-Last word before the close. The people who get value from this are the ones who make one thing a habit. The ones who try everything on Monday are back to the old way by Thursday.
-
-### 35. Everything from today lives in one place
+### 36. Everything from today lives in one place
 
 _Close_
 
 Give them the link and tell them the folder is built to be read by a chatbot, not just a person. "Open the repo, paste the prompts folder into your assistant, tell it who you sell to." Then take questions for whatever time is left.
 
-### 36. Thanks. Go brief three accounts before Friday.
+### 37. Thanks. Go brief three accounts before Friday.
 
 _Close_
 

@@ -20,6 +20,7 @@ vars:
   repo_url: github.com/mrhinkle/ai-for-sales-training
   contact_email: mrhinkle@peripety.com
   presenter: Mark R. Hinkle
+  demo_account: a real target account
 modules:
   - 00-opening
   - 01-where-ai-fits

@@ -57,13 +57,22 @@ function splitSlides(body) {
 // Pull "<!-- key: value -->" directives and a trailing "notes:" block out of one slide.
 function parseSlide(raw, file, idx) {
   const d = {};
+  raw = raw.replace(/<!--\s*only\s*:\s*([a-z, ]+)\s*-->\n?/, (_, v) => { d.only = v.split(',').map(x => x.trim()).filter(Boolean); return ''; });
   let text = raw.replace(/<!--\s*([a-z-]+)\s*:\s*([\s\S]*?)\s*-->\n?/g, (_, k, v) => { d[k] = v.trim(); return ''; });
   let notes = '';
   const ni = text.search(/^notes:\s*$/m);
   if (ni >= 0) { notes = text.slice(ni).replace(/^notes:\s*$/m, '').trim(); text = text.slice(0, ni); }
   const layout = d.layout || 'body';
   const id = d.id || `${path.basename(file, '.md')}-${idx + 1}`;
-  return { id, layout, eyebrow: d.eyebrow || '', time: d.time || '', text: text.trim(), notes, file };
+  return { id, layout, eyebrow: d.eyebrow || '', time: d.time || '', text: text.trim(), notes, file, only: d.only };
+}
+
+// Lines that start with "@full ", "@short " or "@full,half " are kept only for those program lengths; the tag is stripped.
+function filterByLength(text, length) {
+  return text.split('\n').filter(line => {
+    const m = line.match(/^@((?:full|half|short)(?:,(?:full|half|short))*)\s/);
+    return !m || m[1].split(',').includes(length);
+  }).map(line => line.replace(/^@(?:full|half|short)(?:,(?:full|half|short))*\s/, '')).join('\n');
 }
 
 function substitute(text, vars, file, missing) {
@@ -155,7 +164,7 @@ function renderSlide(s, ctx) {
     }
     case 'agenda': {
       const body = `<div class="rows">` + ctx.outline.filter(o => !/^(Opening|Close)$/.test(o.title)).map((o, i) =>
-        `<div class="row"><div class="t">${String(i + 1).padStart(2, '0')}</div><div class="b">${esc(o.title)}</div><div class="d">${o.minutes ? esc(o.minutes) + ' min' : ''}</div></div>`).join('') + '</div>';
+        `<div class="row"><div class="t">${o.minutes ? esc(o.minutes) + ' min' : ''}</div><div class="b">${esc(o.title)}</div><div class="d"></div></div>`).join('') + '</div>';
       inner = `<div class="content">${eyebrow}<h2>${inline(title)}</h2>${rest ? `<p class="lede">${inline(rest)}</p>` : ''}${body}</div>`;
       cls = 'agenda-slide';
       break;
@@ -192,6 +201,7 @@ function loadAudience(name) {
   const master = name === 'master' ? {} : yaml.load(fs.readFileSync(masterFile, 'utf8'));
   a.vars = { ...(master.vars || {}), ...(a.vars || {}) };
   for (const k of ['brand', 'presenter', 'presenter_line', 'footer']) if (a[k] === undefined && master[k] !== undefined) a[k] = master[k];
+  if (a.date instanceof Date) a.date = a.date.toISOString().slice(0, 10); // js-yaml parses bare dates as Date objects
   a.name = name;
   a.dir = path.join(AUDIENCES, name);
   return a;
@@ -214,7 +224,9 @@ function build(name) {
     const minutes = ref.minutes ?? (meta.minutes && (meta.minutes[a.length || 'full'] ?? meta.minutes.full)) ?? 0;
     totalMinutes += Number(minutes) || 0;
     outline.push({ id: ref.id, title: meta.title, minutes });
-    let list = splitSlides(substitute(body, vars, file, missing)).map((raw, i) => parseSlide(raw, file, i));
+    const length = a.length || 'full';
+    let list = splitSlides(filterByLength(substitute(body, vars, file, missing), length)).map((raw, i) => parseSlide(raw, file, i));
+    list = list.filter(s => !s.only || s.only.includes(length));
     if (ref.include) list = list.filter(s => ref.include.includes(s.id));
     if (ref.exclude) list = list.filter(s => !ref.exclude.includes(s.id));
     for (const s of list) { s.module = meta.title; slides.push(s); }

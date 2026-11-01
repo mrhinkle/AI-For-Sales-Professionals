@@ -12,16 +12,16 @@ outcomes:
 ## This is the same rule the inbound plan runs on
 
 ### Form fill
-A HubSpot contact lands. Apollo and HockeyStack enrich it.
+A HubSpot contact lands and gets enriched.
 
 ### Gate and score
-Corporate email, not a competitor or student. Fit plus intent. Tiers A, B, C, DQ.
+Real company, real person. Fit plus intent. Tiers A to DQ.
 
 ### Tier A routes to you
-Owner assigned, one-hour task, Slack alert, enrolled in the Apollo sequence from your own mailbox.
+Owner, one-hour task, Slack alert, Apollo sequence from your mailbox.
 
 ### You read the first send
-The sequence is drafted. The LinkedIn steps are manual. Your approval is the gate.
+Drafted for you. LinkedIn by hand. Your approval is the gate.
 
 notes:
-For anyone who saw the plan I sent Gary last week: this is the same idea at the system level. The automation does the sorting and the drafting. A person at Buoyant approves the first send and does every LinkedIn step by hand. Week one runs in shadow mode so you can see what it would have done before it does anything. Same rule, bigger machine.
+Quick context: Buoyant is building an inbound motion in HubSpot, with Apollo and HockeyStack doing the enrichment. If you didn't see the plan, this is it in four steps. It's the same idea at the system level. The automation does the sorting and the drafting. A person at Buoyant approves the first send and does every LinkedIn step by hand. Week one runs in shadow mode so you can see what it would have done before it does anything. Same rule, bigger machine.

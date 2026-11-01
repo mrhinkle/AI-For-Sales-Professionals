@@ -24,7 +24,9 @@ Planned length: 260 minutes (modules add up to 260). Slides: 46.
 
 _Opening_
 
-Welcome. Say the time budget out loud and the promise: by the end you will have run three real prompts on your own accounts and you'll know which one to do tomorrow morning. Housekeeping: questions any time, I'd rather go off script than leave you behind.
+Welcome. Say the time budget out loud and the promise.
+By the end you will have run three real prompts on your own accounts and you'll know which one to do tomorrow morning.
+Housekeeping: questions any time, I'd rather go off script than leave you behind.
 
 ### 02. I've been on both sides of this table
 
@@ -42,7 +44,8 @@ Say it twice. This is the rule that keeps the whole thing safe and useful at the
 
 _Opening_
 
-Walk the agenda in thirty seconds. Flag the hands-on bits so people get a real account ready. Ask them to open the assistant they already use. Any of them is fine for today.
+Walk the agenda in thirty seconds.
+Flag the hands-on bits so people get a real account ready. Ask them to open the assistant they already use. Any of them is fine for today.
 
 ### 05. About half of a seller's week isn't selling.
 
@@ -60,7 +63,8 @@ Keep this honest. The tools are good at volume and language. They are bad at tru
 
 _Where AI fits in a seller's week_
 
-This is the map for the rest of the session. Every row is a module. The pattern is the same in every one: you give it the source material, it drafts, you check and send. Point, don't read. We'll do the top rows hands-on.
+This is the map for the rest of the session. Every row is a module. The pattern is the same in every one: you give it the source material, it drafts, you check and send. Point, don't read.
+We'll do the top rows hands-on.
 
 ### 08. You probably already own the tools
 
@@ -84,7 +88,8 @@ Plain text, each under a page. Keep them in whatever your assistant calls a proj
 
 _Set it up once, the three files_
 
-Five lines. Who you are, who it's for, what you want, what good looks like, what to avoid. Then the magic line: ask me questions first. A new hire who asks three good questions before starting beats one who guesses. Same here. Have everyone paste this into their assistant now and fill in the brackets for a real account.
+Five lines. Who you are, who it's for, what you want, what good looks like, what to avoid. Then the magic line: ask me questions first. A new hire who asks three good questions before starting beats one who guesses. Same here.
+Have everyone paste this into their assistant now and fill in the brackets for a real account.
 
 ### 12. Three habits that fix most bad answers
 
@@ -150,13 +155,13 @@ Ninety words is a real constraint and the model respects it. The easy out matter
 
 _Outreach that sounds like you_
 
-Read both out loud. The left one could have been sent by any company to any company. The right one proves homework in the first sentence, asks one real question, and makes no a free answer. Same model wrote both. The difference is what it was given.
+Read both out loud. The left one could have been sent by any company to any company. The right one proves homework in the first sentence, asks one real question, and makes "no" a free answer. Say up front that the left one was written to be bad on purpose; every phrase in it is from a real vendor email. Same model wrote both. The difference is what it was given.
 
 ### 23. What to automate in your sequencer and what stays in your hands
 
 _Outreach that sounds like you_
 
-This is the sequence shape I use. Email can be automated once the drafts are approved. LinkedIn cannot, and it's not a style choice; the platform restricts accounts for it. The approval on first send is the human gate. Later, when the reply and complaint numbers look healthy, loosen it.
+This is the sequence shape I use. Email can be automated once the drafts are approved, and every automated send carries a working unsubscribe and your postal address; your sequencer handles both if the template is set up right. LinkedIn cannot be automated, and it's not a style choice; the platform restricts the member's account for it. The approval on first send is the human gate. Later, when the reply and complaint numbers look healthy, loosen it.
 
 ### 24. Nothing goes out that you didn't read. Not because the AI is bad. Because it's your name.
 
@@ -186,7 +191,7 @@ Ask for consent on recording every time; most teams already do. The "during" box
 
 _Before, during and after the call_
 
-"One thing I should not bring up yet" is my favorite line in this prompt. Pricing, a competitor, a feature that isn't shipped. The model is good at spotting the landmine when you ask.
+"One thing I should not bring up yet" is my favorite line in this prompt. Pricing, a competitor, a feature that isn't shipped. The model is good at spotting the landmine when you ask. The two technical terms line is for anyone selling to engineers: if you can't explain the buyer's words in one sentence, they'll know in the first five minutes.
 
 ### 29. Rehearse the hard conversation before you have it
 
@@ -252,13 +257,13 @@ Short module, serious tone. These aren't legal boilerplate. Every one of them is
 
 _The rules that keep you employed_
 
-Rule one is the one people break by accident, usually by pasting a whole transcript with a customer's architecture in it into a free consumer tool. Ask your security team which tool is approved and what can go in it. Rule two is the fix for most of rule one. Rules three and four you've heard all session.
+Rule one is the one people break by accident, usually by pasting a whole transcript with a customer's architecture in it into a free consumer tool. Ask your security team which tool is approved and what can go in it. Rule two is the fix for most of rule one. Rule four has a legal half: every commercial email needs a working unsubscribe and a real postal address, and the sequencer handles both if the template is set up right. Check with ops before the first send. The other half you've heard all session.
 
 ### 40. At 99 percent accuracy, a thousand automated sends is ten mistakes with your signature on them.
 
 _The rules that keep you employed_
 
-This is why the one rule exists. A model that's right 99 times out of 100 feels perfect in a demo. Run it unattended across a thousand contacts and the ten bad ones are the ones that get forwarded. Keep the person in the loop where the name goes on it.
+This is why the one rule exists. I'm not claiming models are 99 percent accurate; even if they were, the math still gets you. A model that's right 99 times out of 100 feels perfect in a demo. Run it unattended across a thousand contacts and the ten bad ones are the ones that get forwarded. Keep the person in the loop where the name goes on it.
 
 ### 41. Your first week
 

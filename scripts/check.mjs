@@ -20,6 +20,19 @@ import { fileURLToPath } from 'node:url';
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const DIST = path.join(ROOT, 'deck', 'dist');
 const CHROME = process.env.CHROME || '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome';
+// Every Chrome launch gets its own throwaway profile: a shared one is still locked by the previous launch's
+// lingering processes for a few seconds, and Chrome then exits at once with no page run.
+function chrome(args, opts = {}) {
+  const profile = fs.mkdtempSync(path.join(os.tmpdir(), 'deckcheck-profile-'));
+  try {
+    return execFileSync(CHROME, ['--headless=new', '--disable-gpu', '--no-first-run', '--no-default-browser-check', `--user-data-dir=${profile}`, ...args], { encoding: 'utf8', maxBuffer: 64 * 1024 * 1024, timeout: 180000, stdio: ['ignore', 'pipe', 'pipe'], ...opts });
+  } catch (e) {
+    const err = new Error((e.stderr || e.message || '').toString().split('\n').filter(Boolean).slice(-2).join(' | '));
+    throw err;
+  } finally {
+    fs.rmSync(profile, { recursive: true, force: true });
+  }
+}
 
 const names = process.argv[2] ? [process.argv[2]] : fs.readdirSync(DIST).filter(f => f.endsWith('.html')).map(f => f.replace(/\.html$/, ''));
 let failed = false;
@@ -67,8 +80,8 @@ window.addEventListener('load',function(){
   fs.writeFileSync(tmp, html.replace('</body>', probe + '</body>'));
   let dom = '';
   try {
-    dom = execFileSync(CHROME, ['--headless=new', '--disable-gpu', '--no-first-run', '--hide-scrollbars', '--window-size=1400,900', '--virtual-time-budget=4000', '--dump-dom', 'file://' + tmp], { encoding: 'utf8', maxBuffer: 64 * 1024 * 1024, stdio: ['ignore', 'pipe', 'ignore'] });
-  } catch (e) { problems.push(`headless Chrome failed: ${e.message.split('\n')[0]}`); }
+    dom = chrome(['--hide-scrollbars', '--window-size=1400,900', '--virtual-time-budget=4000', '--dump-dom', 'file://' + tmp]);
+  } catch (e) { problems.push(`headless Chrome failed: ${e.message}`); }
   const rep = (dom.match(/<pre id="overflow-report">([\s\S]*?)<\/pre>/) || [, ''])[1];
   if (!rep) problems.push('render probe produced no report (Chrome did not run the page?)');
   const lines = rep.replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>').split('\n').filter(Boolean);
@@ -78,9 +91,9 @@ window.addEventListener('load',function(){
   // ---- 3. PDF ----
   const pdf = path.join(DIST, `${name}.pdf`);
   try {
-    execFileSync(CHROME, ['--headless=new', '--disable-gpu', '--no-first-run', '--no-pdf-header-footer', '--virtual-time-budget=4000', `--print-to-pdf=${pdf}`, 'file://' + file], { stdio: 'ignore', timeout: 120000 });
+    chrome(['--no-pdf-header-footer', '--virtual-time-budget=4000', `--print-to-pdf=${pdf}`, 'file://' + file]);
     report.push(`pdf: ${path.relative(ROOT, pdf)} (${(fs.statSync(pdf).size / 1024).toFixed(0)} KB)`);
-  } catch (e) { warnings.push(`pdf export failed: ${e.message.split('\n')[0]}`); }
+  } catch (e) { warnings.push(`pdf export failed: ${e.message}`); }
   fs.rmSync(tmp, { force: true });
 
   const out = [...report, '', ...(problems.length ? ['PROBLEMS', ...problems.map(p => '  ' + p)] : ['PROBLEMS: none']), '', ...(warnings.length ? ['WARNINGS', ...warnings.map(w => '  ' + w)] : ['WARNINGS: none']), '', 'per-slide bottom edge (px from slide top; floor 620):', ...lines.map(l => '  ' + l.replace(/\t/g, '  '))].join('\n');

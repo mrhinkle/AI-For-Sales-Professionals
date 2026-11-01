@@ -1,6 +1,6 @@
 master: 46 slides
 render: 46 slides measured, 0 overflow
-pdf: deck/dist/master.pdf (593 KB)
+pdf: deck/dist/master.pdf (587 KB)
 
 PROBLEMS: none
 
@@ -12,7 +12,7 @@ per-slide bottom edge (px from slide top; floor 620):
   3  451  ok  The AI drafts. You send.
   4  517  ok  Here's how we'll spend the time
   5  466  ok  About half of a seller's week isn't selling.
-  6  405  ok  What it's good at today, and what it isn't
+  6  455  ok  What it's good at today, and what it isn't
   7  588  ok  Your week, with an assistant in the chair next to you
   8  396  ok  You probably already own the tools
   9  450  ok  Set it up once
@@ -34,7 +34,7 @@ per-slide bottom edge (px from slide top; floor 620):
   25  445  ok  Write the first touch for the account you just researched
   26  465  ok  Before, during and after the call
   27  415  ok  Five minutes before, nothing during, ten minutes after
-  28  332  ok  The prep sheet prompt
+  28  356  ok  The prep sheet prompt
   29  382  ok  Rehearse the hard conversation before you have it
   30  406  ok  Follow up in ten minutes from the transcript
   31  339  ok  Three rounds with your toughest buyer

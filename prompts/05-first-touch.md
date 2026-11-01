@@ -12,4 +12,4 @@ to say no. Give me three versions with different openings.
 
 Pick one. Read it aloud. Cut anything you wouldn't say on the phone. Count the words.
 
-Sequence shape that works: three emails in the same thread on days 0, 3 and 8, the last one asking whether to close it out. LinkedIn steps stay manual tasks; automating connection requests gets company accounts restricted. Stop on reply, meeting, bounce, unsubscribe, or opportunity.
+Sequence shape that works: three emails in the same thread on days 0, 3 and 8, the last one asking whether to close it out. LinkedIn steps stay manual tasks; automating connection requests gets your account restricted. Every automated email carries a working unsubscribe and your postal address. Stop on reply, meeting, bounce, unsubscribe, or opportunity.

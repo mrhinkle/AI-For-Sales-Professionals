@@ -1,6 +1,6 @@
-buoyant: 36 slides
-render: 36 slides measured, 0 overflow
-pdf: deck/dist/buoyant.pdf (557 KB)
+buoyant: 37 slides
+render: 37 slides measured, 0 overflow
+pdf: deck/dist/buoyant.pdf (554 KB)
 
 PROBLEMS: none
 
@@ -12,8 +12,8 @@ per-slide bottom edge (px from slide top; floor 620):
   3  451  ok  The AI drafts. You send.
   4  478  ok  Here's how we'll spend the time
   5  466  ok  About half of a seller's week isn't selling.
-  6  405  ok  What it's good at today, and what it isn't
-  7  588  ok  Your week, with an assistant in the chair next to you
+  6  455  ok  What it's good at today, and what it isn't
+  7  471  ok  Your week, with an assistant in the chair next to you
   8  426  ok  You probably already own the tools
   9  450  ok  Set it up once
   10  430  ok  Three files your assistant reads before every task
@@ -22,24 +22,25 @@ per-slide bottom edge (px from slide top; floor 620):
   13  465  ok  Research an account in ten minutes
   14  436  ok  Collect, brief, verify, then one sentence on why now
   15  404  ok  The account brief prompt
-  16  445  ok  Four things it gets wrong, and how you catch them
-  17  465  ok  Outreach that sounds like you
-  18  481  ok  Personalization isn't their name in the first line. It's proof you did the ten minutes.
-  19  356  ok  Under ninety words, one ask, an easy out
-  20  423  ok  The same email, before and after the brief
-  21  445  ok  What to automate in Apollo and what stays in your hands
-  22  451  ok  Nothing goes out that you didn't read. Not because the AI is bad. Because it's your name.
-  23  438  ok  This is the same rule the inbound plan runs on
-  24  465  ok  Before, during and after the call
-  25  415  ok  Five minutes before, nothing during, ten minutes after
-  26  332  ok  The prep sheet prompt
-  27  382  ok  Rehearse the hard conversation before you have it
-  28  406  ok  Follow up in ten minutes from the transcript
-  29  465  ok  The rules that keep you employed
-  30  504  ok  Four rules
-  31  481  ok  At 99 percent accuracy, a thousand automated sends is ten mistakes with your signature on them.
-  32  432  ok  Your first week
-  33  493  ok  Five days, one habit each
-  34  420  ok  Pick one workflow. Do it every day for two weeks. Then add the next.
-  35  396  ok  Everything from today lives in one place
-  36  450  ok  Thanks. Go brief three accounts before Friday.
+  16  450  ok  Watch me do it on a real target account.
+  17  445  ok  Four things it gets wrong, and how you catch them
+  18  465  ok  Outreach that sounds like you
+  19  481  ok  Personalization isn't their name in the first line. It's proof you did the ten minutes.
+  20  356  ok  Under ninety words, one ask, an easy out
+  21  450  ok  Now the email, from the brief we just built.
+  22  423  ok  The same email, before and after the brief
+  23  445  ok  What to automate in Apollo and what stays in your hands
+  24  451  ok  Nothing goes out that you didn't read. Not because the AI is bad. Because it's your name.
+  25  438  ok  This is the same rule the inbound plan runs on
+  26  465  ok  Before, during and after the call
+  27  415  ok  Five minutes before, nothing during, ten minutes after
+  28  356  ok  The prep sheet prompt
+  29  382  ok  Rehearse the hard conversation before you have it
+  30  406  ok  Follow up in ten minutes from the transcript
+  31  465  ok  The rules that keep you employed
+  32  504  ok  Four rules
+  33  481  ok  At 99 percent accuracy, a thousand automated sends is ten mistakes with your signature on them.
+  34  432  ok  Your first week
+  35  493  ok  Five days, one habit each
+  36  396  ok  Everything from today lives in one place
+  37  450  ok  Thanks. Go brief three accounts before Friday.

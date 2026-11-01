@@ -56,6 +56,20 @@ Cite a source for every factual claim. If you can't source it, mark it UNVERIFIE
 
 notes:
 Read the last line out loud. UNVERIFIED in capital letters is the whole trick. The model will tell you what it's unsure of if you give it permission. Then the brief becomes a to-do list for your own checking instead of a trap.
+@short I'll paste each prompt in the chat as I run it; they're all in the repo. Nobody needs to transcribe a slide.
+
+---
+
+<!-- only: short -->
+<!-- layout: statement -->
+<!-- eyebrow: live demo · research -->
+<!-- id: demo-research -->
+# Watch me do it on {{demo_account}}.
+
+Ten minutes on the clock. Collect, run the prompt, click two links, write the "why now" sentence.
+
+notes:
+Screen share. Run the prompt from the last slide on the target account, thinking out loud. When UNVERIFIED markers show up, stop and point at them; that's the moment to land. Click one link live, fix one wrong thing, then say the "why now" sentence in your own words. If the assistant stalls, read the prepared brief instead and keep moving.
 
 ---
 

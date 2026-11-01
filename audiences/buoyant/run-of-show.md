@@ -7,13 +7,13 @@ Wednesday, November 4, 2026. Zoom. 60 minutes. Clock is elapsed minutes from the
 | 0:00 | 5 | Opening: who I am, the one rule, the agenda | 1 to 4 | Ask everyone to open the assistant they already use. |
 | 0:05 | 7 | Where AI fits in a seller's week | 5 to 8 | Show of hands on yesterday's research/CRM time. |
 | 0:12 | 8 | Set it up once: the three files, briefing like a new hire | 9 to 12 | Show the prepared voice/ICP/product files for a fictional Buoyant AE. |
-| 0:20 | 10 | Research, live demo on a real target account | 13 to 16 | Point at UNVERIFIED markers. Click one link live. |
-| 0:30 | 10 | Outreach, live demo from that brief; sequences (8), then the inbound plan (2) | 17 to 23 | Three versions, pick one, count words. Then the inbound-plan flow. |
-| 0:40 | 8 | Before, during and after the call | 24 to 28 | Run the follow-up prompt on a short redacted transcript if time allows. |
-| 0:48 | 5 | Guardrails | 29 to 31 | Serious tone, no jokes on rule one. |
-| 0:53 | 5 | Your first week | 32 to 34 | Point, don't read. Ask each person to name the one workflow they'll run. |
-| 0:58 | 2 | Close, resources, questions | 35 to 36 | Repo link in the chat. Stay on for questions. |
+| 0:20 | 10 | Research, live demo on a real target account | 13 to 17 | Point at UNVERIFIED markers. Click one link live. |
+| 0:30 | 10 | Outreach, live demo from that brief; sequences (8), then the inbound plan (2) | 18 to 25 | Three versions, pick one, count words. Then the inbound-plan flow. |
+| 0:40 | 8 | Before, during and after the call | 26 to 30 | Run the follow-up prompt on a short redacted transcript if time allows. |
+| 0:48 | 5 | Guardrails | 31 to 33 | Serious tone, no jokes on rule one. |
+| 0:53 | 5 | Your first week | 34 to 35 | Point, don't read. Ask each person to name the one workflow they'll run. |
+| 0:58 | 2 | Close, resources, questions | 36 to 37 | Repo link in the chat. Stay on for questions. |
 
 Scope cuts, in order, if running long: drop the follow-up demo (0:40 block becomes 5 minutes), drop the before/after email slide, shorten the three-files block to the cards slide only.
 
-Slide numbers are from the current build; rebuild and re-check `speaker-notes.md` if the module list changes.
+Slides 16 and 21 are the screen-share markers for the two live demos; set `demo_account` in audience.yaml to the company you'll research. Slide numbers are from the current build; rebuild and re-check `speaker-notes.md` if the module list changes.

@@ -151,7 +151,7 @@ body.show-notes .notes::before{content:"// SPEAKER NOTES — press N to hide";di
 
 /* agenda: up to ten compact rows */
 .agenda-slide .row{padding:8px 0;gap:20px;}
-.agenda-slide .row .t{width:40px;}
+.agenda-slide .row .t{width:80px;}
 .agenda-slide .row .b{font-size:17px;width:520px;}
 .agenda-slide .row .d{font-size:15px;color:var(--muted);}
 /* six-row teaching slides need to clear the 620px floor */
