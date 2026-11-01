@@ -37,6 +37,24 @@ Plain text, each under a page. Keep them in whatever your assistant calls a proj
 
 ---
 
+<!-- layout: image -->
+<!-- eyebrow: the three files · where they live -->
+<!-- id: where-files-live -->
+## Put them where the assistant reads them every time
+
+- ChatGPT calls it a Project, Claude calls it a Project, Gemini calls it a Gem
+- Upload the three files once. Every new chat in that folder starts with them loaded
+- Use the company seat, so the files stay inside your company's account
+
+|||
+
+![Claude Projects, where the three files live. November 2026](screenshots/claude-projects.jpg)
+
+notes:
+Show the folder feature in whichever assistant the room uses. The point is one-time setup: you never paste the three files again. If someone's company tool has no projects feature, a pinned chat with the three files pasted at the top works, it's just slower.
+
+---
+
 <!-- layout: body -->
 <!-- eyebrow: briefing -->
 <!-- id: brief-like-a-new-hire -->

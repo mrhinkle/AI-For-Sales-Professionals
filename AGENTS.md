@@ -8,7 +8,7 @@ This repository is a training program, "AI for Sales Professionals," written so 
 - **Improving the master**: edit files in `modules/` and `prompts/` when the user asks for a change to the program itself. Keep the module front matter valid and the slide ids stable, because audiences reference them. Keep `prompts/` in sync with any prompt text you change on a slide.
 - **The proposal**: `program/PROPOSAL.md` is the standard proposal. For a client version, copy it into `audiences/<name>/proposal.md` and tailor it; leave the standard one general.
 
-Do not change `deck/theme/deck.css`, `deck/build.mjs` or `scripts/` for an audience request. Design and tooling changes are their own task.
+Do not change `deck/theme/`, `design.md`, `deck/build.mjs` or `scripts/` for an audience request. Design and tooling changes are their own task, and `design.md` is the contract they have to keep.
 
 ## How to fork, step by step
 
@@ -18,6 +18,10 @@ Do not change `deck/theme/deck.css`, `deck/build.mjs` or `scripts/` for an audie
 4. Build and check: `node deck/build.mjs <name> && node scripts/check.mjs <name>`. Fix every PROBLEM. Read the WARNINGS and fix the ones that are real.
 5. Write `audiences/<name>/run-of-show.md` from the generated `speaker-notes.md`: clock, block, slide numbers, scope cuts in order.
 6. Open `deck/dist/<name>.html` and look at it, or read `deck/dist/<name>-check.txt` and the PDF, before you tell the user it is done. Do not claim a render you have not seen.
+
+## Visual rules
+
+Read `design.md` before building a deck. A photograph or screenshot every four or five slides, never two text-only slides of the same layout in a row. Screenshots are real product pages captured at 1280 wide or more, captioned with what they are and when, through the `image` layout or a markdown image; photos go under the veil with `photo:` and a `credit:` when they aren't Mark's; links use the `links` layout. Client screenshots live in the audience folder, never in `deck/assets/`.
 
 ## Writing rules
 

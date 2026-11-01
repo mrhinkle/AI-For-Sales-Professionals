@@ -1,0 +1,23 @@
+# Six representative slides used to preview a theme. Build with: node deck/build.mjs _sample --theme <skin> --out deck/previews/<skin>.html
+title: AI for Sales Professionals
+subtitle: What it's good at today, what it isn't, and the five things to do this week.
+eyebrow: a working session for sellers
+footer: AI for Sales Professionals
+length: full
+duration_minutes: 60
+brand: aie
+vars:
+  company: Buoyant
+  product: Linkerd
+  buyer: platform engineering teams running Kubernetes
+  crm: HubSpot
+  sequencer: Apollo
+modules:
+  - id: 00-opening
+    include: [title, one-rule]
+  - id: 01-where-ai-fits
+    include: [good-at, the-week]
+  - id: 03-research
+    include: [divider, research-flow, account-brief-prompt]
+  - id: 09-first-week
+    include: [five-days]

@@ -14,6 +14,8 @@ The whole program hangs on one rule: **the AI drafts, you send.**
 | Fork it for a new audience | `node scripts/fork-audience.mjs <name> "<Company>"`, then fill in `audiences/<name>/brief.md` and `audience.yaml` |
 | Give attendees the prompts | [prompts/](prompts/README.md), one file per prompt, same text as the slides |
 | Change what's taught | the module files in [modules/](modules/README.md); every audience picks them up on the next build |
+| Keep a deck on brand | [design.md](design.md): the AIE Network training template (Node), tokens read from theaie.net, image and link rules |
+| See every layout in the theme | `npm run styleguide`, then open `deck/dist/styleguide.html` |
 | Have a chatbot do any of the above | [AGENTS.md](AGENTS.md) |
 
 ## Build
@@ -57,6 +59,8 @@ Each module's front matter carries its minutes for each length; the build prints
 
 ## Voice and design
 
-Slides and notes are in Mark Hinkle's voice: one person across a table, sentences for titles, contractions, the plain point first and the reassurance second, at most four bullets. The deck follows the AIE Network light design spec in [deck/theme/DESIGN.md](deck/theme/DESIGN.md): Verdana, Inter, JetBrains Mono, sharp corners, border-top accents, one idea a slide.
+Slides and notes are in Mark Hinkle's voice: one person across a table, sentences for titles, contractions, the plain point first and the reassurance second, at most four bullets. Decks build in the **Node** theme, the AIE Network training template: white canvas, Verdana, Inter, JetBrains Mono, one orange, and the brand mark's linked circles as the structure. Tokens, image rules and the pre-ship checklist are in [design.md](design.md). Other explored skins live in `deck/theme/skins/` and `npm run previews` renders them side by side.
+
+A deck needs visual interest beyond type: a photograph or screenshot every four or five slides. The builder takes `photo:` on title, divider and statement slides, markdown images in body slides, an `image` layout for screenshots with or without side text, and a `links` layout. Assets live in `deck/assets/`.
 
 Mark R. Hinkle, Peripety Labs. mrhinkle@peripety.com

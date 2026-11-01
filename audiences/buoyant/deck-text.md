@@ -1,21 +1,23 @@
 # Deck text: Selling with AI at Buoyant — 2026-11-04
 
-37 slides. Visible text first, then the speaker notes under "Notes:". Chrome (slide number, footer, wordmark) omitted.
+40 slides. Visible text first, then the speaker notes under "Notes:". Chrome (slide number, footer, wordmark) omitted.
 
-## 01 · title · layout title · module 00-opening
+## 01 · title · layout title has-photo · module 00-opening
+
+All Things AI, Durham
 
 ai primer · 60 minutes
 Selling with AI at Buoyant
 
         What it's good at today, what it isn't, and the five things your team can do this week.
 
-        Mark R. Hinkle  ·  CEO, Peripety Labs · Publisher, The AIE Network
+        Mark R. Hinkle  ·  Publisher, The AIE Network · CEO, Peripety Labs
 
 Notes: Welcome. Say the time budget out loud and the promise.
 By the end you'll have seen three real prompts run on one live target account, and you'll know which one to run on your own tomorrow morning. Nothing to open, nothing to install. I drive, you watch and heckle, and you get every prompt afterward.
 Housekeeping: questions any time, I'd rather go off script than leave you behind.
 
-## 02 · about-me · layout body · module 00-opening
+## 02 · about-me · layout two-col · module 00-opening
 
 about me
 I've been on both sides of this table
@@ -164,7 +166,22 @@ What it does, the three problems it fixes, proof you can name, and what you're n
 
 Notes: Plain text, each under a page. Keep them in whatever your assistant calls a project or a folder, so they load automatically. The voice file is the one people underestimate. Give it your real emails and it stops sounding like a brochure. The ICP file is what makes research and list-ranking useful. The product file keeps it from inventing features.
 
-## 11 · brief-like-a-new-hire · layout body · module 02-three-files
+## 11 · where-files-live · layout image · module 02-three-files
+
+the three files · where they live
+Put them where the assistant reads them every time
+
+- ChatGPT calls it a Project, Claude calls it a Project, Gemini calls it a Gem
+
+- Upload the three files once. Every new chat in that folder starts with them loaded
+
+- Use the company seat, so the files stay inside your company's account
+
+Claude Projects, where the three files live. November 2026
+
+Notes: Show the folder feature in whichever assistant the room uses. The point is one-time setup: you never paste the three files again. If someone's company tool has no projects feature, a pinned chat with the three files pasted at the top works, it's just slower.
+
+## 12 · brief-like-a-new-hire · layout body · module 02-three-files
 
 briefing
 Brief it like a new hire, not like a search box
@@ -181,7 +198,7 @@ Before you write, ask me up to three questions if anything is unclear.
 Notes: Five lines. Who you are, who it's for, what you want, what good looks like, what to avoid. Then the magic line: ask me questions first. A new hire who asks three good questions before starting beats one who guesses. Same here.
 This is the skeleton I'll fill in live for our target account. Grab it from the repo after; don't type it now.
 
-## 12 · three-habits · layout body · module 02-three-files
+## 13 · three-habits · layout body · module 02-three-files
 
 briefing
 Three habits that fix most bad answers
@@ -194,7 +211,7 @@ Three habits that fix most bad answers
 
 Notes: Most complaints about these tools come down to under-briefing. People type nine words and get a generic answer, then decide it doesn't work. Feed it, ask for options, make it show its doubts. That's it. Demo one bad prompt and one good prompt live if time allows.
 
-## 13 · divider · layout divider · module 03-research
+## 14 · divider · layout divider · module 03-research
 
 02
 Research an account in ten minutes
@@ -203,7 +220,7 @@ Research an account in ten minutes
 
 Notes: This is the fastest payback in the whole session. Most reps either skip research or spend an hour on it. Ten minutes, every time, is the goal.
 
-## 14 · research-flow · layout flow · module 03-research
+## 15 · research-flow · layout flow · module 03-research
 
 research
 Collect, brief, verify, then one sentence on why now
@@ -228,7 +245,32 @@ One line you could say out loud: the trigger, the likely pain, your angle.
 
 Notes: Collect is where most of the ten minutes goes, and it's mostly copy and paste. If your assistant can browse, let it, but still paste the job postings. Hiring is the best public signal of what a company is about to do. Verify is non-negotiable. The brief is a draft, not a fact sheet, until you've clicked the links.
 
-## 15 · account-brief-prompt · layout body · module 03-research
+## 16 · collect-sources · layout links · module 03-research
+
+research · where the ten minutes go
+Six places to collect from, in the order that pays
+Their job postings
+www.linkedin.com/jobs
+What they're about to build, in their own words. The best public signal there is.
+Their newsroom and blog
+the company site
+What they want the world to know this quarter. Read the last three posts.
+SEC filings
+www.sec.gov/edgar/search
+For public companies: risk factors and spending, searchable by phrase.
+Funding and headcount
+www.crunchbase.com
+Recent rounds, growth, who's on the board. Free tier is enough.
+Your two contacts
+www.linkedin.com
+Title, tenure, what they posted about. Confirm the title before you use it.
+Your own CRM
+HubSpot
+What anyone at your company already knows about them. Check before you cold-call a customer.
+
+Notes: Point, don't read. The order matters: job postings first because they're the freshest signal, your own CRM last because it's the one people forget and the one that's most embarrassing to miss. All six links are in the repo.
+
+## 17 · account-brief-prompt · layout body · module 03-research
 
 research · the prompt
 The account brief prompt
@@ -244,7 +286,7 @@ Cite a source for every factual claim. If you can't source it, mark it UNVERIFIE
 Notes: Read the last line out loud. UNVERIFIED in capital letters is the whole trick. The model will tell you what it's unsure of if you give it permission. Then the brief becomes a to-do list for your own checking instead of a trap.
 I'll paste each prompt in the chat as I run it; they're all in the repo. Nobody needs to transcribe a slide.
 
-## 16 · demo-research · layout statement · module 03-research
+## 18 · demo-research · layout statement · module 03-research
 
 live demo · research
 Watch me do it on a real target account.
@@ -252,7 +294,7 @@ Ten minutes on the clock. Collect, run the prompt, click two links, write the "w
 
 Notes: Screen share. Run the prompt from the last slide on the target account, thinking out loud. When UNVERIFIED markers show up, stop and point at them; that's the moment to land. Click one link live, fix one wrong thing, then say the "why now" sentence in your own words. If the assistant stalls, read the prepared brief instead and keep moving.
 
-## 17 · what-to-check · layout body · module 03-research
+## 19 · what-to-check · layout body · module 03-research
 
 research · what to check
 Four things it gets wrong, and how you catch them
@@ -267,7 +309,7 @@ Four things it gets wrong, and how you catch them
 
 Notes: These four cover almost every embarrassing research mistake I've seen. They take ninety seconds to check and they are the difference between sounding prepared and sounding like you used a bot. Which is exactly what the buyer is listening for right now.
 
-## 18 · divider · layout divider · module 04-outreach
+## 20 · divider · layout divider · module 04-outreach
 
 03
 Outreach that sounds like you
@@ -276,7 +318,7 @@ Outreach that sounds like you
 
 Notes: Everyone in the room has received AI-written outreach this week. They can smell it. The goal is the opposite: email that reads like a person who did ten minutes of homework.
 
-## 19 · personalization · layout statement · module 04-outreach
+## 21 · personalization · layout statement · module 04-outreach
 
 outreach
 Personalization isn't their name in the first line. It's proof you did the ten minutes.
@@ -284,7 +326,7 @@ The trigger sentence from your brief is the personalization. Everything else is 
 
 Notes: "Hi Sarah, I saw you're the VP of Platform at Acme" is not personalization. It's mail merge. "Your team posted four Kubernetes roles last month" is. The research module feeds this one directly.
 
-## 20 · first-touch · layout body · module 04-outreach
+## 22 · first-touch · layout body · module 04-outreach
 
 outreach · the first touch
 Under ninety words, one ask, an easy out
@@ -297,7 +339,7 @@ to say no. Give me three versions with different openings.
 
 Notes: Ninety words is a real constraint and the model respects it. The easy out matters: "if this isn't on your radar, tell me and I'll stop" gets replies because it costs the reader nothing. Three versions, then you pick and tune. Never the first draft.
 
-## 21 · demo-outreach · layout statement · module 04-outreach
+## 23 · demo-outreach · layout statement · module 04-outreach
 
 live demo · outreach
 Now the email, from the brief we just built.
@@ -305,7 +347,7 @@ Same account, same thread. Three versions, pick one, count the words.
 
 Notes: Back to the screen share. Run the first-touch prompt with the brief still in the conversation. Read the three versions out loud, pick the one that sounds most like a person, cut anything you wouldn't say on the phone, and count the words. Under ninety or cut again. Then show the before-and-after slide.
 
-## 22 · before-after · layout two-col · module 04-outreach
+## 24 · before-after · layout two-col · module 04-outreach
 
 outreach · before and after
 The same email, before and after the brief
@@ -321,7 +363,7 @@ Happy to point you at the right docs, or 20 minutes if talking is easier. If it'
 
 Notes: Read both out loud. The left one could have been sent by any company to any company. The right one proves homework in the first sentence, asks one real question, and makes "no" a free answer. Say up front that the left one was written to be bad on purpose; every phrase in it is from a real vendor email. Same model wrote both. The difference is what it was given.
 
-## 23 · sequences · layout body · module 04-outreach
+## 25 · sequences · layout body · module 04-outreach
 
 outreach · sequences
 What to automate in Apollo and what stays in your hands
@@ -336,14 +378,14 @@ What to automate in Apollo and what stays in your hands
 
 Notes: This is the sequence shape I use. Email can be automated once the drafts are approved, and every automated send carries a working unsubscribe and your postal address; Apollo handles both if the template is set up right. LinkedIn cannot be automated, and it's not a style choice; the platform restricts the member's account for it. The approval on first send is the human gate. Later, when the reply and complaint numbers look healthy, loosen it.
 
-## 24 · your-name · layout statement · module 04-outreach
+## 26 · your-name · layout statement · module 04-outreach
 
 outreach
 Nothing goes out that you didn't read. Not because the AI is bad. Because it's your name.
 
 Notes: Say it plainly and move on. People remember the short version.
 
-## 25 · inbound-flow · layout flow · module buoyant-inbound
+## 27 · inbound-flow · layout flow · module buoyant-inbound
 
 buoyant · inbound
 This is the same rule the inbound plan runs on
@@ -368,7 +410,7 @@ Drafted for you. LinkedIn by hand. Your approval is the gate.
 
 Notes: Quick context: Buoyant is building an inbound motion in HubSpot, with Apollo and HockeyStack doing the enrichment. If you didn't see the plan, this is it in four steps. It's the same idea at the system level. The automation does the sorting and the drafting. A person at Buoyant approves the first send and does every LinkedIn step by hand. Week one runs in shadow mode so you can see what it would have done before it does anything. Same rule, bigger machine.
 
-## 26 · divider · layout divider · module 05-calls
+## 28 · divider · layout divider · module 05-calls
 
 04
 Before, during and after the call
@@ -377,7 +419,7 @@ Before, during and after the call
 
 Notes: The call is where the relationship happens, so the assistant stays out of the room. It earns its keep on either side of it.
 
-## 27 · call-flow · layout flow · module 05-calls
+## 29 · call-flow · layout flow · module 05-calls
 
 the call
 Five minutes before, nothing during, ten minutes after
@@ -398,7 +440,7 @@ Transcript in, out comes the summary, the follow-up email in your voice, the CRM
 Notes: Ask for consent on recording every time; most teams already do. The "during" box is the point: the best sellers in the room already don't take notes. Now nobody has to. After the call, ten minutes, before you open the next tab, or the follow-up slides to tomorrow and the energy is gone.
 Preview of the rules: a transcript is customer data, so the demo uses a redacted one in the company's approved tool.
 
-## 28 · prep-prompt · layout body · module 05-calls
+## 30 · prep-prompt · layout body · module 05-calls
 
 the call · prep
 The prep sheet prompt
@@ -411,7 +453,7 @@ one thing I should not bring up yet. Keep it to one page I can read in five minu
 
 Notes: "One thing I should not bring up yet" is my favorite line in this prompt. Pricing, a competitor, a feature that isn't shipped. The model is good at spotting the landmine when you ask. The two technical terms line is for anyone selling to engineers: if you can't explain the buyer's words in one sentence, they'll know in the first five minutes.
 
-## 29 · roleplay · layout body · module 05-calls
+## 31 · roleplay · layout body · module 05-calls
 
 the call · rehearsal
 Rehearse the hard conversation before you have it
@@ -423,7 +465,22 @@ After ten exchanges, stop and tell me the three weakest things I said and what t
 
 Notes: Nobody wants to role-play with their manager. Everyone will do it with a chatbot at eleven at night. The feedback at the end is honest in a way colleagues rarely are. Managers: this is your new ride-along.
 
-## 30 · follow-up-prompt · layout body · module 05-calls
+## 32 · recorder · layout image · module 05-calls
+
+the call · the recorder
+The recorder is the only new tool most of you need
+
+- Zoom's AI Companion or a recorder like Fireflies: it joins the call, you get the transcript
+
+- Ask for consent at the top of every call, every time
+
+- The transcript goes into the company-approved assistant, never a free one
+
+Fireflies.ai, one of the meeting recorders. November 2026
+
+Notes: Any recorder works: the one built into Zoom, Teams or Meet, or a standalone one like Fireflies or Gong. What matters is that you stop typing during the call and that the transcript lands somewhere approved. Consent is a sentence: "I'm recording so I can pay attention instead of taking notes, okay with you?"
+
+## 33 · follow-up-prompt · layout body · module 05-calls
 
 the call · follow-up
 Follow up in ten minutes from the transcript
@@ -436,7 +493,7 @@ and dates. Flag anything they said that contradicts our account brief.
 
 Notes: The structure for CRM notes is whatever your team uses. Change the six headings to match HubSpot. The contradiction flag at the end is the quiet win: it catches the moment the buyer told you something that changes the deal and you were too busy listening to write it down.
 
-## 31 · divider · layout divider · module 08-guardrails
+## 34 · divider · layout divider · module 08-guardrails
 
 05
 The rules that keep you employed
@@ -445,7 +502,7 @@ The rules that keep you employed
 
 Notes: Short module, serious tone. These aren't legal boilerplate. Every one of them is a story I've watched happen to someone.
 
-## 32 · four-rules · layout cards · module 08-guardrails
+## 35 · four-rules · layout cards · module 08-guardrails
 
 guardrails
 Four rules
@@ -467,7 +524,7 @@ A working unsubscribe and your postal address on every sequence, by law. The ass
 
 Notes: Rule one is the one people break by accident, usually by pasting a whole transcript with a customer's architecture in it into a free consumer tool. Ask your security team which tool is approved and what can go in it. Rule two is the fix for most of rule one. Rule four has a legal half: every commercial email needs a working unsubscribe and a real postal address, and the sequencer handles both if the template is set up right. Check with ops before the first send. The other half you've heard all session.
 
-## 33 · compounding · layout statement · module 08-guardrails
+## 36 · compounding · layout statement · module 08-guardrails
 
 guardrails
 At 99 percent accuracy, a thousand automated sends is ten mistakes with your signature on them.
@@ -475,7 +532,7 @@ Errors compound at machine speed. The human gate is the circuit breaker.
 
 Notes: This is why the one rule exists. I'm not claiming models are 99 percent accurate; even if they were, the math still gets you. A model that's right 99 times out of 100 feels perfect in a demo. Run it unattended across a thousand contacts and the ten bad ones are the ones that get forwarded. Keep the person in the loop where the name goes on it.
 
-## 34 · divider · layout divider · module 09-first-week
+## 37 · divider · layout divider · module 09-first-week
 
 06
 Your first week
@@ -484,7 +541,7 @@ Your first week
 
 Notes: Don't try to do all of this Monday. Pick one. The research brief is the usual winner because it pays off on the very first call.
 
-## 35 · five-days · layout rows · module 09-first-week
+## 38 · five-days · layout rows · module 09-first-week
 
 your first week
 Five days, one habit each
@@ -510,23 +567,29 @@ Run the skeptic prompt. Take the one action it names.
 
 Notes: Point, don't read. Each day is a module from today. By Friday they've done every workflow once on real accounts. Then they pick the one that paid off most and make it daily.
 
-## 36 · resources · layout body · module 99-close
+## 39 · resources · layout links · module 99-close
 
 resources
 Everything from today lives in one place
-
-- The deck, the speaker notes, and every prompt you saw: github.com/mrhinkle/ai-for-sales-training
-
-- Point your own assistant at that folder and ask it to adapt the prompts to your accounts
-
-- Questions after today: mrhinkle@peripety.com
-
-- The one rule, one more time: the AI drafts. You send
+The one rule, one more time: the AI drafts. You send.
+The repository
+github.com/mrhinkle/ai-for-sales-training
+The deck, the speaker notes, every prompt you saw, and how to point your own assistant at it.
+Questions after today
+mailto:mrhinkle@peripety.com
+Reply with the account you briefed and I'll read it.
+The AIE Network
+theaie.net
+Seven newsletters, four mornings a week, on using AI at work.
+All Things AI
+allthingsai.org
+The conference in Durham, April 18 to 20, 2027.
 
 Notes: Give them the link and tell them the folder is built to be read by a chatbot, not just a person. "Open the repo, paste the prompts folder into your assistant, tell it who you sell to." Then take questions for whatever time is left.
 
-## 37 · thanks · layout statement · module 99-close
+## 40 · thanks · layout statement has-photo · module 99-close
 
+All Things AI, Durham
 thank you
 Thanks. Go brief three accounts before Friday.
 Mark R. Hinkle · mrhinkle@peripety.com

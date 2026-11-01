@@ -39,6 +39,34 @@ Collect is where most of the ten minutes goes, and it's mostly copy and paste. I
 
 ---
 
+<!-- layout: links -->
+<!-- eyebrow: research · where the ten minutes go -->
+<!-- id: collect-sources -->
+## Six places to collect from, in the order that pays
+
+### Their job postings | https://www.linkedin.com/jobs
+What they're about to build, in their own words. The best public signal there is.
+
+### Their newsroom and blog | the company site
+What they want the world to know this quarter. Read the last three posts.
+
+### SEC filings | https://www.sec.gov/edgar/search
+For public companies: risk factors and spending, searchable by phrase.
+
+### Funding and headcount | https://www.crunchbase.com
+Recent rounds, growth, who's on the board. Free tier is enough.
+
+### Your two contacts | https://www.linkedin.com
+Title, tenure, what they posted about. Confirm the title before you use it.
+
+### Your own CRM | {{crm}}
+What anyone at your company already knows about them. Check before you cold-call a customer.
+
+notes:
+Point, don't read. The order matters: job postings first because they're the freshest signal, your own CRM last because it's the one people forget and the one that's most embarrassing to miss. All six links are in the repo.
+
+---
+
 <!-- layout: body -->
 <!-- eyebrow: research · the prompt -->
 <!-- id: account-brief-prompt -->

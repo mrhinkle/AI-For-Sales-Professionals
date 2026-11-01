@@ -6,9 +6,10 @@ footer: AI for Sales Professionals
 length: full            # full | half | short  (picks each module's minutes)
 duration_minutes: 260   # teaching minutes; add breaks and lunch in the run of show
 format: in-person
-brand: peripety         # peripety | aie | cobrand
+brand: aie              # aie | peripety | cobrand (company × The AIE Network)
+theme: node             # a file in deck/theme/skins/; node is the AIE Network training template
 presenter: Mark R. Hinkle
-presenter_line: CEO, Peripety Labs · Publisher, The AIE Network
+presenter_line: Publisher, The AIE Network · CEO, Peripety Labs
 vars:
   company: your company
   product: your product

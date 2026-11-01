@@ -1,0 +1,53 @@
+/* NODE — the AIE Network training template. The brand mark as the structure: the logo's linked
+   circles become the bullets, the section counters and the joins between steps, and the mark
+   itself sits oversized and faint on the title, divider and statement slides. White surface,
+   ink headings, flame accent, blue second accent. Prints clean. */
+:root{
+  --bg:#FFFFFF; --fg:#1A2434; --ink:#0A0F1C; --flame:#f44800; --blue:#2563EB;
+  --cloud:#F5F7FA; --hairline:#E5E7EB; --muted:rgba(10,15,28,0.55); --muted-2:rgba(10,15,28,0.70);
+  --flame-tint:rgba(244,72,0,0.06); --blue-tint:rgba(37,99,235,0.06);
+}
+/* the mark, oversized and faint, anchored bottom-right and bleeding off the slide */
+.title-slide::before,.divider-slide::before,.statement-slide::before{
+  content:"";position:absolute;right:-140px;bottom:-160px;width:620px;height:620px;
+  background:var(--icon-color) no-repeat center/contain;opacity:0.07;pointer-events:none;
+}
+.title-slide::after{content:"";position:absolute;left:100px;top:52px;width:64px;height:64px;background:var(--icon-color) no-repeat center/contain;}
+.title-slide .content{top:150px;}
+.title-topbar{display:none;}
+.title-slide .speaker{padding-left:22px;position:relative;}
+.title-slide .speaker::before{content:"";position:absolute;left:0;top:6px;width:10px;height:10px;border:2.5px solid var(--flame);border-radius:50%;}
+/* counters are nodes */
+.divider-slide .num{display:flex;align-items:center;gap:18px;}
+.divider-slide .num::before{content:"";width:22px;height:22px;border:4px solid var(--flame);border-radius:50%;flex-shrink:0;}
+.divider-slide .num .time{margin-left:auto;}
+.flow .step .n{display:inline-flex;align-items:center;justify-content:center;width:34px;height:34px;border:3px solid var(--flame);border-radius:50%;font-size:13px;color:var(--ink);}
+.flow .step{background:var(--cloud);border-top:none;border-bottom:4px solid var(--flame);}
+.flow .arrow{color:transparent;background:linear-gradient(var(--flame),var(--flame)) center/100% 3px no-repeat;}
+/* bullets are nodes */
+ul.marks li::before{content:"";width:12px;height:12px;border:3px solid var(--flame);border-radius:50%;left:6px;top:20px;box-sizing:border-box;}
+.card ul.marks li::before,.col ul.marks li::before{width:10px;height:10px;top:15px;left:2px;}
+ol li::before{color:var(--flame);}
+.row{align-items:center;}
+.row::before{content:"";display:block;width:10px;height:10px;border:2.5px solid var(--flame);border-radius:50%;flex-shrink:0;box-sizing:border-box;}
+.row .t{color:var(--flame);}
+.agenda-slide .row::before{border-color:var(--ink);}
+/* cards: rule at the foot, node on the kicker */
+.card{border-top:none;border-bottom:4px solid var(--ink);} .card.flame{border-bottom-color:var(--flame);} .card.blue{border-bottom-color:var(--blue);}
+.card .k::before,.col .k::before,.prompt .k::before{content:"";display:inline-block;width:9px;height:9px;border:2.5px solid var(--flame);border-radius:50%;margin-right:8px;vertical-align:-1px;box-sizing:border-box;}
+.col .k{border-bottom:2px solid var(--ink);padding-bottom:8px;}
+.two-col > div > p:first-child > strong:only-child{display:block;font-family:var(--font-mono);font-size:13px;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--flame);border-bottom:2px solid var(--ink);padding-bottom:8px;margin-bottom:12px;}
+.quote-panel,.prompt{background:var(--ink);}
+.quote-panel .q em{color:var(--flame);}
+table.cmp th{border-bottom:2px solid var(--ink);}
+table.cmp td:first-child::before{content:"";display:inline-block;width:8px;height:8px;border:2px solid var(--flame);border-radius:50%;margin-right:8px;vertical-align:0;box-sizing:border-box;}
+/* chrome */
+.chrome-eyebrow b{color:var(--flame);}
+.chrome-num::before{content:"";display:inline-block;width:8px;height:8px;border:2px solid var(--flame);border-radius:50%;margin-right:8px;vertical-align:0;box-sizing:border-box;}
+/* images and links in the node language */
+figure.shot .bar i{border-color:var(--flame);}
+a.link{border-top:none;border-bottom:2px solid var(--hairline);position:relative;padding-left:26px;}
+a.link::before{content:"";position:absolute;left:0;top:17px;width:12px;height:12px;border:3px solid var(--flame);border-radius:50%;box-sizing:border-box;}
+/* six-row maps need the room back that the node marker took */
+.rows-slide .row{padding:9px 0;gap:18px;}
+.rows-slide .row .d{font-size:15.5px;}

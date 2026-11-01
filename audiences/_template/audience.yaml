@@ -7,7 +7,8 @@ date: YYYY-MM-DD
 length: half            # full (about 4.5 teaching hours) | half (about 2.5) | short (about 1)
 duration_minutes: 150
 format: in-person       # in-person | remote
-brand: cobrand          # peripety | aie | cobrand (company name × Peripety Labs in the footer)
+brand: cobrand          # aie | peripety | cobrand (company name × The AIE Network in the footer)
+# theme: node           # inherited from master; other skins live in deck/theme/skins/
 vars:
   company: __COMPANY__
   product: your product          # in the buyer's words, e.g. "Linkerd"

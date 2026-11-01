@@ -1,0 +1,6 @@
+/* AIE Network light: the spec as shipped. White canvas, ink headings, flame accent, border-top cards. */
+:root{
+  --bg:#FFFFFF; --fg:#1A2434; --ink:#0A0F1C; --flame:#f44800; --blue:#2563EB;
+  --cloud:#F5F7FA; --hairline:#E5E7EB; --muted:rgba(10,15,28,0.55); --muted-2:rgba(10,15,28,0.70);
+  --flame-tint:rgba(244,72,0,0.06); --blue-tint:rgba(37,99,235,0.06);
+}

@@ -1,0 +1,39 @@
+/* SIGNAL — the theaie.net hero as a deck. Deep navy surface, white display, flame mono signals,
+   a faint node field on the big slides. Built for screens: Zoom, projectors, phones. */
+:root{
+  --bg:#0A0F1C; --fg:rgba(255,255,255,0.82); --ink:#FFFFFF; --flame:#f44800; --blue:#4F8CFF;
+  --cloud:#121A2E; --panel:#141D33; --hairline:rgba(255,255,255,0.10);
+  --muted:rgba(255,255,255,0.50); --muted-2:rgba(255,255,255,0.68);
+  --flame-tint:rgba(244,72,0,0.12); --blue-tint:rgba(79,140,255,0.12);
+  --logo-chrome:var(--logo-white);
+}
+body{background:#05080F;}
+.slide{background:var(--bg);}
+/* node field: the brand's linked circles, as a faint grid behind the big statements */
+.title-slide::before,.divider-slide::before,.statement-slide::before{
+  content:"";position:absolute;inset:0;pointer-events:none;
+  background-image:radial-gradient(circle,rgba(244,72,0,0.22) 1.6px,transparent 2px);
+  background-size:36px 36px;background-position:18px 18px;
+  -webkit-mask-image:linear-gradient(115deg,transparent 48%,#000 100%);mask-image:linear-gradient(115deg,transparent 48%,#000 100%);
+}
+.title-slide::after{content:"";position:absolute;right:100px;top:60px;width:72px;height:72px;background:var(--icon-color) no-repeat center/contain;}
+.title-topbar{background:linear-gradient(90deg,var(--flame) 0 62%,var(--blue) 62% 100%);}
+h2::before{content:"";display:block;width:44px;height:4px;background:var(--flame);margin-bottom:18px;}
+.agenda-slide h2::before,.body-slide h2::before,.cards-slide h2::before,.flow-slide h2::before,.cols-slide h2::before,.rows-slide h2::before,.two-col-slide h2::before{display:block;}
+.eyebrow{color:var(--flame);}
+.card{background:var(--cloud);border-top-color:var(--flame);}
+.card.blue{border-top-color:var(--blue);} .card.ink{border-top-color:rgba(255,255,255,0.35);}
+.card .k,.col .k{color:var(--muted);}
+.flow .step{background:var(--cloud);} .flow .arrow{color:var(--flame);}
+.row .b{color:var(--ink);}
+.quote-panel,.prompt{background:var(--panel);border-top:4px solid var(--flame);}
+.prompt pre{color:rgba(255,255,255,0.92);}
+code{background:var(--cloud);color:var(--ink);}
+table.cmp th{border-bottom-color:rgba(255,255,255,0.4);}
+.statement-slide h1{font-size:54px;}
+.statement-slide h1 em,em{color:var(--flame);}
+/* chrome */
+.chrome-num{color:var(--muted);}
+.chrome-eyebrow{color:var(--muted);} .chrome-eyebrow b{color:var(--flame);}
+body.show-notes .notes{background:#000;}
+@media print{body{background:#0A0F1C;}}

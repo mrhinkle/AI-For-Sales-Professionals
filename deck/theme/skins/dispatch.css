@@ -1,0 +1,54 @@
+/* DISPATCH — a publisher's training deck. Ivory paper, serif display, mono datelines, double rules,
+   and the prompt card as a clipping you'd tear out of a newsletter. Seven newsletters built this
+   audience; the deck looks like where they read. */
+:root{
+  --bg:#F7F3EC; --fg:#2A2520; --ink:#14120F; --flame:#f44800; --blue:#2563EB;
+  --cloud:#EFE9DF; --hairline:#D9D1C3; --muted:rgba(20,18,15,0.55); --muted-2:rgba(20,18,15,0.72);
+  --flame-tint:rgba(244,72,0,0.08); --blue-tint:rgba(37,99,235,0.07);
+  --font-display:Georgia,'Iowan Old Style','Times New Roman',serif;
+}
+body{background:#DDD6CA;}
+h1,h2,h3,.row .b,.card h3,.flow .step h3{font-family:var(--font-display);font-weight:700;letter-spacing:-0.01em;}
+h2{font-size:46px;padding-bottom:14px;border-bottom:3px double var(--ink);margin-bottom:24px;}
+h2.long{font-size:38px;}
+.eyebrow{color:var(--ink);border-top:1px solid var(--ink);padding-top:10px;}
+.eyebrow .time{color:var(--flame);}
+.title-topbar{height:14px;background:var(--ink);}
+.title-slide .content{top:90px;}
+.title-slide h1{font-size:76px;line-height:1.02;}
+.title-slide .sub{font-family:var(--font-display);font-style:italic;font-weight:400;color:var(--muted-2);}
+.title-slide .speaker{border-top:1px solid var(--ink);padding-top:16px;font-family:var(--font-mono);font-size:14px;letter-spacing:0.06em;text-transform:uppercase;}
+.title-slide .speaker .name{font-weight:600;}
+.divider-slide .num{font-family:var(--font-display);font-size:120px;line-height:1;color:var(--flame);margin-bottom:8px;}
+.divider-slide .num .time{font-family:var(--font-mono);font-size:14px;}
+.divider-slide h1{font-size:62px;}
+.divider-slide .sub{font-family:var(--font-display);font-style:italic;}
+.statement-slide h1{font-size:54px;line-height:1.2;}
+.statement-slide h1 em,em{color:var(--flame);font-style:italic;}
+.statement-slide .attr{font-family:var(--font-display);font-style:italic;}
+ul.marks li::before{content:"¶";color:var(--flame);font-family:var(--font-display);font-size:20px;top:11px;}
+.card{background:transparent;border-top:3px solid var(--ink);border-bottom:1px solid var(--hairline);padding:18px 0 18px;}
+.card.flame{border-top-color:var(--flame);} .card.blue{border-top-color:var(--blue);}
+.cards{gap:36px;}
+.card .k{color:var(--flame);}
+.flow .step{background:transparent;border-top:3px solid var(--ink);padding:18px 0;}
+.flow .step .n{font-family:var(--font-display);font-size:30px;color:var(--flame);line-height:1;}
+.flow .arrow{color:var(--hairline);}
+.row .t{color:var(--flame);}
+.row{border-bottom:1px solid var(--hairline);}
+.rows{border-top:3px solid var(--ink);}
+.quote-panel{background:transparent;color:var(--ink);border-top:3px solid var(--ink);border-bottom:3px solid var(--ink);padding:28px 0;}
+.quote-panel .q{color:var(--ink);font-size:30px;font-style:italic;font-weight:400;}
+.quote-panel .a{color:var(--muted);}
+/* the clipping */
+.prompt{background:#FFFDF9;border:2px dashed var(--flame);padding:22px 26px;}
+.prompt .k{color:var(--flame);}
+.prompt .k::after{content:"  ✂";}
+.prompt pre{color:var(--ink);font-size:15px;}
+code{background:var(--cloud);}
+table.cmp th{font-family:var(--font-display);border-bottom:3px double var(--ink);}
+/* chrome as a dateline */
+.chrome-eyebrow{color:var(--ink);letter-spacing:0.1em;}
+.chrome-eyebrow b{color:var(--flame);}
+.chrome-eyebrow::before{content:"The AIE Network · Training · ";font-family:var(--font-mono);color:var(--muted);}
+.chrome-num{color:var(--ink);font-family:var(--font-display);font-style:italic;font-size:15px;}

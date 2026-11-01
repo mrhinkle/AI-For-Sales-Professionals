@@ -9,7 +9,9 @@
     "build:master": "node deck/build.mjs master",
     "build:buoyant": "node deck/build.mjs buoyant",
     "check": "node scripts/check.mjs",
-    "fork": "node scripts/fork-audience.mjs"
+    "fork": "node scripts/fork-audience.mjs",
+    "styleguide": "node deck/build.mjs _styleguide --out deck/dist/styleguide.html",
+    "previews": "bash scripts/preview-themes.sh node signal dispatch runsheet aie-light"
   },
   "dependencies": {
     "js-yaml": "^4.1.0",

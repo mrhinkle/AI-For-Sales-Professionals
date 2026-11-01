@@ -1,0 +1,50 @@
+/* RUNSHEET — the run of show as the design. A navy rail down the left edge carries the slide
+   counter and the module, every list reads as a checklist with square ticks, dividers stamp a
+   giant outlined number, and the prompt card is the console. Checkpoints, gates, circuit breakers. */
+:root{
+  --bg:#FFFFFF; --fg:#1A2434; --ink:#0A0F1C; --flame:#f44800; --blue:#2563EB;
+  --cloud:#F3F5F9; --hairline:#E2E6EE; --muted:rgba(10,15,28,0.55); --muted-2:rgba(10,15,28,0.70);
+  --flame-tint:rgba(244,72,0,0.06); --blue-tint:rgba(37,99,235,0.06);
+}
+/* the rail */
+.slide::before{content:"";position:absolute;left:0;top:0;bottom:0;width:56px;background:var(--ink);}
+.slide::after{content:"";position:absolute;left:14px;top:34px;width:28px;height:28px;background:var(--icon-white) no-repeat center/contain;}
+.chrome-num{left:0;right:auto;top:auto;bottom:40px;width:56px;text-align:center;color:#FFFFFF;font-size:12px;letter-spacing:0.04em;writing-mode:vertical-rl;transform:rotate(180deg);height:120px;line-height:56px;}
+.content{left:112px;}
+.chrome-eyebrow{left:112px;}
+/* status eyebrow */
+.eyebrow{color:var(--ink);justify-content:flex-start;gap:14px;align-items:center;}
+.eyebrow .time{margin-left:auto;}
+.eyebrow::before{content:"";display:inline-block;width:12px;height:12px;background:var(--flame);flex-shrink:0;}
+.eyebrow .time{color:var(--flame);background:var(--flame-tint);padding:2px 10px;}
+.title-topbar{display:none;}
+.title-slide .content{justify-content:flex-start;top:140px;}
+.title-slide h1{font-size:66px;}
+.title-slide h1::before{content:"";display:block;width:88px;height:10px;background:var(--flame);margin-bottom:28px;}
+.title-slide .speaker{border-left:4px solid var(--flame);padding-left:16px;}
+/* stamped divider number */
+.divider-slide .num{position:absolute;right:0;top:40px;font-size:300px;line-height:1;color:transparent;-webkit-text-stroke:2px var(--hairline);font-weight:700;z-index:0;display:block;}
+.divider-slide .num .time{display:none;}
+.divider-slide h1,.divider-slide .sub{position:relative;z-index:1;}
+.divider-slide h1::before{content:"";display:block;width:88px;height:10px;background:var(--flame);margin-bottom:28px;}
+.statement-slide h1::before{content:"";display:block;width:88px;height:10px;background:var(--flame);margin-bottom:28px;}
+.statement-slide h1 em,em{color:var(--flame);}
+/* checklist ticks */
+ul.marks li::before{content:"";width:16px;height:16px;border:2.5px solid var(--ink);left:4px;top:17px;box-sizing:border-box;}
+ul.marks li{padding-left:44px;}
+ol li::before{color:var(--ink);background:var(--cloud);padding:0 6px;}
+.row .t{color:var(--ink);background:var(--cloud);padding:4px 10px;width:auto;min-width:120px;font-size:13px;letter-spacing:0.06em;text-transform:uppercase;}
+.rows-slide .row,.agenda-slide .row{align-items:center;}
+.agenda-slide .row .t{color:var(--flame);background:var(--flame-tint);}
+.card{background:var(--cloud);border-top:none;border-left:none;box-shadow:inset 0 0 0 1px var(--hairline);}
+.card .k::before,.col .k::before{content:"";display:inline-block;width:10px;height:10px;border:2px solid var(--flame);margin-right:8px;vertical-align:0;box-sizing:border-box;}
+.card.flame .k::before{background:var(--flame);} .card.blue .k::before{border-color:var(--blue);}
+.flow{counter-reset:step;}
+.flow .step{background:var(--cloud);border-top:none;box-shadow:inset 0 0 0 1px var(--hairline);}
+.flow .step .n{color:var(--ink);background:var(--flame);color:#fff;display:inline-block;padding:2px 8px;font-size:13px;}
+.flow .arrow{color:var(--ink);}
+.quote-panel,.prompt{background:var(--ink);}
+.prompt{border-left:6px solid var(--flame);}
+.prompt .k{color:var(--flame);}
+.prompt .k::before{content:"$ ";color:rgba(255,255,255,0.5);}
+table.cmp th{border-bottom:2px solid var(--ink);}

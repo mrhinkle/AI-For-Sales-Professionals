@@ -73,6 +73,24 @@ Nobody wants to role-play with their manager. Everyone will do it with a chatbot
 
 ---
 
+<!-- layout: image -->
+<!-- eyebrow: the call · the recorder -->
+<!-- id: recorder -->
+## The recorder is the only new tool most of you need
+
+- {{recorder}}: it joins the call, you get the transcript
+- Ask for consent at the top of every call, every time
+- The transcript goes into the company-approved assistant, never a free one
+
+|||
+
+![Fireflies.ai, one of the meeting recorders. November 2026](screenshots/fireflies.jpg)
+
+notes:
+Any recorder works: the one built into Zoom, Teams or Meet, or a standalone one like Fireflies or Gong. What matters is that you stop typing during the call and that the transcript lands somewhere approved. Consent is a sentence: "I'm recording so I can pay attention instead of taking notes, okay with you?"
+
+---
+
 <!-- layout: body -->
 <!-- eyebrow: the call · follow-up -->
 <!-- id: follow-up-prompt -->

@@ -46,3 +46,15 @@ People find this uncomfortable and then they run it on every deal. It is very go
 
 notes:
 The weekly summary prompt takes two minutes and makes your manager's week easier, which is a career move dressed up as hygiene. Point at the fourth line: CRM copilots are good at structured summaries. The judgment prompts belong in your general assistant with your three files loaded.
+
+---
+
+<!-- layout: image -->
+<!-- eyebrow: pipeline · the crm's own assistant -->
+<!-- id: crm-assistant -->
+## Your CRM ships an assistant now. Give it the boring half.
+
+![HubSpot's Agent Hub, the CRM's own assistants. November 2026](screenshots/hubspot-agent-hub.jpg)
+
+notes:
+Every CRM is shipping agents this year. They're good at the structured work: summaries, field updates, follow-up reminders, because they sit on the data. They're generic at the judgment work, because they don't have your three files. Split it that way and you get the best of both.

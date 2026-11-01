@@ -34,6 +34,29 @@ const dataUri = (file) => {
   return `data:${mime};base64,${fs.readFileSync(p).toString('base64')}`;
 };
 
+// Images: a src that isn't already a data: URI is looked up in the audience folder, then deck/assets/, and inlined.
+const ASSETS = path.join(ROOT, 'deck', 'assets');
+function resolveImage(src, audienceDir) {
+  if (/^(data:|https?:)/.test(src)) return src;
+  for (const base of [audienceDir, ASSETS]) {
+    const p = path.join(base, src);
+    if (fs.existsSync(p)) {
+      const ext = path.extname(p).slice(1).toLowerCase();
+      const mime = ext === 'svg' ? 'image/svg+xml' : ext === 'png' ? 'image/png' : ext === 'webp' ? 'image/webp' : 'image/jpeg';
+      return `data:${mime};base64,${fs.readFileSync(p).toString('base64')}`;
+    }
+  }
+  die(`image not found: ${src} (looked in ${path.relative(ROOT, audienceDir)}/ and deck/assets/)`);
+}
+function inlineImages(html, audienceDir) {
+  html = html.replace(/<p>\s*(<img [^>]*>)\s*<\/p>/g, (_, img) => {
+    let alt = (img.match(/alt="([^"]*)"/) || [, ''])[1];
+    if (/^photo:/i.test(alt)) { alt = alt.replace(/^photo:\s*/i, ''); return `<figure class="photo-fig">${img}${alt ? `<figcaption>${alt}</figcaption>` : ''}</figure>`; }
+    return `<figure class="shot"><div class="bar"><i></i><i></i><i></i></div>${img}${alt ? `<figcaption>${alt}</figcaption>` : ''}</figure>`;
+  });
+  return html.replace(/<img ([^>]*?)src="([^"]+)"/g, (_, pre, src) => `<img ${pre}src="${resolveImage(src, audienceDir)}" loading="eager"`);
+}
+
 function parseFrontMatter(text, file) {
   const m = text.match(/^---\n([\s\S]*?)\n---\n?/);
   if (!m) die(`${file}: missing front matter`);
@@ -64,7 +87,7 @@ function parseSlide(raw, file, idx) {
   if (ni >= 0) { notes = text.slice(ni).replace(/^notes:\s*$/m, '').trim(); text = text.slice(0, ni); }
   const layout = d.layout || 'body';
   const id = d.id || `${path.basename(file, '.md')}-${idx + 1}`;
-  return { id, layout, eyebrow: d.eyebrow || '', time: d.time || '', text: text.trim(), notes, file, only: d.only };
+  return { id, layout, eyebrow: d.eyebrow || '', time: d.time || '', photo: d.photo || '', credit: d.credit || '', text: text.trim(), notes, file, only: d.only };
 }
 
 // Lines that start with "@full ", "@short " or "@full,half " are kept only for those program lengths; the tag is stripped.
@@ -127,8 +150,28 @@ function renderSlide(s, ctx) {
   const notes = `<aside class="notes">${renderBody(s.notes || '').replace(/^<p>|<\/p>$/g, '')}</aside>`;
   let inner = '';
   let cls = s.layout + '-slide';
+  const photo = s.photo ? `<div class="photo" style="background-image:url(${resolveImage(s.photo, ctx.audienceDir)})"></div><div class="photo-veil"></div>${s.credit ? `<div class="photo-credit">${esc(s.credit)}</div>` : ''}` : '';
+  if (s.photo) cls += ' has-photo';
 
   switch (s.layout) {
+    case 'image': {
+      const [side, figure] = rest.includes('|||') ? rest.split(/^\|\|\|\s*$/m) : ['', rest];
+      const fig = renderBody(figure.trim());
+      inner = side.trim()
+        ? `<div class="content">${eyebrow}<h2 class="${title.length > 60 ? 'long' : ''}">${inline(title)}</h2><div class="image-side"><div class="side">${renderBody(side.trim())}</div><div class="fig">${fig}</div></div></div>`
+        : `<div class="content">${eyebrow}<h2 class="${title.length > 60 ? 'long' : ''}">${inline(title)}</h2><div class="fig full">${fig}</div></div>`;
+      break;
+    }
+    case 'links': {
+      const { lead, items } = sections(rest);
+      const body = `<div class="links">` + items.map(it => {
+        const [t, url] = it.head.split('|').map(x => x.trim());
+        const href = (url || '').replace(/^<|>$/g, '');
+        return `<a class="link" href="${esc(href)}"><div class="lt">${inline(t)}</div><div class="lu">${esc(href.replace(/^https?:\/\//, ''))}</div><div class="ld">${inline(it.body)}</div></a>`;
+      }).join('') + '</div>';
+      inner = `<div class="content">${eyebrow}<h2 class="${title.length > 60 ? 'long' : ''}">${inline(title)}</h2>${lead ? `<p class="lede">${inline(lead)}</p>` : ''}${body}</div>`;
+      break;
+    }
     case 'title': {
       inner = `<div class="title-topbar"></div><div class="content">${eyebrow}<h1>${inline(title)}</h1>
         ${rest ? `<p class="sub">${inline(rest.replace(/\n+/g, '<br>'))}</p>` : ''}
@@ -188,7 +231,8 @@ function renderSlide(s, ctx) {
       inner = `<div class="content">${eyebrow}<h2 class="${title.length>60?'long':''}">${inline(title)}</h2>${renderBody(rest)}</div>`;
     }
   }
-  return `<!-- ${s.id} -->\n<section class="slide ${cls}" data-id="${esc(s.id)}" data-module="${esc(path.basename(s.file, '.md'))}">${inner}${chrome()}${notes}</section>\n`;
+  inner = inlineImages(inner, ctx.audienceDir);
+  return `<!-- ${s.id} -->\n<section class="slide ${cls}" data-id="${esc(s.id)}" data-module="${esc(path.basename(s.file, '.md'))}">${photo}${inner}${chrome()}${notes}</section>\n`;
 }
 
 // ---------- assemble one audience ----------
@@ -200,7 +244,7 @@ function loadAudience(name) {
   const masterFile = path.join(AUDIENCES, 'master', 'audience.yaml');
   const master = name === 'master' ? {} : yaml.load(fs.readFileSync(masterFile, 'utf8'));
   a.vars = { ...(master.vars || {}), ...(a.vars || {}) };
-  for (const k of ['brand', 'presenter', 'presenter_line', 'footer']) if (a[k] === undefined && master[k] !== undefined) a[k] = master[k];
+  for (const k of ['brand', 'theme', 'presenter', 'presenter_line', 'footer']) if (a[k] === undefined && master[k] !== undefined) a[k] = master[k];
   if (a.date instanceof Date) a.date = a.date.toISOString().slice(0, 10); // js-yaml parses bare dates as Date objects
   a.name = name;
   a.dir = path.join(AUDIENCES, name);
@@ -235,11 +279,19 @@ function build(name) {
   if (missing.size) die(`${name}: unresolved variables: ${[...missing].join(', ')}. Set them in audiences/${name}/audience.yaml under vars.`);
 
   const brand = a.brand || 'peripety';
-  const wordmark = brand === 'aie' ? 'THE <span>AIE</span> NETWORK' : brand === 'cobrand' ? `${esc(a.vars.company)} <span>&times;</span> PERIPETY LABS` : 'PERIPETY <span>LABS</span>';
-  const ctx = { outline, footer: a.footer || a.title, wordmark, presenter: a.presenter || 'Mark R. Hinkle', presenterLine: a.presenter_line || '', section: 0 };
+  // The wordmark is a logo image (a CSS variable the skin can swap for the white version). cobrand = company name × The AIE Network.
+  const logo = brand === 'peripety' ? '<i class="logo peripety" aria-label="Peripety Labs"></i>' : '<i class="logo" aria-label="The AIE Network"></i>';
+  const wordmark = brand === 'cobrand' ? `<span class="co">${esc(a.vars.company)} <span>&times;</span></span>${logo}` : logo;
+  const ctx = { outline, audienceDir: a.dir, footer: a.footer || a.title, wordmark, presenter: a.presenter || 'Mark R. Hinkle', presenterLine: a.presenter_line || '', section: 0 };
   const sectionsHtml = slides.map(s => renderSlide(s, ctx)).join('\n');
 
-  const css = fs.readFileSync(path.join(THEME, 'deck.css'), 'utf8');
+  // Theme = base.css (layout) + skins/<theme>.css (tokens and flourishes). Logos are exposed to the skin as CSS variables.
+  const theme = OVERRIDE.theme || a.theme || 'aie-light';
+  const skinFile = path.join(THEME, 'skins', `${theme}.css`);
+  if (!fs.existsSync(skinFile)) die(`no theme skin: deck/theme/skins/${theme}.css`);
+  const logos = { 'logo-color': 'The_AIE_Network_logo_color.svg', 'logo-white': 'The_AIE_Network_logo_white.svg', 'icon-color': 'The_AIE_Network_Icon_color.svg', 'icon-white': 'The_AIE_Network_Icon_white.svg', 'peripety-logo': 'Peripety_Labs_logo_color.svg' };
+  const logoVars = Object.entries(logos).map(([k, f]) => `--${k}:url("${dataUri(f)}");`).join('');
+  const css = `:root{${logoVars}}\n` + fs.readFileSync(path.join(THEME, 'base.css'), 'utf8') + '\n/* ---- skin: ' + theme + ' ---- */\n' + fs.readFileSync(skinFile, 'utf8');
   const html = `<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -253,7 +305,7 @@ function build(name) {
 ${css}
 </style>
 </head>
-<body>
+<body class="theme-${theme} brand-${brand}">
 <div class="deck">
 ${sectionsHtml}
 </div>
@@ -280,7 +332,8 @@ ${sectionsHtml}
 </html>
 `;
   fs.mkdirSync(DIST, { recursive: true });
-  const out = path.join(DIST, `${name}.html`);
+  const out = OVERRIDE.out ? path.resolve(OVERRIDE.out) : path.join(DIST, `${name}.html`);
+  fs.mkdirSync(path.dirname(out), { recursive: true });
   fs.writeFileSync(out, html);
 
   // Speaker notes + outline for the presenter and for reviewers.
@@ -293,6 +346,9 @@ ${sectionsHtml}
   return { slides: slides.length, minutes: totalMinutes };
 }
 
-const arg = process.argv[2];
+const argv = process.argv.slice(2);
+const flag = (k) => { const i = argv.indexOf(k); return i >= 0 ? argv[i + 1] : undefined; };
+const OVERRIDE = { theme: flag('--theme'), out: flag('--out') };
+const arg = argv.find(x => !x.startsWith('--') && x !== OVERRIDE.theme && x !== OVERRIDE.out);
 const names = arg ? [arg] : fs.readdirSync(AUDIENCES).filter(d => !d.startsWith('_') && fs.existsSync(path.join(AUDIENCES, d, 'audience.yaml')));
 for (const n of names) build(n);

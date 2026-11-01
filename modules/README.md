@@ -49,6 +49,8 @@ Directives:
 | `eyebrow:` | the small mono label above the title |
 | `time:` | a clock or elapsed-minute marker shown at the right of the eyebrow |
 | `id:` | a stable name an audience can use to include or exclude this slide. Defaults to `<file>-<n>` |
+| `photo:` | a photograph under the navy veil on a title, divider or statement slide; path relative to the audience folder or `deck/assets/` |
+| `credit:` | small mono credit line for that photo |
 
 Layouts:
 
@@ -60,7 +62,9 @@ Layouts:
 - **flow**: each `### Step` becomes a numbered step joined by `>` arrows. Three to five steps.
 - **cols**: each `### Label` becomes a column with a mono label. Two or three.
 - **rows**: each `### Mono label | Bold phrase` with a line of text under it becomes one aligned row. Up to six.
-- **two-col**: the body is split on a line that is exactly `|||`; left and right render as free markdown.
+- **two-col**: the body is split on a line that is exactly `|||`; left and right render as free markdown. A markdown image whose alt text starts with `photo:` renders as a plain photograph (no window bar), which is how the about-me slide carries the headshot.
+- **image**: a screenshot in a window frame with a mono caption from the alt text. Alone, or beside up to three lines of text split on `|||`.
+- **links**: each `### Title | https://address` with one line under it becomes a link card: title, address in mono flame, blurb. Two columns, six at most.
 
 ## Variables
 

@@ -1,0 +1,10 @@
+# The style guide: every layout rendered in the current theme. Build: npm run styleguide
+title: The AIE Network training template
+subtitle: Every layout the builder knows, in the Node theme, with the rule for using each one.
+eyebrow: style guide
+footer: Training template · style guide
+length: full
+brand: aie
+modules:
+  - id: styleguide
+    override: ../../deck/theme/styleguide.md

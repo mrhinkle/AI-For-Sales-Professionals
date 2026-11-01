@@ -1,0 +1,28 @@
+styleguide: 19 slides
+render: 19 slides measured, 0 overflow
+pdf: deck/dist/styleguide.pdf (883 KB)
+
+PROBLEMS: none
+
+WARNINGS: none
+
+per-slide bottom edge (px from slide top; floor 620):
+  1  562  ok  The AIE Network training template
+  2  254  ok  The agenda layout builds itself from the module list
+  3  450  ok  The divider opens a section
+  4  482  ok  A photo under the veil is a breath, not a layout
+  5  481  ok  One sentence the room should remember, with one phrase in flame.
+  6  445  ok  A body slide with a list reads as four marks, not bullets
+  7  358  ok  The prompt card is the one thing people photograph
+  8  371  ok  A blockquote becomes the quote panel
+  9  409  ok  Cards hold two to four parallel ideas
+  10  358  ok  Flow steps are joined by the node rule
+  11  384  ok  Rows are a reference table you point at, not read
+  12  381  ok  Columns compare two or three things side by side
+  13  346  ok  Two columns of free text, split on a line of three pipes
+  14  608  ok  A screenshot runs full width in the window frame
+  15  548  ok  Or sits beside three lines of text
+  16  430  ok  Links render as a title, an address and one line
+  17  387  ok  A markdown table becomes the comparison table
+  18  427  ok  An exercise slide carries the time in the eyebrow and the steps as a list
+  19  419  ok  Thanks. That's every layout.

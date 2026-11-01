@@ -7,6 +7,8 @@ outcomes:
 ---
 
 <!-- layout: title -->
+<!-- photo: photos/room.jpg -->
+<!-- credit: All Things AI, Durham -->
 <!-- eyebrow: {{eyebrow}} -->
 <!-- id: title -->
 # {{title}}
@@ -21,7 +23,7 @@ Housekeeping: questions any time, I'd rather go off script than leave you behind
 
 ---
 
-<!-- layout: body -->
+<!-- layout: two-col -->
 <!-- eyebrow: about me -->
 <!-- id: about-me -->
 ## I've been on both sides of this table
@@ -30,6 +32,10 @@ Housekeeping: questions any time, I'd rather go off script than leave you behind
 - Ran marketing at cloud.com through the Citrix acquisition, ran the Node.js Foundation, co-founded TriggerMesh
 - Today I run Peripety Labs and publish The AIE Network, seven newsletters and the All Things AI conference
 - I still sell every day: sponsorships, tickets, consulting. Same quota pressure you have, smaller team
+
+|||
+
+![photo: Mark R. Hinkle](photos/mark-hinkle.png)
 
 notes:
 One story, under a minute. The point to land: I'm not a vendor selling you an AI tool. I use these things to sell, and I've watched three platform shifts. Every time, the people who won weren't the earliest adopters. They were the ones who understood what the thing actually was before they bet their week on it.
