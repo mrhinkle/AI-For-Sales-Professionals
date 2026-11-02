@@ -16,4 +16,6 @@ Every prompt from the session, ready to copy. Each one assumes your assistant ha
 | [10-deal-review.md](10-deal-review.md) | Before the pipeline review. The skeptic. |
 | [11-weekly-summary.md](11-weekly-summary.md) | Friday. Wins, risks, asks. |
 
+For the plugin version of the research-to-outreach exercise, use the [Prospector companion guide](../program/PROSPECTOR.md). The prompts above also work without the plugin.
+
 The rule that goes with all of them: the AI drafts, you send.

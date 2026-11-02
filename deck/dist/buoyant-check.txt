@@ -1,10 +1,10 @@
 buoyant: 40 slides
 render: 40 slides measured, 0 overflow
-pdf: deck/dist/buoyant.pdf (2140 KB)
 
 PROBLEMS: none
 
-WARNINGS: none
+WARNINGS
+  pdf export failed: [1102/110355.016982:WARNING:third_party/crashpad/crashpad/util/process/process_memory_mac.cc:94] mach_vm_read(0x16fc24000, 0x8000): (os/kern) invalid address (1) | [1102/110357.038225:ERROR:third_party/crashpad/crashpad/util/file/directory_reader_posix.cc:43] opendir /Users/mrhinkle/Library/Application Support/Google/Chrome/Crashpad/attachments/ca1aea87-f535-4411-b461-5bf3e16b6a41: No such file or directory (2)
 
 per-slide bottom edge (px from slide top; floor 620):
   1  526  ok  Selling with AI at Buoyant
@@ -45,5 +45,5 @@ per-slide bottom edge (px from slide top; floor 620):
   36  481  ok  At 99 percent accuracy, a thousand automated sends is ten mistakes with your signature on them.
   37  432  ok  Your first week
   38  458  ok  Five days, one habit each
-  39  434  ok  Everything from today lives in one place
+  39  535  ok  Everything from today lives in one place
   40  450  ok  Thanks. Go brief three accounts before Friday.

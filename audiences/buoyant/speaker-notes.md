@@ -131,7 +131,7 @@ I'll paste each prompt in the chat as I run it; they're all in the repo. Nobody 
 
 _Research an account in ten minutes_
 
-Screen share. Run the prompt from the last slide on the target account, thinking out loud. When UNVERIFIED markers show up, stop and point at them; that's the moment to land. Click one link live, fix one wrong thing, then say the "why now" sentence in your own words. If the assistant stalls, read the prepared brief instead and keep moving.
+Screen share Prospector, our training companion. Use /prospector:qualify on the target account with the ICP and product files loaded. Keep the account-brief prompt from the last slide ready as the fallback. Think out loud. When UNVERIFIED markers show up, stop and point at them; that's the moment to land. Click one link live, fix one wrong thing, then say the "why now" sentence in your own words. If the assistant stalls, read the prepared brief instead and keep moving.
 
 ### 19. Four things it gets wrong, and how you catch them
 
@@ -161,7 +161,7 @@ Ninety words is a real constraint and the model respects it. The easy out matter
 
 _Outreach that sounds like you_
 
-Back to the screen share. Run the first-touch prompt with the brief still in the conversation. Read the three versions out loud, pick the one that sounds most like a person, cut anything you wouldn't say on the phone, and count the words. Under ninety or cut again. Then show the before-and-after slide.
+Back to Prospector. Use /prospector:draft with the verified brief, then /prospector:queue to review the draft. Ask for three versions and stay under 80 words for this demo. If the plugin is unavailable, use the first-touch prompt with the brief still in the conversation. Read the three versions out loud, pick the one that sounds most like a person, cut anything you wouldn't say on the phone, and count the words. Under ninety or cut again. Then show the before-and-after slide.
 
 ### 24. The same email, before and after the brief
 
@@ -258,7 +258,7 @@ Point, don't read. Each day is a module from today. By Friday they've done every
 
 _Close_
 
-Give them the link and tell them the folder is built to be read by a chatbot, not just a person. "Open the repo, paste the prompts folder into your assistant, tell it who you sell to." Then take questions for whatever time is left.
+Give them the link and tell them the folder is built to be read by a chatbot, not just a person. "Open the repo, paste the prompts folder into your assistant, tell it who you sell to." Share the Prospector companion guide too. It contains the setup steps and the same exercise we demonstrated. Confirm attendees can open the repository before sharing; provide the handout directly if they cannot. Then take questions for whatever time is left.
 
 ### 40. Thanks. Go brief three accounts before Friday.
 

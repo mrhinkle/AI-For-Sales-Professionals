@@ -94,10 +94,10 @@ Read the last line out loud. UNVERIFIED in capital letters is the whole trick. T
 <!-- id: demo-research -->
 # Watch me do it on {{demo_account}}.
 
-Ten minutes on the clock. Collect, run the prompt, click two links, write the "why now" sentence.
+Prospector companion demo. One account, a sourced brief, and one reason to reach out.
 
 notes:
-Screen share. Run the prompt from the last slide on the target account, thinking out loud. When UNVERIFIED markers show up, stop and point at them; that's the moment to land. Click one link live, fix one wrong thing, then say the "why now" sentence in your own words. If the assistant stalls, read the prepared brief instead and keep moving.
+Screen share Prospector, our training companion. Use /prospector:qualify on the target account with the ICP and product files loaded. Keep the account-brief prompt from the last slide ready as the fallback. Think out loud. When UNVERIFIED markers show up, stop and point at them; that's the moment to land. Click one link live, fix one wrong thing, then say the "why now" sentence in your own words. If the assistant stalls, read the prepared brief instead and keep moving.
 
 ---
 
@@ -127,4 +127,4 @@ These four cover almost every embarrassing research mistake I've seen. They take
 - We'll hear three "why now" sentences from the room
 
 notes:
-Eight minutes with a timer on the screen. Walk the room and look for people stuck on Collect; help them grab the job postings. The debrief is the "why now" sentences. Push back gently on vague ones. If it isn't something you'd say on a call, it isn't done.
+Use the Prospector companion exercise in program/PROSPECTOR.md, or the account-brief prompt if the plugin is unavailable. Eight minutes with a timer on the screen. Walk the room and look for people stuck on Collect; help them grab the job postings. The debrief is the "why now" sentences. Push back gently on vague ones. If it isn't something you'd say on a call, it isn't done.

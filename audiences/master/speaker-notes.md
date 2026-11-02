@@ -143,7 +143,7 @@ These four cover almost every embarrassing research mistake I've seen. They take
 
 _Research an account in ten minutes_
 
-Eight minutes with a timer on the screen. Walk the room and look for people stuck on Collect; help them grab the job postings. The debrief is the "why now" sentences. Push back gently on vague ones. If it isn't something you'd say on a call, it isn't done.
+Use the Prospector companion exercise in program/PROSPECTOR.md, or the account-brief prompt if the plugin is unavailable. Eight minutes with a timer on the screen. Walk the room and look for people stuck on Collect; help them grab the job postings. The debrief is the "why now" sentences. Push back gently on vague ones. If it isn't something you'd say on a call, it isn't done.
 
 ### 21. Outreach that sounds like you
 
@@ -317,7 +317,7 @@ Last word before the close. The people who get value from this are the ones who 
 
 _Close_
 
-Give them the link and tell them the folder is built to be read by a chatbot, not just a person. "Open the repo, paste the prompts folder into your assistant, tell it who you sell to." Then take questions for whatever time is left.
+Give them the link and tell them the folder is built to be read by a chatbot, not just a person. "Open the repo, paste the prompts folder into your assistant, tell it who you sell to." Share the Prospector companion guide too. It contains the setup steps and the same exercise we demonstrated. Confirm attendees can open the repository before sharing; provide the handout directly if they cannot. Then take questions for whatever time is left.
 
 ### 50. Thanks. Go brief three accounts before Friday.
 

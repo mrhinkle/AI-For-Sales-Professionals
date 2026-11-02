@@ -1,10 +1,10 @@
 master: 50 slides
 render: 50 slides measured, 0 overflow
-pdf: deck/dist/master.pdf (2251 KB)
 
 PROBLEMS: none
 
-WARNINGS: none
+WARNINGS
+  pdf export failed: [1102/110355.015777:WARNING:third_party/crashpad/crashpad/util/process/process_memory_mac.cc:94] mach_vm_read(0x16bac4000, 0x8000): (os/kern) invalid address (1) | [1102/110357.128575:ERROR:third_party/crashpad/crashpad/util/file/directory_reader_posix.cc:43] opendir /Users/mrhinkle/Library/Application Support/Google/Chrome/Crashpad/attachments/560a953a-a2bb-4166-b7c1-76d1df258945: No such file or directory (2)
 
 per-slide bottom edge (px from slide top; floor 620):
   1  509  ok  AI for Sales Professionals
@@ -55,5 +55,5 @@ per-slide bottom edge (px from slide top; floor 620):
   46  458  ok  Five days, one habit each
   47  339  ok  Measure three things, nothing fancy
   48  420  ok  Pick one workflow. Do it every day for two weeks. Then add the next.
-  49  434  ok  Everything from today lives in one place
+  49  535  ok  Everything from today lives in one place
   50  450  ok  Thanks. Go brief three accounts before Friday.

@@ -18,6 +18,10 @@ The whole program hangs on one rule: **the AI drafts, you send.**
 | See every layout in the theme | `npm run styleguide`, then open `deck/dist/styleguide.html` |
 | Have a chatbot do any of the above | [AGENTS.md](AGENTS.md) |
 
+## Prospector, the training companion
+
+Prospector is the practical companion to the research and outreach lessons. Teach the method, demonstrate it on one account, then give participants the same workflow to use after the session. The [companion guide](program/PROSPECTOR.md) maps lessons to plugin commands, provides a presenter demo and a workshop exercise, and explains the prompt-only fallback. The plugin source remains in [prospector-plugin](https://github.com/mrhinkle/prospector-plugin); this program owns the teaching materials.
+
 ## Build
 
 ```
