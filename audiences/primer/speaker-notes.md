@@ -8,7 +8,7 @@ Date: 2026-11-04.
 | --- | --- |
 | Opening | 4 |
 | Set up Claude first | 3 |
-| Cowork or Claude Code | 3 |
+| Claude or Claude Code | 3 |
 | Where AI fits in a seller's week | 2 |
 | Give Claude your tools | 6 |
 | Set it up once, the three files | 3 |
@@ -63,23 +63,23 @@ _Set up Claude first_
 
 Here's the whole setup on one slide, and the rest of the hour fills in each step. A paid seat matters: the company account carries the security settings your admin agreed to, and the browser extension is only on paid plans. The desktop app and the Chrome extension are where Claude does real work. Connectors are next, and they're the big one. Skills and a project are how you stop pasting the same context into every chat.
 
-### 07. Cowork: hand it the work, come back to a draft
+### 07. Claude (formerly Cowork) does the work for you
 
-_Cowork or Claude Code_
+_Claude or Claude Code_
 
-Cowork is the Claude most of you will live in. You don't tell it how, you tell it what: build the account list from these three files, turn last week's calls into a pipeline summary. It opens your files, uses your connectors and the browser, shows each step, and hands you something to review. You can schedule it, so the Monday readout is waiting when you sit down. Anthropic just folded it into Claude itself, so on most paid plans you just ask and it kicks in.
+This used to be called Cowork. Now it's just Claude, and it's the one most of you will live in. You don't tell it how, you tell it what: build the account list from these three files, turn last week's calls into a pipeline summary. It opens your files, uses your connectors and the browser, shows each step, and hands you something to review. You can schedule it, so the weekly readout is waiting when you sit down. Anthropic folded Cowork into Claude itself, so on paid plans you just ask and it picks up the work.
 
 ### 08. Claude Code: when the job is building software
 
-_Cowork or Claude Code_
+_Claude or Claude Code_
 
 Claude Code is the same model pointed at software. Developers hand it a bug, a test, a migration, and review the changes. Most sellers won't open it. But it's worth knowing it exists, because it's how a small team builds the custom tool you wish your CRM had, like the inbox I'll show you at the end. If you have an ops person who says "I could build that," this is what they'd build it with.
 
 ### 09. Which one do I use?
 
-_Cowork or Claude Code_
+_Claude or Claude Code_
 
-Here's the cheat sheet. If it's a question or a draft, just ask. If it touches your files, your tools or takes more than one step, that's Cowork. If it lives in a website with no connector, Claude in Chrome. And if the tool you need doesn't exist, that's Claude Code, usually in someone else's hands. Ninety percent of a seller's week is the first two rows.
+Here's the cheat sheet. If it's a question or a draft, just ask. If it touches your files, your tools or takes more than one step, hand it off; that's what used to be Cowork, and now it's just Claude. If it lives in a website with no connector, Claude in Chrome. And if the tool you need doesn't exist, that's Claude Code, usually in someone else's hands. Ninety percent of a seller's week is the first two rows.
 
 ### 10. About half of a seller's week isn't selling.
 

@@ -1,26 +1,26 @@
 ---
 id: cowork-vs-code
-title: Cowork or Claude Code
+title: Claude or Claude Code
 minutes: { full: 6, half: 4, short: 3 }
 outcomes:
-  - Know which Claude to reach for: Cowork for knowledge work on your files and tools, Claude Code for building software
+  - Know which Claude to reach for: Claude (formerly Cowork) for work on your files and tools, Claude Code for building software
 ---
 
 <!-- layout: image -->
-<!-- eyebrow: which claude · cowork -->
+<!-- eyebrow: which claude · claude, formerly cowork -->
 <!-- id: cowork -->
-## Cowork: hand it the work, come back to a draft
+## Claude (formerly Cowork) does the work for you
 
 - Give it a goal. It works across your files and tools
 - Runs while you're away, on a schedule if you want
-- Now built into Claude, rolling out to paid plans
+- Cowork is now just Claude, rolling out to paid plans
 
 |||
 
-![Claude Cowork, claude.com. November 2026](screenshots/claude-cowork.jpg)
+![Claude (formerly Cowork), claude.com. November 2026](screenshots/claude-cowork.jpg)
 
 notes:
-Cowork is the Claude most of you will live in. You don't tell it how, you tell it what: build the account list from these three files, turn last week's calls into a pipeline summary. It opens your files, uses your connectors and the browser, shows each step, and hands you something to review. You can schedule it, so the Monday readout is waiting when you sit down. Anthropic just folded it into Claude itself, so on most paid plans you just ask and it kicks in.
+This used to be called Cowork. Now it's just Claude, and it's the one most of you will live in. You don't tell it how, you tell it what: build the account list from these three files, turn last week's calls into a pipeline summary. It opens your files, uses your connectors and the browser, shows each step, and hands you something to review. You can schedule it, so the weekly readout is waiting when you sit down. Anthropic folded Cowork into Claude itself, so on paid plans you just ask and it picks up the work.
 
 ---
 
@@ -47,11 +47,11 @@ Claude Code is the same model pointed at software. Developers hand it a bug, a t
 <!-- id: which-claude -->
 ## Which one do I use?
 
-### Chat | A quick answer or a first draft
-Questions, emails, rewrites. Just ask.
+### Ask | A quick answer or a first draft
+Questions, emails, rewrites. Just ask Claude.
 
-### Cowork | Real work on your files and tools
-Account lists, decks, spreadsheets, scheduled reports.
+### Hand off | Real work on your files and tools
+Claude, formerly Cowork: lists, decks, scheduled reports.
 
 ### Chrome | Work in sites with no connector
 Claude reads the page and clicks. You approve what happens.
@@ -60,4 +60,4 @@ Claude reads the page and clicks. You approve what happens.
 For whoever on your team builds things.
 
 notes:
-Here's the cheat sheet. If it's a question or a draft, just ask. If it touches your files, your tools or takes more than one step, that's Cowork. If it lives in a website with no connector, Claude in Chrome. And if the tool you need doesn't exist, that's Claude Code, usually in someone else's hands. Ninety percent of a seller's week is the first two rows.
+Here's the cheat sheet. If it's a question or a draft, just ask. If it touches your files, your tools or takes more than one step, hand it off; that's what used to be Cowork, and now it's just Claude. If it lives in a website with no connector, Claude in Chrome. And if the tool you need doesn't exist, that's Claude Code, usually in someone else's hands. Ninety percent of a seller's week is the first two rows.
