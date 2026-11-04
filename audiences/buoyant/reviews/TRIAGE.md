@@ -21,7 +21,7 @@ Sources: `glm-5.3.md` (12 findings) and `kimi-k3.md` (11 findings), both on the 
 | 15 | 04 vs dividers | clarity | Agenda numbers 01 to 08 don't match divider numbers 01 to 06. | **Fixed (build).** The agenda no longer numbers rows; it shows minutes in the label column. Dividers keep their own count. | GLM |
 | 16 | 33 | density | Five rows; merge days 2 and 3. | **Declined.** Five days is the point of the slide, it is a "point, don't read" table, and Kimi did not flag it. | GLM |
 | 17 | 29, 32 | flow | Cut two of the dividers to save Zoom dead air. | **Declined.** Dividers are the pacing marks for a remote room and cost seconds, not ninety. The duplicate statement (finding 13) is the real cost and is gone. | Kimi |
-| 18 | 35 | accuracy | The repo link may be dead for attendees. | **Open for Mark.** The repo is private as of 2026-11-01. Make it public, invite Buoyant, or change the bullet to "link in the chat" before Wednesday. | GLM |
+| 18 | 35 | accuracy | The repo link may be dead for attendees. | **Fixed.** Repository made public on 2026-11-03, with attendee names and contact details removed from the brief first. | GLM |
 | 19 | 18 | voice | Two aphorisms stacked; acceptable. | **No change.** Reviewer's own call. | Kimi |
 
 Rebuilt and re-checked after the fixes: see `../deck-text.md` and `../../deck/dist/buoyant-check.txt`.
