@@ -4,6 +4,7 @@ Every prompt from the session, ready to copy. Each one assumes your assistant ha
 
 | File | Use it when |
 | --- | --- |
+| [00-start-here.md](00-start-here.md) | Right after the session. One prompt that walks you through the three files, a brief and a first email. |
 | [01-voice-file.md](01-voice-file.md) | Once. Turns your best emails into a style guide the assistant writes from. |
 | [02-icp-file.md](02-icp-file.md) | Once. Who buys, who doesn't, trigger events, disqualifiers. |
 | [03-product-file.md](03-product-file.md) | Once. What you sell in the buyer's words, with proof and the promises you can't make. |
