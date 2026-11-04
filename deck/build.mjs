@@ -144,6 +144,7 @@ function renderSlide(s, ctx) {
   const { title, rest } = takeTitle(s.text);
   const eyebrow = s.eyebrow ? `<div class="eyebrow">${esc(s.eyebrow)}${s.time ? `<span class="time">${esc(s.time)}</span>` : ''}</div>` : '';
   const chrome = (cls = '') => `
+  <div class="chrome-time">${esc(s.clock || '')}</div>
   <div class="chrome-num"></div>
   <div class="chrome-eyebrow"><b>//</b> ${esc(ctx.footer)}</div>
   <div class="chrome-wordmark">${ctx.wordmark}</div>`;
@@ -266,14 +267,17 @@ function build(name) {
     if (!fs.existsSync(file)) die(`${name}: module not found: ${file}`);
     const { meta, body } = parseFrontMatter(fs.readFileSync(file, 'utf8'), file);
     const minutes = ref.minutes ?? (meta.minutes && (meta.minutes[a.length || 'full'] ?? meta.minutes.full)) ?? 0;
+    const startMin = totalMinutes;
     totalMinutes += Number(minutes) || 0;
+    const hm = m => `${Math.floor(m / 60)}:${String(m % 60).padStart(2, '0')}`;
+    const clock = Number(minutes) ? `${hm(startMin)} \u2013 ${hm(totalMinutes)}` : '';
     outline.push({ id: ref.id, title: meta.title, minutes });
     const length = a.length || 'full';
     let list = splitSlides(filterByLength(substitute(body, vars, file, missing), length)).map((raw, i) => parseSlide(raw, file, i));
     list = list.filter(s => !s.only || s.only.includes(length));
     if (ref.include) list = list.filter(s => ref.include.includes(s.id));
     if (ref.exclude) list = list.filter(s => !ref.exclude.includes(s.id));
-    for (const s of list) { s.module = meta.title; slides.push(s); }
+    for (const s of list) { s.module = meta.title; s.clock = clock; slides.push(s); }
   }
   if (!slides.length) die(`${name}: no slides`);
   if (missing.size) die(`${name}: unresolved variables: ${[...missing].join(', ')}. Set them in audiences/${name}/audience.yaml under vars.`);

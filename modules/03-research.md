@@ -1,6 +1,6 @@
 ---
 id: 03-research
-title: Research an account in ten minutes
+title: Research an account
 minutes: { full: 35, half: 20, short: 10 }
 outcomes:
   - Produce a sourced one-page account brief and a one-line "why now" hypothesis
@@ -8,7 +8,7 @@ outcomes:
 
 <!-- layout: divider -->
 <!-- id: divider -->
-# Research an account in ten minutes
+# Research an account
 
 The brief you'd want before any first call, with links, from a company name.
 
@@ -94,7 +94,7 @@ Read the last line out loud. UNVERIFIED in capital letters is the whole trick. T
 <!-- id: demo-research -->
 # Watch me do it on {{demo_account}}.
 
-Ten minutes on the clock. Collect, run the prompt, click two links, write the "why now" sentence.
+Collect, run the prompt, click two links, write the "why now" sentence.
 
 notes:
 Screen share. Run the prompt from the last slide on the target account, thinking out loud. When UNVERIFIED markers show up, stop and point at them; that's the moment to land. Click one link live, fix one wrong thing, then say the "why now" sentence in your own words. If the assistant stalls, read the prepared brief instead and keep moving.

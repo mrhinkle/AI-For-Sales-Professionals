@@ -22,11 +22,15 @@ modules:
   - id: 00-opening
     override: overrides/00-opening.md
     minutes: 4
+  - id: claude-quickstart
+    override: overrides/claude-quickstart.md
   - id: 01-where-ai-fits
-    minutes: 4
+    minutes: 3
     exclude: [the-week]
   - id: claude-setup
     override: overrides/claude-setup.md
+    minutes: 7
+    exclude: [settings]
   - id: 02-three-files
     minutes: 3
     exclude: [divider, brief-like-a-new-hire, three-habits, exercise-voice-file]
@@ -34,7 +38,7 @@ modules:
     override: overrides/claude-skills.md
     minutes: 5
   - id: 03-research
-    minutes: 6
+    minutes: 5
     exclude: [collect-sources, exercise-research]
   - id: prospector
     override: overrides/prospector.md

@@ -9,7 +9,7 @@ Date: 2026-11-04.
 | Opening | 5 |
 | Where AI fits in a seller's week | 7 |
 | Set it up once, the three files | 8 |
-| Research an account in ten minutes | 10 |
+| Research an account | 10 |
 | Outreach that sounds like you | 8 |
 | Where this meets the inbound plan | 2 |
 | Before, during and after the call | 8 |
@@ -102,40 +102,40 @@ _Set it up once, the three files_
 
 Most complaints about these tools come down to under-briefing. People type nine words and get a generic answer, then decide it doesn't work. Feed it, ask for options, make it show its doubts. That's it. Demo one bad prompt and one good prompt live if time allows.
 
-### 14. Research an account in ten minutes
+### 14. Research an account
 
-_Research an account in ten minutes_
+_Research an account_
 
 This is the fastest payback in the whole session. Most reps either skip research or spend an hour on it. Ten minutes, every time, is the goal.
 
 ### 15. Collect, brief, verify, then one sentence on why now
 
-_Research an account in ten minutes_
+_Research an account_
 
 Collect is where most of the ten minutes goes, and it's mostly copy and paste. If your assistant can browse, let it, but still paste the job postings. Hiring is the best public signal of what a company is about to do. Verify is non-negotiable. The brief is a draft, not a fact sheet, until you've clicked the links.
 
 ### 16. Six places to collect from, in the order that pays
 
-_Research an account in ten minutes_
+_Research an account_
 
 Point, don't read. The order matters: job postings first because they're the freshest signal, your own CRM last because it's the one people forget and the one that's most embarrassing to miss. All six links are in the repo.
 
 ### 17. The account brief prompt
 
-_Research an account in ten minutes_
+_Research an account_
 
 Read the last line out loud. UNVERIFIED in capital letters is the whole trick. The model will tell you what it's unsure of if you give it permission. Then the brief becomes a to-do list for your own checking instead of a trap.
 I'll paste each prompt in the chat as I run it; they're all in the repo. Nobody needs to transcribe a slide.
 
 ### 18. Watch me do it on a real target account.
 
-_Research an account in ten minutes_
+_Research an account_
 
 Screen share. Run the prompt from the last slide on the target account, thinking out loud. When UNVERIFIED markers show up, stop and point at them; that's the moment to land. Click one link live, fix one wrong thing, then say the "why now" sentence in your own words. If the assistant stalls, read the prepared brief instead and keep moving.
 
 ### 19. Four things it gets wrong, and how you catch them
 
-_Research an account in ten minutes_
+_Research an account_
 
 These four cover almost every embarrassing research mistake I've seen. They take ninety seconds to check and they are the difference between sounding prepared and sounding like you used a bot. Which is exactly what the buyer is listening for right now.
 
