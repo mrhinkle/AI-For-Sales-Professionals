@@ -53,3 +53,18 @@ modules:
     override: overrides/chatterbuilt-mail.md
     minutes: 8
   - id: 99-close
+# PowerPoint build (deck-pptx/build.mjs): brand tokens and the footer section strip.
+pptx:
+  brand: aie
+  strip:
+    01-where-ai-fits: FIT
+    claude-setup: TOOLS
+    02-three-files: FILES
+    claude-skills: SKILLS
+    03-research: RESEARCH
+    prospector: OUTREACH
+    04-outreach: OUTREACH
+    05-calls: CALLS
+    08-guardrails: RULES
+    09-first-week: WEEK
+    chatterbuilt-mail: MAIL

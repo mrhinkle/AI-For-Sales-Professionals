@@ -1,0 +1,9 @@
+{
+  "name": "ai-for-sales-training-pptx",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Renders any audience to an editable PowerPoint (and PDF) in the standard class-deck style.",
+  "type": "module",
+  "scripts": { "build": "node build.mjs" },
+  "dependencies": { "image-size": "^1.1.1", "js-yaml": "^4.1.0", "marked": "^15.0.0", "pptxgenjs": "^3.12.0" }
+}
