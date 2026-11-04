@@ -24,6 +24,24 @@ A skill is a set of instructions, sometimes with a template or a script, that Cl
 
 ---
 
+<!-- layout: image -->
+<!-- eyebrow: skills · voice training -->
+<!-- id: voice-training -->
+## Train it on your own sent mail
+
+- The email voice profile skill reads your recent sent email
+- It writes a one-page guide: tone, length, openers, words you never use
+- Every draft after that sounds like you, not a polite robot
+
+|||
+
+![Training a voice from sent mail, Chatterbuilt Mail. Made-up data. November 2026](screenshots/chatterbuilt-mail-voice.jpg)
+
+notes:
+This is the voice file, done for you. The skill reads about a dozen of your recent sent emails, skips the one-liners, and writes a short guide: how long you write, how you open and sign off, the words you use and the ones you never would. Read it, fix what's off, and from then on every draft starts from it. Out of the box, AI writes like a polite robot. Ten minutes of this and it writes like you.
+
+---
+
 <!-- layout: cards -->
 <!-- eyebrow: skills · build these three -->
 <!-- id: first-skills -->

@@ -7,16 +7,17 @@ Date: 2026-11-04.
 | Module | Minutes |
 | --- | --- |
 | Opening | 4 |
-| Where AI fits in a seller's week | 5 |
+| Where AI fits in a seller's week | 4 |
 | Give Claude your tools | 8 |
 | Set it up once, the three files | 3 |
-| Teach it once with skills | 4 |
-| Research an account in ten minutes | 8 |
-| Live demo, Chatterbuilt Mail and Apollo | 12 |
-| Outreach that sounds like you | 4 |
-| Before, during and after the call | 5 |
+| Teach it once with skills | 5 |
+| Research an account in ten minutes | 6 |
+| Outreach with Prospector | 8 |
+| Outreach that sounds like you | 3 |
+| Before, during and after the call | 4 |
 | The rules that keep you employed | 3 |
 | Your first week | 2 |
+| Put it all together, Chatterbuilt Mail | 8 |
 | Close | 2 |
 
 ## Slides
@@ -120,171 +121,183 @@ _Teach it once with skills_
 
 A skill is a set of instructions, sometimes with a template or a script, that Claude pulls in when the task matches. Anthropic's own description is folders of instructions, scripts and resources Claude loads when needed. The easiest way to make one is to ask: "Turn my voice file into a skill." Then you never paste it again, and it only loads when you're writing.
 
-### 17. Three skills every seller should build first
+### 17. Train it on your own sent mail
+
+_Teach it once with skills_
+
+This is the voice file, done for you. The skill reads about a dozen of your recent sent emails, skips the one-liners, and writes a short guide: how long you write, how you open and sign off, the words you use and the ones you never would. Read it, fix what's off, and from then on every draft starts from it. Out of the box, AI writes like a polite robot. Ten minutes of this and it writes like you.
+
+### 18. Three skills every seller should build first
 
 _Teach it once with skills_
 
 These are the three files and two prompts you'll see today, packaged so Claude reaches for them on its own. Voice first, because every draft depends on it. The account brief is the research module in one skill. Follow-up is the one that saves the most time per week. Build one a day this week and you're done by Friday.
 
-### 18. Research an account in ten minutes
+### 19. Research an account in ten minutes
 
 _Research an account in ten minutes_
 
 This is the fastest payback in the whole session. Most reps either skip research or spend an hour on it. Ten minutes, every time, is the goal.
 
-### 19. Collect, brief, verify, then one sentence on why now
+### 20. Collect, brief, verify, then one sentence on why now
 
 _Research an account in ten minutes_
 
 Collect is where most of the ten minutes goes, and it's mostly copy and paste. If your assistant can browse, let it, but still paste the job postings. Hiring is the best public signal of what a company is about to do. Verify is non-negotiable. The brief is a draft, not a fact sheet, until you've clicked the links.
 
-### 20. The account brief prompt
+### 21. The account brief prompt
 
 _Research an account in ten minutes_
 
 Read the last line out loud. UNVERIFIED in capital letters is the whole trick. The model will tell you what it's unsure of if you give it permission. Then the brief becomes a to-do list for your own checking instead of a trap.
 I'll paste each prompt in the chat as I run it; they're all in the repo. Nobody needs to transcribe a slide.
 
-### 21. Watch me do it on a real target account.
+### 22. Watch me do it on a real target account.
 
 _Research an account in ten minutes_
 
 Screen share. Run the prompt from the last slide on the target account, thinking out loud. When UNVERIFIED markers show up, stop and point at them; that's the moment to land. Click one link live, fix one wrong thing, then say the "why now" sentence in your own words. If the assistant stalls, read the prepared brief instead and keep moving.
 
-### 22. Four things it gets wrong, and how you catch them
+### 23. Four things it gets wrong, and how you catch them
 
 _Research an account in ten minutes_
 
 These four cover almost every embarrassing research mistake I've seen. They take ninety seconds to check and they are the difference between sounding prepared and sounding like you used a bot. Which is exactly what the buyer is listening for right now.
 
-### 23. Live demo: an inbox that reads the room
+### 24. Outreach that sounds like you
 
-_Live demo, Chatterbuilt Mail and Apollo_
+_Outreach with Prospector_
 
-Enough slides. I'm going to show you two things live. First, my inbox, run by Claude with my tools connected. Then, using the browser to do the clicking in Apollo that eats your afternoon.
+Research gives you one great account. Outreach is doing that every day without losing your voice or your LinkedIn account. This is where the Prospector skills come in.
 
-### 24. Chatterbuilt Mail reads the room before you reply
+### 25. Prospector: who to talk to, and why now
 
-_Live demo, Chatterbuilt Mail and Apollo_
+_Outreach with Prospector_
 
-Full disclosure, this one's mine, and it's free and open source. I built it because I've never once been caught up on email. It's a private Claude artifact on top of Gmail. Open a thread and the panel on the right tells you what you owe this person, where the deal stands, when you last met, and every line names its source. Then it drafts a reply that sounds like me, and right before Send it reminds me about the deck I promised. This is what connectors look like when they work together.
+Prospector is a set of skills I built for Claude, and it runs the same loop we just did by hand. ICP first, so it knows who fits. Signals, so every message has a reason to exist this week. Qualify does the research with a source on every fact. Draft writes from your voice skill. And then everything lands in a queue. You read it, you send it. That's the rule, built into the tool.
 
-### 25. Every contact gets the whole picture
+### 26. The guardrails are in the code, not a promise
 
-_Live demo, Chatterbuilt Mail and Apollo_
+_Outreach with Prospector_
 
-This is the part sellers like. Add contact reads their signature, finds your first thread together and writes how you met. Enrich with Apollo fills in the rest. You check it, then it saves to Google Contacts or your CRM. Ten seconds instead of ten minutes of copying fields, and the next time they email you, all of it is sitting next to the thread.
-
-### 26. Watch it work my inbox.
-
-_Live demo, Chatterbuilt Mail and Apollo_
-
-Screen share Chatterbuilt Mail, in read-only mode if you're nervous. Run Triage and read two of the reasons out loud. Open a thread with a real person in your CRM, point at the context panel, and click one source. Draft a reply, ask for it shorter, then let the pre-send check flag something. Add one contact and press Enrich with Apollo. Don't send anything. If it stalls, show the screenshots and keep moving. Six minutes. The install prompt is in the repo; anyone with the Gmail connector can have it running today.
+This is the part I care about most. The browser helper reads at a human pace and is blocked from any click that would send, connect, post or comment on LinkedIn, X or Reddit. Daily caps and a suppression list live in the queue. The compliance skill knows the email rules by country. You can't accidentally get your account restricted or spam a list, because the tool won't let you.
 
 ### 27. Apollo already works where Claude works
 
-_Live demo, Chatterbuilt Mail and Apollo_
+_Outreach with Prospector_
 
-Apollo is built to be driven from Claude now; their own homepage says it works where you work, and lists Claude by name. So the list building, the enrichment and the sequence setup can happen from a prompt. The ICP file you wrote earlier is what keeps it from pulling every VP with a pulse.
+Apollo is built to be driven from Claude now; their own homepage says it works where you work, and lists Claude by name. Prospector uses it for enrichment, in cost order, with the source of every field kept. The ICP is what keeps it from pulling every VP with a pulse.
 
 ### 28. No connector? Claude uses the browser
 
-_Live demo, Chatterbuilt Mail and Apollo_
+_Outreach with Prospector_
 
-This is computer use, in the browser you already have. Claude reads the page you're signed in to and does the clicking: build the Apollo list, load the sequence, update the CRM record. It's on every paid plan. Two rules. LinkedIn stays manual, because automating it gets your account restricted. And nothing sends without you reading it first.
+This is computer use, in the browser you already have. Claude reads the page you're signed in to and does the clicking: build the Apollo list, load the sequence, update the CRM record. It's on every paid plan. Prospector's browser helper runs here, paced, and never sends.
 
 ### 29. Outreach with Claude driving and you approving
 
-_Live demo, Chatterbuilt Mail and Apollo_
+_Outreach with Prospector_
 
-Here's the whole thread end to end. I'll run it live on one account. Research comes from the connectors. The list gets built in Apollo by Claude in the browser. The drafts come from your voice skill. And then it stops and waits for you. The automation does the sorting and the drafting. You approve the first send to every person, and every LinkedIn step is yours.
+Here's the whole thread end to end, and I'll run it live on one account. Signals pick the account. Qualify builds the brief with sources. Draft writes it in your voice. Then it stops and waits for you in the queue. The automation does the sorting and the drafting. You approve the first send to every person, and every LinkedIn step is yours.
 
-### 30. Under ninety words, one ask, an easy out
-
-_Outreach that sounds like you_
-
-Ninety words is a real constraint and the model respects it. The easy out matters: "if this isn't on your radar, tell me and I'll stop" gets replies because it costs the reader nothing. Three versions, then you pick and tune. Never the first draft.
-
-### 31. The same email, before and after the brief
+### 30. The same email, before and after the brief
 
 _Outreach that sounds like you_
 
 Read both out loud. The left one could have been sent by any company to any company. The right one proves homework in the first sentence, asks one real question, and makes "no" a free answer. Say up front that the left one was written to be bad on purpose; every phrase in it is from a real vendor email. Same model wrote both. The difference is what it was given.
 
-### 32. What to automate in Apollo and what stays in your hands
-
-_Outreach that sounds like you_
-
-This is the sequence shape I use. Email can be automated once the drafts are approved, and every automated send carries a working unsubscribe and your postal address; Apollo handles both if the template is set up right. LinkedIn cannot be automated, and it's not a style choice; the platform restricts the member's account for it. The approval on first send is the human gate. Later, when the reply and complaint numbers look healthy, loosen it.
-
-### 33. Nothing goes out that you didn't read. Not because the AI is bad. Because it's your name.
+### 31. Nothing goes out that you didn't read. Not because the AI is bad. Because it's your name.
 
 _Outreach that sounds like you_
 
 Say it plainly and move on. People remember the short version.
 
-### 34. Before, during and after the call
+### 32. Before, during and after the call
 
 _Before, during and after the call_
 
 The call is where the relationship happens, so the assistant stays out of the room. It earns its keep on either side of it.
 
-### 35. Five minutes before, nothing during, ten minutes after
+### 33. Five minutes before, nothing during, ten minutes after
 
 _Before, during and after the call_
 
 Ask for consent on recording every time; most teams already do. The "during" box is the point: the best sellers in the room already don't take notes. Now nobody has to. After the call, ten minutes, before you open the next tab, or the follow-up slides to tomorrow and the energy is gone.
 Preview of the rules: a transcript is customer data, so the demo uses a redacted one in the company's approved tool.
 
-### 36. The recorder is the only new tool most of you need
+### 34. The recorder is the only new tool most of you need
 
 _Before, during and after the call_
 
 Any recorder works: the one built into Zoom, Teams or Meet, or a standalone one like Fireflies or Gong. What matters is that you stop typing during the call and that the transcript lands somewhere approved. Consent is a sentence: "I'm recording so I can pay attention instead of taking notes, okay with you?"
 
-### 37. Follow up in ten minutes from the transcript
+### 35. Follow up in ten minutes from the transcript
 
 _Before, during and after the call_
 
 The structure for CRM notes is whatever your team uses. Change the six headings to match HubSpot or Salesforce. The contradiction flag at the end is the quiet win: it catches the moment the buyer told you something that changes the deal and you were too busy listening to write it down.
 
-### 38. The rules that keep you employed
+### 36. The rules that keep you employed
 
 _The rules that keep you employed_
 
 Short module, serious tone. These aren't legal boilerplate. Every one of them is a story I've watched happen to someone.
 
-### 39. Four rules
+### 37. Four rules
 
 _The rules that keep you employed_
 
 Rule one is the one people break by accident, usually by pasting a whole transcript with a customer's architecture in it into a free consumer tool. Ask your security team which tool is approved and what can go in it. Rule two is the fix for most of rule one. Rule four has a legal half: every commercial email needs a working unsubscribe and a real postal address, and the sequencer handles both if the template is set up right. Check with ops before the first send. The other half you've heard all session.
 
-### 40. At 99 percent accuracy, a thousand automated sends is ten mistakes with your signature on them.
+### 38. At 99 percent accuracy, a thousand automated sends is ten mistakes with your signature on them.
 
 _The rules that keep you employed_
 
 This is why the one rule exists. I'm not claiming models are 99 percent accurate; even if they were, the math still gets you. A model that's right 99 times out of 100 feels perfect in a demo. Run it unattended across a thousand contacts and the ten bad ones are the ones that get forwarded. Keep the person in the loop where the name goes on it.
 
-### 41. Your first week
+### 39. Your first week
 
 _Your first week_
 
 Don't try to do all of this Monday. Pick one. The research brief is the usual winner because it pays off on the very first call.
 
-### 42. Five days, one habit each
+### 40. Five days, one habit each
 
 _Your first week_
 
 Point, don't read. Each day is a module from today. By Friday they've done every workflow once on real accounts. Then they pick the one that paid off most and make it daily.
 
-### 43. Everything from today lives in one place
+### 41. Put it all together: Chatterbuilt Mail
+
+_Put it all together, Chatterbuilt Mail_
+
+Everything we've covered, the connectors, the skills, the voice file, the rule that you send, running in one place. This is my inbox.
+
+### 42. Chatterbuilt Mail reads the room before you reply
+
+_Put it all together, Chatterbuilt Mail_
+
+Full disclosure, this one's mine, and it's free and open source. I built it because I've never once been caught up on email. It's a private Claude artifact on top of Gmail. Open a thread and the panel on the right tells you what you owe this person, where the deal stands, when you last met, and every line names its source. Then it drafts a reply that sounds like me, and right before Send it reminds me about the deck I promised.
+
+### 43. Every contact gets the whole picture
+
+_Put it all together, Chatterbuilt Mail_
+
+This is the part sellers like. Add contact reads their signature, finds your first thread together and writes how you met. Enrich with Apollo fills in the rest. You check it, then it saves to Google Contacts or your CRM. Ten seconds instead of ten minutes of copying fields.
+
+### 44. Watch it work my inbox.
+
+_Put it all together, Chatterbuilt Mail_
+
+Screen share Chatterbuilt Mail, in read-only mode if you're nervous. Run Triage and read two of the reasons out loud. Open a thread with a real person in your CRM, point at the context panel, and click one source. Draft a reply, ask for it shorter, then let the pre-send check flag something. Add one contact and press Enrich with Apollo. Don't send anything. The install prompt is in the repo; anyone with the Gmail connector can have it running today.
+
+### 45. Everything from today lives in one place
 
 _Close_
 
 Give them the link and tell them the folder is built to be read by a chatbot, not just a person. "Open the repo, paste the prompts folder into your assistant, tell it who you sell to." Then take questions for whatever time is left.
 
-### 44. Thanks. Go brief three accounts before Friday.
+### 46. Thanks. Go brief three accounts before Friday.
 
 _Close_
 

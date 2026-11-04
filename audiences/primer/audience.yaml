@@ -20,9 +20,10 @@ vars:
   assistant: Claude, ChatGPT or Gemini
 modules:
   - id: 00-opening
+    override: overrides/00-opening.md
     minutes: 4
   - id: 01-where-ai-fits
-    minutes: 5
+    minutes: 4
     exclude: [the-week]
   - id: claude-setup
     override: overrides/claude-setup.md
@@ -31,20 +32,24 @@ modules:
     exclude: [divider, brief-like-a-new-hire, three-habits, exercise-voice-file]
   - id: claude-skills
     override: overrides/claude-skills.md
-  - id: 03-research
-    minutes: 8
-    exclude: [collect-sources, exercise-research]
-  - id: live-demo
-    override: overrides/live-demo.md
-  - id: 04-outreach
-    minutes: 4
-    exclude: [divider, personalization, demo-outreach, exercise-outreach]
-  - id: 05-calls
     minutes: 5
+  - id: 03-research
+    minutes: 6
+    exclude: [collect-sources, exercise-research]
+  - id: prospector
+    override: overrides/prospector.md
+  - id: 04-outreach
+    minutes: 3
+    exclude: [divider, personalization, first-touch, demo-outreach, sequences, exercise-outreach]
+  - id: 05-calls
+    minutes: 4
     exclude: [prep-prompt, roleplay, exercise-roleplay]
   - id: 08-guardrails
     minutes: 3
   - id: 09-first-week
     minutes: 2
     exclude: [measure, pick-one]
+  - id: chatterbuilt-mail
+    override: overrides/chatterbuilt-mail.md
+    minutes: 8
   - id: 99-close
