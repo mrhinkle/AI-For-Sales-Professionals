@@ -157,9 +157,8 @@ figure.shot .bar i{width:9px;height:9px;border-radius:50%;border:2px solid var(-
 figure.shot img{display:block;width:100%;max-height:320px;object-fit:cover;object-position:top;}
 figure.shot figcaption{font-family:var(--font-mono);font-size:12px;letter-spacing:0.04em;text-transform:uppercase;color:var(--muted);padding:8px 12px;border-top:1px solid var(--hairline);}
 .fig.full figure.shot img{max-height:430px;}
-.image-side{display:grid;grid-template-columns:1fr 1.9fr;gap:40px;align-items:stretch;}
-.image-side .side{display:flex;flex-direction:column;}
-.image-side .side ul.marks{flex:1;display:flex;flex-direction:column;justify-content:space-between;margin:0;}
+.image-side{display:grid;grid-template-columns:1fr 1.9fr;gap:40px;align-items:center;}
+.image-side .side ul.marks{margin:0;}
 .image-side .side p{font-size:20px;} .image-side .side ul.marks li{font-size:20px;line-height:1.35;padding:14px 0 14px 40px;}
 .image-side figure.shot img{max-height:400px;}
 /* photo slides: a full-bleed photograph under a navy veil, white type */
@@ -184,5 +183,5 @@ a.link .ld{font-size:15px;line-height:1.4;color:var(--muted-2);}
 figure.photo-fig{margin:0;}
 figure.photo-fig img{display:block;width:100%;max-height:400px;object-fit:cover;object-position:center top;}
 figure.photo-fig figcaption{font-family:var(--font-mono);font-size:12px;letter-spacing:0.04em;text-transform:uppercase;color:var(--muted);padding:8px 0 0;}
-.two-col figure.photo-fig img{max-height:400px;}
+.two-col figure.photo-fig img{max-height:400px;object-position:center 58%;}
 .has-photo code{background:rgba(255,255,255,0.16);color:#FFFFFF;}
