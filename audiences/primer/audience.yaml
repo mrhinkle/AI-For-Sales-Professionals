@@ -1,12 +1,12 @@
-# AI Primer: the 60-minute remote session for a sales team, unbranded, built around setting Claude up.
+# AI Primer, follow-up edition: the session's flow, the questions the room asked, and walk-throughs teams can run.
 # Inherits everything from audiences/master/audience.yaml; only the differences are here.
 title: Selling with AI
-subtitle: Claude gives you superpowers, but only if you set it up. Here's how, and what to do this week.
-eyebrow: ai primer · 60 minutes
+subtitle: Claude gives you superpowers, but only if you set it up. What we covered, what you asked, and what to do this month.
+eyebrow: ai primer · the follow-up
 footer: AI Primer
 date: 2026-11-04
 length: short
-duration_minutes: 60
+duration_minutes: 90
 format: remote
 brand: aie
 vars:
@@ -24,21 +24,19 @@ modules:
     minutes: 4
   - id: claude-quickstart
     override: overrides/claude-quickstart.md
-  - id: cowork-vs-code
-    override: overrides/cowork-vs-code.md
-  - id: 01-where-ai-fits
-    minutes: 2
-    exclude: [the-week]
+  - id: setup-instructions
+    override: overrides/setup-instructions.md
   - id: claude-setup
     override: overrides/claude-setup.md
-    minutes: 6
+    minutes: 7
     exclude: [settings]
   - id: 02-three-files
     minutes: 3
     exclude: [divider, brief-like-a-new-hire, three-habits, exercise-voice-file]
   - id: claude-skills
     override: overrides/claude-skills.md
-    minutes: 5
+  - id: apps-and-schedules
+    override: overrides/apps-and-schedules.md
   - id: 03-research
     minutes: 5
     exclude: [collect-sources, exercise-research]
@@ -48,14 +46,19 @@ modules:
     minutes: 2
     exclude: [divider, personalization, first-touch, demo-outreach, sequences, exercise-outreach]
   - id: 05-calls
-    minutes: 4
+    minutes: 3
     exclude: [prep-prompt, roleplay, exercise-roleplay]
+  - id: cowork-vs-code
+    override: overrides/cowork-vs-code.md
   - id: 08-guardrails
     minutes: 3
-  - id: 09-first-week
-    minutes: 2
-    exclude: [measure, pick-one]
   - id: chatterbuilt-mail
     override: overrides/chatterbuilt-mail.md
-    minutes: 8
+    minutes: 6
+  - id: questions
+    override: overrides/questions.md
+  - id: walkthroughs
+    override: overrides/walkthroughs.md
+  - id: first-30-days
+    override: overrides/first-30-days.md
   - id: 99-close

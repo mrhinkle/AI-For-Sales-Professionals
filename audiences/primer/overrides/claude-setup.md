@@ -71,6 +71,25 @@ This is the directory. You get to it from Settings, then Connectors, then Browse
 ---
 
 <!-- layout: rows -->
+<!-- eyebrow: connections · permissions -->
+<!-- id: permissions -->
+## Decide what each tool is allowed to do
+
+### Always allow | Reading and searching
+Looking things up in your CRM, inbox and Drive.
+
+### Needs approval | Anything that changes something
+Drafts, record updates, browser clicks. You say yes first.
+
+### Blocked | What it should never touch
+Sending, deleting, billing, anything your admin rules out.
+
+notes:
+Connectors run on MCP, the Model Context Protocol. Think of it as the USB port for AI: one plug, and any app that speaks it shows Claude its tools. Every connector, and the browser extension, lets you set each tool to always allow, needs approval, or blocked. Start strict. Let it read freely, make it ask before it changes anything, and block the things that can't be undone. Loosen up only as it earns trust.
+
+---
+
+<!-- layout: rows -->
 <!-- eyebrow: connections · what to connect -->
 <!-- id: what-to-connect -->
 ## Connect the tools you already sell with

@@ -52,12 +52,28 @@ Say it twice. This is the rule that keeps the whole thing safe and useful at the
 
 ---
 
-<!-- layout: agenda -->
+<!-- layout: rows -->
 <!-- eyebrow: today -->
 <!-- id: agenda -->
 ## Here's how we'll spend the time
 
+### 0:04 – 0:23 | Set up Claude
+The app, your instructions, your tools and three files.
+
+### 0:23 – 0:38 | Teach it once
+Skills, apps you describe, and prep that runs on a schedule.
+
+### 0:38 – 0:56 | Do the selling work
+Research, Prospector, outreach and call prep.
+
+### 0:56 – 1:02 | Pick the tool, keep it safe
+Claude or Claude Code, and the guardrails.
+
+### 1:02 – 1:08 | Watch it send
+Chatterbuilt Mail, from voice file to approved send.
+
+### 1:08 – 1:28 | Take it home
+Your questions, four walk-throughs, your first 30 days.
+
 notes:
-Walk the agenda in thirty seconds.
-@full,half Flag the hands-on bits so people get a real account ready. Ask them to open the assistant they already use. Any of them is fine for today.
-@short Flag the demo bits so people have a real target account in mind. Following along in their own assistant is optional; don't wait on them.
+Six blocks. The first twenty minutes are setup, because nothing else works until Claude can see your tools. Then skills, so you stop explaining yourself. Then the actual selling work: research, prospecting, outreach, calls. A few minutes on which Claude to use and how to stay safe, a short look at email automation, and we finish with the questions you asked and four workflows you can run this week. Following along in your own Claude is optional. Don't wait on it.

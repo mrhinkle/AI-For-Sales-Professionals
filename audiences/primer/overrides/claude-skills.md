@@ -1,7 +1,7 @@
 ---
 id: claude-skills
 title: Teach it once with skills
-minutes: { full: 10, half: 6, short: 4 }
+minutes: { full: 15, half: 10, short: 7 }
 outcomes:
   - Know what a skill is and which three to build first
 ---
@@ -21,6 +21,50 @@ outcomes:
 
 notes:
 A skill is a set of instructions, sometimes with a template or a script, that Claude pulls in when the task matches. Anthropic's own description is folders of instructions, scripts and resources Claude loads when needed. The easiest way to make one is to ask: "Turn my voice file into a skill." Then you never paste it again, and it only loads when you're writing.
+
+---
+
+<!-- layout: flow -->
+<!-- eyebrow: skills · from a chat to a skill -->
+<!-- id: skill-from-chat -->
+## Turn a good chat into a skill
+
+### Do it in Claude
+Work in the chat, not in Docs, so it sees every step.
+
+### Get it right
+Fix the output first. A sloppy skill copies its mistakes forever.
+
+### Name it
+"Create a skill called new quote from this chat."
+
+### Add the checks
+Success criteria: required fields, links, length, format.
+
+### Share it
+Put it in the shared Drive or a team project.
+
+notes:
+You don't sit down to write skills. You do your job in Claude, and when something worked, you save it. Do the task in the chat so Claude sees every step. Get the output right before you save, because whatever's wrong gets passed down. Then one sentence creates the skill. Add success criteria, the way you'd brief an admin: every link works, nothing's cut off, never more than ten slides. Without them, it's "do your best," and sometimes its best isn't.
+
+---
+
+<!-- layout: cards -->
+<!-- eyebrow: skills · context or skill -->
+<!-- id: context-vs-skill -->
+## Context says what. A skill says how.
+
+### Context | What it should know
+Brand voice, templates, white papers, pricing rules.
+
+### Skill | How it should work
+The steps, make a copy, never overwrite, where to save.
+
+### Examples | What good looks like
+Two or three real outputs beat a page of rules.
+
+notes:
+A brand voice file is context, and it's valuable. A skill tells Claude what to do with it: copy the deck from the marketing folder, fill in the presenter name, save it to your folder instead of overwriting the original. And always add examples. A picture of a deck you love is worth more than a page of describing it.
 
 ---
 
@@ -58,3 +102,18 @@ Summary, email, CRM notes and tasks, in your team's headings.
 
 notes:
 These are the three files and two prompts you'll see today, packaged so Claude reaches for them on its own. Voice first, because every draft depends on it. The account brief is the research module in one skill. Follow-up is the one that saves the most time per week. Build one a day this week and you're done by Friday.
+
+---
+
+<!-- layout: body -->
+<!-- eyebrow: skills · self-improving -->
+<!-- id: self-improving -->
+## Make your skills learn from what works
+
+- Ask for it: "make this self-improving and keep a memory file"
+- After each run it proposes a lesson; you approve the ones that stick
+- Example: the subject lines that actually got opened
+- Rules change? "Update the quote skill with our new renewal terms"
+
+notes:
+Here's a trick I use on every skill. Ask Claude to make it self-improving with a memory file. After each run it suggests what it learned, and you decide what to keep. A pitch skill learns which subject lines got opened and which got ignored. And when a policy changes, you update the skill in one sentence instead of retraining a team.

@@ -162,7 +162,7 @@ figure.shot figcaption{font-family:var(--font-mono);font-size:12px;letter-spacin
 .image-side{display:grid;grid-template-columns:1fr 1.9fr;gap:40px;align-items:center;}
 .image-side .side ul.marks{margin:0;}
 .image-side .side p{font-size:20px;} .image-side .side ul.marks li{font-size:20px;line-height:1.35;padding:14px 0 14px 40px;}
-.image-side figure.shot img{max-height:400px;}
+.image-side figure.shot img{max-height:388px;}
 /* photo slides: a full-bleed photograph under a navy veil, white type */
 .photo{position:absolute;inset:0;background-size:cover;background-position:center;}
 .photo-veil{position:absolute;inset:0;background:linear-gradient(100deg,rgba(10,15,28,0.94) 0%,rgba(10,15,28,0.78) 55%,rgba(10,15,28,0.45) 100%);}
