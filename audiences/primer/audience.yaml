@@ -24,12 +24,14 @@ modules:
     minutes: 4
   - id: claude-quickstart
     override: overrides/claude-quickstart.md
+  - id: cowork-vs-code
+    override: overrides/cowork-vs-code.md
   - id: 01-where-ai-fits
-    minutes: 3
+    minutes: 2
     exclude: [the-week]
   - id: claude-setup
     override: overrides/claude-setup.md
-    minutes: 7
+    minutes: 6
     exclude: [settings]
   - id: 02-three-files
     minutes: 3
@@ -43,7 +45,7 @@ modules:
   - id: prospector
     override: overrides/prospector.md
   - id: 04-outreach
-    minutes: 3
+    minutes: 2
     exclude: [divider, personalization, first-touch, demo-outreach, sequences, exercise-outreach]
   - id: 05-calls
     minutes: 4
