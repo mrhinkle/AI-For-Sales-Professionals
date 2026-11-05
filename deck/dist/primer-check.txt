@@ -1,0 +1,81 @@
+primer: 73 slides
+render: 73 slides measured (Playwright), 0 overflow
+
+PROBLEMS: none
+
+WARNINGS: none
+
+per-slide bottom edge (px from slide top; floor 620):
+  1  526  ok  Selling with AI
+  2  591  ok  I've been on both sides of this table
+  3  451  ok  The AI drafts. You send.
+  4  412  ok  Here's how we'll spend the time
+  5  432  ok  Set up Claude first
+  6  371  ok  Five steps, in this order
+  7  450  ok  On day one it's a bozo. By day 90 it's doing real work.
+  8  452  ok  Write your instructions by talking, not typing
+  9  355  ok  Memory is its cliff notes on you. Check them.
+  10  432  ok  Give Claude your tools
+  11  466  ok  Claude gives you superpowers. Only if you set it up.
+  12  616  ok  Turn on the connectors Claude already ships
+  13  289  ok  Decide what each tool is allowed to do
+  14  348  ok  Connect the tools you already sell with
+  15  616  ok  Or do what I do: Composio, everything in one place
+  16  379  ok  Three files your assistant reads before every task
+  17  616  ok  Put them where the assistant reads them every time
+  18  616  ok  Skills are how you stop explaining yourself
+  19  378  ok  Turn a good chat into a skill
+  20  330  ok  Context says what. A skill says how.
+  21  616  ok  Train it on your own sent mail
+  22  330  ok  Three skills every seller should build first
+  23  396  ok  Make your skills learn from what works
+  24  432  ok  Build it once, run it every week
+  25  396  ok  Build the app you wish you had by describing it
+  26  404  ok  A pre-send checklist catches what tired people miss
+  27  357  ok  Research, plan, then build
+  28  289  ok  Schedule the prep. Keep the send.
+  29  303  ok  Use a project when the team shares the work
+  30  450  ok  It knows how to sell software. It doesn't know how to sell yours until you tell it.
+  31  432  ok  Research an account
+  32  400  ok  Collect, brief, verify, then one sentence on why now
+  33  404  ok  The account brief prompt
+  34  419  ok  Watch me do it on a real target account.
+  35  396  ok  Four things it gets wrong, and how you catch them
+  36  432  ok  Outreach that sounds like you
+  37  371  ok  Prospector: who to talk to, and why now
+  38  379  ok  The guardrails are in the code, not a promise
+  39  616  ok  Apollo already works where Claude works
+  40  616  ok  No connector? Claude uses the browser
+  41  357  ok  Outreach with Claude driving and you approving
+  42  424  ok  The same email, before and after the brief
+  43  450  ok  Nothing goes out that you didn't read. Not because the AI is bad. Because it's your name.
+  44  432  ok  Before, during and after the call
+  45  428  ok  Five minutes before, nothing during, ten minutes after
+  46  534  ok  The recorder is the only new tool most of you need
+  47  356  ok  Follow up in ten minutes from the transcript
+  48  616  ok  Claude (formerly Cowork) does the work for you
+  49  616  ok  Claude Code: when the job is building software
+  50  330  ok  Which one do I use?
+  51  432  ok  The rules that keep you employed
+  52  502  ok  Four rules
+  53  481  ok  At 99 percent accuracy, a thousand automated sends is ten mistakes with your signature on them.
+  54  432  ok  Put it all together: Chatterbuilt Mail
+  55  616  ok  Chatterbuilt Mail reads the room before you reply
+  56  616  ok  Every contact gets the whole picture
+  57  419  ok  Watch it work my inbox.
+  58  449  ok  Try them yourself
+  59  450  ok  Questions from the room
+  60  416  ok  Getting started
+  61  417  ok  Building workflows
+  62  482  ok  Walk-throughs you can run this week
+  63  357  ok  A renewal quote, start to finish
+  64  410  ok  Walk-through 1: the prompt
+  65  335  ok  After the call: recap, follow-up, CRM
+  66  380  ok  Walk-through 2: the prompt
+  67  357  ok  Monthly customer outreach on a schedule
+  68  362  ok  Walk-through 3: the prompt
+  69  357  ok  From a buying signal to a first email
+  70  356  ok  Walk-through 4: the prompt
+  71  371  ok  Your first 30 days
+  72  432  ok  Everything from today lives in one place
+  73  450  ok  Thanks. Go brief three accounts before Friday.

@@ -1,0 +1,64 @@
+# AI Primer, follow-up edition: the session's flow, the questions the room asked, and walk-throughs teams can run.
+# Inherits everything from audiences/master/audience.yaml; only the differences are here.
+title: Selling with AI
+subtitle: Claude gives you superpowers, but only if you set it up. What we covered, what you asked, and what to do this month.
+eyebrow: ai primer · the follow-up
+footer: AI Primer
+date: 2026-11-04
+length: short
+duration_minutes: 90
+format: remote
+brand: aie
+vars:
+  company: "[company]"
+  product: "[product]"
+  buyer: "[buyer]"
+  crm: HubSpot or Salesforce
+  sequencer: Apollo
+  recorder: Zoom's AI Companion or a recorder like Fireflies
+  demo_account: a real target account
+  assistant: Claude, ChatGPT or Gemini
+modules:
+  - id: 00-opening
+    override: overrides/00-opening.md
+    minutes: 4
+  - id: claude-quickstart
+    override: overrides/claude-quickstart.md
+  - id: setup-instructions
+    override: overrides/setup-instructions.md
+  - id: claude-setup
+    override: overrides/claude-setup.md
+    minutes: 7
+    exclude: [settings]
+  - id: 02-three-files
+    minutes: 3
+    exclude: [divider, brief-like-a-new-hire, three-habits, exercise-voice-file]
+  - id: claude-skills
+    override: overrides/claude-skills.md
+  - id: apps-and-schedules
+    override: overrides/apps-and-schedules.md
+  - id: 03-research
+    minutes: 5
+    exclude: [collect-sources, exercise-research]
+  - id: prospector
+    override: overrides/prospector.md
+  - id: 04-outreach
+    minutes: 2
+    exclude: [divider, personalization, first-touch, demo-outreach, sequences, exercise-outreach]
+  - id: 05-calls
+    minutes: 3
+    exclude: [prep-prompt, roleplay, exercise-roleplay]
+  - id: cowork-vs-code
+    override: overrides/cowork-vs-code.md
+  - id: 08-guardrails
+    minutes: 3
+  - id: chatterbuilt-mail
+    override: overrides/chatterbuilt-mail.md
+    minutes: 6
+  - id: questions
+    override: overrides/questions.md
+  - id: walkthroughs
+    override: overrides/walkthroughs.md
+  - id: first-30-days
+    override: overrides/first-30-days.md
+  - id: 99-close

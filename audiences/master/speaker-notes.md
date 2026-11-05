@@ -9,7 +9,7 @@ Planned length: 260 minutes (modules add up to 260). Slides: 50.
 | Opening | 10 |
 | Where AI fits in a seller's week | 25 |
 | Set it up once, the three files | 30 |
-| Research an account in ten minutes | 35 |
+| Research an account | 35 |
 | Outreach that sounds like you | 40 |
 | Before, during and after the call | 35 |
 | Proposals, business cases and the paperwork | 25 |
@@ -109,39 +109,39 @@ _Set it up once, the three files_
 
 Six minutes. Phones away, open the sent folder, find five. If they can't find five they're proud of, three is fine. Walk the room. The test email at the end is the check: if it doesn't sound like them, they tell it what's off and run it again. Save the result as voice.md.
 
-### 15. Research an account in ten minutes
+### 15. Research an account
 
-_Research an account in ten minutes_
+_Research an account_
 
 This is the fastest payback in the whole session. Most reps either skip research or spend an hour on it. Ten minutes, every time, is the goal.
 
 ### 16. Collect, brief, verify, then one sentence on why now
 
-_Research an account in ten minutes_
+_Research an account_
 
 Collect is where most of the ten minutes goes, and it's mostly copy and paste. If your assistant can browse, let it, but still paste the job postings. Hiring is the best public signal of what a company is about to do. Verify is non-negotiable. The brief is a draft, not a fact sheet, until you've clicked the links.
 
 ### 17. Six places to collect from, in the order that pays
 
-_Research an account in ten minutes_
+_Research an account_
 
 Point, don't read. The order matters: job postings first because they're the freshest signal, your own CRM last because it's the one people forget and the one that's most embarrassing to miss. All six links are in the repo.
 
 ### 18. The account brief prompt
 
-_Research an account in ten minutes_
+_Research an account_
 
 Read the last line out loud. UNVERIFIED in capital letters is the whole trick. The model will tell you what it's unsure of if you give it permission. Then the brief becomes a to-do list for your own checking instead of a trap.
 
 ### 19. Four things it gets wrong, and how you catch them
 
-_Research an account in ten minutes_
+_Research an account_
 
 These four cover almost every embarrassing research mistake I've seen. They take ninety seconds to check and they are the difference between sounding prepared and sounding like you used a bot. Which is exactly what the buyer is listening for right now.
 
 ### 20. Pick a real target account and run it
 
-_Research an account in ten minutes_
+_Research an account_
 
 Use the Prospector companion exercise in program/PROSPECTOR.md, or the account-brief prompt if the plugin is unavailable. Eight minutes with a timer on the screen. Walk the room and look for people stuck on Collect; help them grab the job postings. The debrief is the "why now" sentences. Push back gently on vague ones. If it isn't something you'd say on a call, it isn't done.
 

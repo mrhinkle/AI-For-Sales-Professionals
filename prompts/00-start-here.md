@@ -1,35 +1,37 @@
 # Start here
 
-The one prompt to paste after the session. It walks you through the three files and your first account brief and email, one step at a time. It works in ChatGPT, Claude, Gemini or Copilot, with or without link access. Use your company's account, not a personal login. Replace the brackets.
+The one prompt to paste after the session. It sets Claude up the way the session showed: connectors first, then your voice, ICP and product, then one account and one email. Use your company's Claude account, not a personal login. Replace the brackets.
 
 ```
-I just took Mark Hinkle's "AI for Sales Professionals" session. Help me set up the workflow
-from it. The full prompt pack is at https://github.com/mrhinkle/ai-for-sales-training/tree/main/prompts
-if you can open links; if you can't, everything you need is below.
+I just took Mark Hinkle's "Selling with AI" primer. Help me set up Claude the way it showed,
+one step at a time. Finish each step and wait for me before the next.
 
-About me: I'm a [your role] at [company]. We sell [product] to [buyer]. We use [CRM] and [sequencer].
+About me: I'm a [your role] at [company]. We sell [product] to [buyer].
+My CRM is [HubSpot or Salesforce], I prospect in [Apollo or other], and my email is [Gmail or Outlook].
 
-The rule: you draft, I send. Never contact anyone, never invent a fact, and mark anything you
-can't source as UNVERIFIED. I won't paste customer data, CRM exports or call transcripts here
-unless this is my company's approved account.
+The rule: you draft, I send. Never send, post or connect with anyone, never invent a fact,
+and mark anything you can't source as UNVERIFIED.
 
-Work through these with me one at a time. Finish each one and wait for me before the next.
-
-1. Voice file. Ask for five emails I'm proud of and three I'd never send. Write a one-page style
-   guide for writing as me, then a two-line test email. Revise until I say it sounds like me.
-2. ICP file. Interview me one question at a time: company size, industries, who buys and who
-   influences, trigger events (hiring, funding, a new leader, a migration, an outage), and a
-   section called "Disqualify immediately if".
-3. Product file. Ask for our website copy and one case study. Write a one-page product file in
+1. Connectors. Check which of my tools you can reach right now: email, calendar, CRM, Apollo,
+   Slack. For anything missing, tell me where to connect it in Settings > Connectors, or
+   whether Composio would cover it.
+2. Voice. Read 10 to 12 of my recent sent emails, skipping one-liners, and write a one-page
+   voice guide: length, how I open and close, words I use, words I never use, how I handle
+   a no. Show me a two-line test email and revise until I say it sounds like me. If you
+   can't read my mail, ask me to paste five emails I'm proud of.
+3. ICP. Interview me one question at a time: company size, industries, who buys and who
+   influences, trigger events (hiring, funding, a new leader, a migration), and a section
+   called "Disqualify immediately if".
+4. Product. Ask for our website copy and one case study. Write a one-page product file in
    the buyer's words, with proof we can name and a section called "Never promise".
-4. Account brief. I'll name one target account and paste its site, recent news and job posts.
-   Write a one-page brief with a source for every claim, three discovery questions and one
-   "why now" sentence.
-5. First email. Three versions under 90 words each, plain text, one question, and an easy way
-   to say no.
+5. Skills. Turn the voice guide, ICP and product file into skills, or project files if
+   skills aren't available, so I never paste them again.
+6. One account. I'll name a target account. Build a one-page brief with a source for every
+   claim, three discovery questions and one "why now" sentence.
+7. One email. Three first-touch versions under 90 words, plain text, one question, and an
+   easy way to say no. Then stop. I'll send it.
 
-At the end, give me the three files as clean text I can save in a project or custom instructions
-so I never paste them again. Start with step 1.
+Start with step 1.
 ```
 
-When it's done, brief two more accounts with [04-account-brief.md](04-account-brief.md). Before your next call, use [06-call-prep.md](06-call-prep.md); after it, [08-follow-up.md](08-follow-up.md).
+Then brief two more accounts before Friday with [04-account-brief.md](04-account-brief.md). Before your next call use [06-call-prep.md](06-call-prep.md); after it, [08-follow-up.md](08-follow-up.md).

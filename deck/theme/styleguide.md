@@ -249,7 +249,7 @@ Split the body on a line of three pipes: text on the left, the image on the righ
 <!-- id: links -->
 ## Links render as a title, an address and one line
 
-### The repository | https://github.com/mrhinkle/ai-for-sales-training
+### The repository | https://github.com/mrhinkle/AI-For-Sales-Professionals
 The deck, the speaker notes, every prompt, and how to point a chatbot at it.
 
 ### The AIE Network | https://theaie.net

@@ -16,6 +16,13 @@ Every prompt from the session, ready to copy. Each one assumes your assistant ha
 | [09-proposal-draft.md](09-proposal-draft.md) | Proposal or business case from a template plus the call. |
 | [10-deal-review.md](10-deal-review.md) | Before the pipeline review. The skeptic. |
 | [11-weekly-summary.md](11-weekly-summary.md) | Friday. Wins, risks, asks. |
+| [12-instructions-brain-dump.md](12-instructions-brain-dump.md) | Once. Dictate who you are and how you work; paste the result into Settings. |
+| [13-renewal-quote.md](13-renewal-quote.md) | A renewal quote from the email thread and last year's quote, with a checklist. |
+| [14-call-recap.md](14-call-recap.md) | After any call: recap, to-dos for both sides, follow-up, CRM notes. |
+| [15-monthly-outreach.md](15-monthly-outreach.md) | The 1st of the month: customers to contact in the next 90 days, drafted. |
+| [16-signal-to-first-touch.md](16-signal-to-first-touch.md) | A buying signal turned into a sourced brief and three first emails. |
+
+Step-by-step versions of 13 to 16, with checklists and the sentence that saves each as a skill, are in [program/WALKTHROUGHS.md](../program/WALKTHROUGHS.md).
 
 For the plugin version of the research-to-outreach exercise, use the [Prospector companion guide](../program/PROSPECTOR.md). The prompts above also work without the plugin.
 

@@ -18,7 +18,7 @@ vars:
   sequencer: your sequencer
   recorder: your meeting recorder
   assistant: ChatGPT, Claude, Gemini or Copilot
-  repo_url: github.com/mrhinkle/ai-for-sales-training
+  repo_url: github.com/mrhinkle/AI-For-Sales-Professionals
   contact_email: mrhinkle@peripety.com
   presenter: Mark R. Hinkle
   demo_account: a real target account

@@ -1,0 +1,79 @@
+---
+id: 00-opening
+title: Opening
+minutes: { full: 10, half: 8, short: 5 }
+outcomes:
+  - Know the one rule for the session and what you will leave with
+---
+
+<!-- layout: title -->
+<!-- eyebrow: {{eyebrow}} -->
+<!-- id: title -->
+# {{title}}
+
+{{subtitle}}
+
+notes:
+Welcome. Say the time budget out loud and the promise.
+@full,half By the end you will have run three real prompts on your own accounts and you'll know which one to do tomorrow morning.
+@short By the end you'll have seen three real prompts run on one live target account, and you'll know which one to run on your own tomorrow morning. Nothing to open, nothing to install. I drive, you watch and heckle, and you get every prompt afterward.
+Housekeeping: questions any time, I'd rather go off script than leave you behind.
+
+---
+
+<!-- layout: two-col -->
+<!-- eyebrow: about me -->
+<!-- id: about-me -->
+## I've been on both sides of this table
+
+- Thirty years in enterprise tech: the dot-com run, open source, cloud, now AI
+- Ran marketing at cloud.com through the Citrix acquisition, ran the Node.js Foundation, co-founded TriggerMesh
+- Today I run Peripety Labs and publish The AIE Network, seven newsletters and the All Things AI conference
+- I still sell every day: sponsorships, tickets, consulting. Same quota pressure you have, smaller team
+
+|||
+
+![photo: Mark R. Hinkle](photos/mark-hinkle.png)
+
+notes:
+One story, under a minute. The point to land: I'm not a vendor selling you an AI tool. I use these things to sell, and I've watched three platform shifts. Every time, the people who won weren't the earliest adopters. They were the ones who understood what the thing actually was before they bet their week on it.
+
+---
+
+<!-- layout: statement -->
+<!-- eyebrow: the one rule -->
+<!-- id: one-rule -->
+# The AI drafts. *You* send.
+
+Everything today hangs off that sentence. Research, email, call prep, follow-up, proposals. The assistant does the reading and the first draft. Your name goes on it, so you read it and you hit send.
+
+notes:
+Say it twice. This is the rule that keeps the whole thing safe and useful at the same time. It isn't because the tools are bad. It's because it's your name and your relationship. If you remember one thing, remember this one.
+
+---
+
+<!-- layout: rows -->
+<!-- eyebrow: today -->
+<!-- id: agenda -->
+## Here's how we'll spend the time
+
+### 0:04 – 0:23 | Set up Claude
+The app, your instructions, your tools and three files.
+
+### 0:23 – 0:38 | Teach it once
+Skills, apps you describe, and prep that runs on a schedule.
+
+### 0:38 – 0:56 | Do the selling work
+Research, Prospector, outreach and call prep.
+
+### 0:56 – 1:02 | Pick the tool, keep it safe
+Claude or Claude Code, and the guardrails.
+
+### 1:02 – 1:08 | Watch it send
+Chatterbuilt Mail, from voice file to approved send.
+
+### 1:08 – 1:28 | Take it home
+Your questions, four walk-throughs, your first 30 days.
+
+notes:
+Six blocks. The first twenty minutes are setup, because nothing else works until Claude can see your tools. Then skills, so you stop explaining yourself. Then the actual selling work: research, prospecting, outreach, calls. A few minutes on which Claude to use and how to stay safe, a short look at email automation, and we finish with the questions you asked and four workflows you can run this week. Following along in your own Claude is optional. Don't wait on it.

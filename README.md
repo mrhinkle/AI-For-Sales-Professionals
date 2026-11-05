@@ -12,6 +12,7 @@ The whole program hangs on one rule: **the AI drafts, you send.**
 | Teach the full program | `deck/dist/master.html` (press N for notes), notes in [audiences/master/speaker-notes.md](audiences/master/speaker-notes.md) |
 | Run the Buoyant session on Nov 4 | [audiences/buoyant/brief.md](audiences/buoyant/brief.md), [run-of-show.md](audiences/buoyant/run-of-show.md), `deck/dist/buoyant.html` |
 | Fork it for a new audience | `node scripts/fork-audience.mjs <name> "<Company>"`, then fill in `audiences/<name>/brief.md` and `audience.yaml` |
+| Run the workflows from the session | [program/WALKTHROUGHS.md](program/WALKTHROUGHS.md): renewal quote, call recap, monthly outreach, signal to first touch |
 | Give attendees the prompts | [prompts/00-start-here.md](prompts/00-start-here.md) first, then [prompts/](prompts/README.md), one file per prompt, same text as the slides |
 | Change what's taught | the module files in [modules/](modules/README.md); every audience picks them up on the next build |
 | Keep a deck on brand | [design.md](design.md): the AIE Network training template (Node), tokens read from theaie.net, image and link rules |

@@ -1,6 +1,6 @@
 ---
 id: 03-research
-title: Research an account in ten minutes
+title: Research an account
 minutes: { full: 35, half: 20, short: 10 }
 outcomes:
   - Produce a sourced one-page account brief and a one-line "why now" hypothesis
@@ -8,7 +8,7 @@ outcomes:
 
 <!-- layout: divider -->
 <!-- id: divider -->
-# Research an account in ten minutes
+# Research an account
 
 The brief you'd want before any first call, with links, from a company name.
 
