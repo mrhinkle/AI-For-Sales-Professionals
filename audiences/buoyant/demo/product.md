@@ -1,0 +1,2 @@
+# Demo product context
+Buoyant / Linkerd training scenario. Linkerd's official overview describes a Kubernetes service mesh for observability, reliability and security. Source: https://linkerd.io/docs/overview/ . No unsupported claims about preventing Spotify's perimeter outage, replacing Envoy, ROI, prices or existing customer relationship. Ask discovery questions before recommending architecture.

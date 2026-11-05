@@ -1,10 +1,10 @@
 buoyant: 40 slides
 render: 40 slides measured, 0 overflow
+pdf: deck/dist/buoyant.pdf (2180 KB)
 
 PROBLEMS: none
 
-WARNINGS
-  pdf export failed: [1102/110355.016982:WARNING:third_party/crashpad/crashpad/util/process/process_memory_mac.cc:94] mach_vm_read(0x16fc24000, 0x8000): (os/kern) invalid address (1) | [1102/110357.038225:ERROR:third_party/crashpad/crashpad/util/file/directory_reader_posix.cc:43] opendir /Users/mrhinkle/Library/Application Support/Google/Chrome/Crashpad/attachments/ca1aea87-f535-4411-b461-5bf3e16b6a41: No such file or directory (2)
+WARNINGS: none
 
 per-slide bottom edge (px from slide top; floor 620):
   1  526  ok  Selling with AI at Buoyant
@@ -17,19 +17,19 @@ per-slide bottom edge (px from slide top; floor 620):
   8  426  ok  You probably already own the tools
   9  450  ok  Set it up once
   10  430  ok  Three files your assistant reads before every task
-  11  598  ok  Put them where the assistant reads them every time
+  11  616  ok  Keep the three files in your assistant
   12  502  ok  Brief it like a new hire, not like a search box
   13  339  ok  Three habits that fix most bad answers
-  14  465  ok  Research an account in ten minutes
+  14  432  ok  Research an account
   15  450  ok  Collect, brief, verify, then one sentence on why now
   16  573  ok  Six places to collect from, in the order that pays
   17  404  ok  The account brief prompt
-  18  450  ok  Watch me do it on a real target account.
+  18  445  ok  Spotify gives us evidence, but no buying signal
   19  445  ok  Four things it gets wrong, and how you catch them
   20  465  ok  Outreach that sounds like you
   21  481  ok  Personalization isn't their name in the first line. It's proof you did the ten minutes.
   22  356  ok  Under ninety words, one ask, an easy out
-  23  450  ok  Now the email, from the brief we just built.
+  23  445  ok  Three drafts for a fictional recipient. Nothing gets sent.
   24  424  ok  The same email, before and after the brief
   25  445  ok  What to automate in Apollo and what stays in your hands
   26  451  ok  Nothing goes out that you didn't read. Not because the AI is bad. Because it's your name.
@@ -38,7 +38,7 @@ per-slide bottom edge (px from slide top; floor 620):
   29  429  ok  Five minutes before, nothing during, ten minutes after
   30  356  ok  The prep sheet prompt
   31  382  ok  Rehearse the hard conversation before you have it
-  32  547  ok  The recorder is the only new tool most of you need
+  32  583  ok  The recorder is the only new tool most of you need
   33  406  ok  Follow up in ten minutes from the transcript
   34  465  ok  The rules that keep you employed
   35  504  ok  Four rules

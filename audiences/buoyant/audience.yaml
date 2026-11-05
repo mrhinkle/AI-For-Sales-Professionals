@@ -16,16 +16,19 @@ vars:
   crm: HubSpot
   sequencer: Apollo
   recorder: Zoom's AI Companion or a recorder like Fireflies
-  demo_account: a real target account   # set this to the company you'll research live
+  demo_account: Spotify   # public research candidate; current buying intent unknown
   assistant: ChatGPT, Claude or Gemini
 modules:
   - id: 00-opening
   - id: 01-where-ai-fits
   - id: 02-three-files
+    override: overrides/02-three-files.md
     exclude: [exercise-voice-file]
   - id: 03-research
+    override: overrides/03-research.md
     exclude: [exercise-research]
   - id: 04-outreach
+    override: overrides/04-outreach.md
     minutes: 8
     exclude: [exercise-outreach]
   - id: buoyant-inbound

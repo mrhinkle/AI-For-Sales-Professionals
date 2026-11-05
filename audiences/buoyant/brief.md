@@ -33,13 +33,14 @@ Buoyant is building an inbound motion: a HubSpot form fill gets enriched, scored
 
 ## Live demo plan
 
-Instead of the hands-on exercises in the master, Mark runs one live thread end to end on a real Buoyant target account:
+Mark drives the two demo blocks using Spotify as a public research candidate and a fictional platform-lead recipient. Historical Kubernetes evidence does not establish current need, buying intent or an existing Buoyant relationship.
 
-1. Research: the account brief prompt on a public company that fits the ICP (pick one with recent platform-engineering job posts). Show the UNVERIFIED markers.
-2. Outreach: the first-touch prompt from that brief, three versions, pick one, count the words.
-3. Follow-up: paste a short redacted transcript (or improvise two minutes of a discovery call with a volunteer) and run the follow-up prompt.
+1. Research: source-grounded qualification with Prospector, or the portable prompt. Show dates, hypotheses and material unknowns. No fresh why-now is verified.
+2. Outreach: three alternative drafts under eighty words, pending in an isolated demo queue. Nothing is approved or sent.
+3. Fallback: after one failed load or thirty seconds, use the self-contained prompt in ordinary chat; if offline, show the saved result. Its review table is text, not plugin storage.
+4. Follow-up remains optional with a fictional or approved redacted transcript; never imply Spotify joined a sales call.
 
-Have the three files for a fictional Buoyant AE prepared in advance so the demo doesn't stall on setup. Do not paste anything from Buoyant's own HubSpot or customer data into a consumer tool during the session.
+The [presenter pack](demo/README.md) contains public sources, synthetic voice/ICP/product context and both fallback files. Runtime preflight is performed separately. Do not use private customer or CRM data.
 
 ## After the session
 

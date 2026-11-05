@@ -1,0 +1,2 @@
+# Demo ICP
+Hypothesis: platform engineering teams operating Kubernetes services, with a verified need for service-to-service observability, reliability or security. Kubernetes use gives possible fit, not timing or budget. Spotify is a public research candidate with historical evidence. Current buyer and pain unknown. Keep fit and timing separate. Do not treat an incident as permission to contact anyone.

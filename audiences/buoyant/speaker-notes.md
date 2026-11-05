@@ -83,7 +83,7 @@ _Set it up once, the three files_
 
 Plain text, each under a page. Keep them in whatever your assistant calls a project or a folder, so they load automatically. The voice file is the one people underestimate. Give it your real emails and it stops sounding like a brochure. The ICP file is what makes research and list-ranking useful. The product file keeps it from inventing features.
 
-### 11. Put them where the assistant reads them every time
+### 11. Keep the three files in your assistant
 
 _Set it up once, the three files_
 
@@ -127,11 +127,11 @@ _Research an account_
 Read the last line out loud. UNVERIFIED in capital letters is the whole trick. The model will tell you what it's unsure of if you give it permission. Then the brief becomes a to-do list for your own checking instead of a trap.
 I'll paste each prompt in the chat as I run it; they're all in the repo. Nobody needs to transcribe a slide.
 
-### 18. Watch me do it on a real target account.
+### 18. Spotify gives us evidence, but no buying signal
 
 _Research an account_
 
-Screen share Prospector, our training companion. Use /prospector:qualify on the target account with the ICP and product files loaded. Keep the account-brief prompt from the last slide ready as the fallback. Think out loud. When UNVERIFIED markers show up, stop and point at them; that's the moment to land. Click one link live, fix one wrong thing, then say the "why now" sentence in your own words. If the assistant stalls, read the prepared brief instead and keep moving.
+Open demo/sources.md and the synthetic voice, ICP and product files. Spotify is a public research candidate, not an approved Buoyant target. Run /prospector:qualify Spotify using only that source pack. Click the 2021 article and check its date. The rehearsed qualifier assigned fit 2/5 and timing 0/5; those are subjective judgments, not probabilities. It did no independent browsing. Say: we have no verified why-now. If loading fails once or stalls for thirty seconds, paste demo/fallback-prompt.txt into an ordinary chat. If the network fails too, open demo/fallback-result.md. Ask what current need we would have to verify.
 
 ### 19. Four things it gets wrong, and how you catch them
 
@@ -157,11 +157,11 @@ _Outreach that sounds like you_
 
 Ninety words is a real constraint and the model respects it. The easy out matters: "if this isn't on your radar, tell me and I'll stop" gets replies because it costs the reader nothing. Three versions, then you pick and tune. Never the first draft.
 
-### 23. Now the email, from the brief we just built.
+### 23. Three drafts for a fictional recipient. Nothing gets sent.
 
 _Outreach that sounds like you_
 
-Back to Prospector. Use /prospector:draft with the verified brief, then /prospector:queue to review the draft. Ask for three versions and stay under 80 words for this demo. If the plugin is unavailable, use the first-touch prompt with the brief still in the conversation. Read the three versions out loud, pick the one that sounds most like a person, cut anything you wouldn't say on the phone, and count the words. Under ninety or cut again. Then show the before-and-after slide.
+Show demo/drafts.md and the existing isolated rehearsal queue. Do not rerun /prospector:draft in the prepared state: it creates entries. For a fresh run, use a separate empty demo state with the source pack and synthetic voice. /prospector:queue list --status pending and stats show state; keep demo/drafts.md open because list omits bodies and sources. Choose one and count words. Contact basis stays unknown. Nothing is approved or sent. After one failed load or thirty seconds, switch to demo/fallback-prompt.txt or the saved result. Say clearly that the fallback table is only text. Its drafts omit production footer details and are not send-ready.
 
 ### 24. The same email, before and after the brief
 
