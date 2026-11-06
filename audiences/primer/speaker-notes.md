@@ -95,11 +95,11 @@ _Give Claude your tools_
 
 Most people open Claude, type a question, get a generic answer and decide AI is overhyped. That's like hiring a great rep and never giving them a CRM login. The setup is twenty minutes, once. After that every chat starts with your tools, your files and your rules already loaded. That's the difference between a toy and a teammate.
 
-### 12. Turn on the connectors Claude already ships
+### 12. Turn on the connectors Claude ships
 
 _Give Claude your tools_
 
-This is the directory. You get to it from Settings, then Connectors, then Browse. Click one, sign in with the account you already use, done. Start with email, calendar and your CRM. Those three alone change the research and follow-up we're about to do, because Claude can read the thread and the meeting instead of you pasting them in. Use your company account, and if IT controls connectors, ask them which ones are approved before you start clicking.
+These are the connectors Claude already ships. This is the directory. You get to it from Settings, then Connectors, then Browse. Click one, sign in with the account you already use, done. Start with email, calendar and your CRM. Those three alone change the research and follow-up we're about to do, because Claude can read the thread and the meeting instead of you pasting them in. Use your company account, and if IT controls connectors, ask them which ones are approved before you start clicking.
 
 ### 13. Decide what each tool is allowed to do
 
@@ -113,7 +113,7 @@ _Give Claude your tools_
 
 Here's the map for a seller. CRM first, because that's where the truth about an account lives. HubSpot has a native connector. Salesforce and Apollo you can reach through Composio, which is next. Email and calendar second. Then whatever you prospect with and whatever records your calls. If your company uses something not on this slide, the question is the same: does it have a connector, and if not, can Composio or the browser reach it.
 
-### 15. Or do what I do: Composio, everything in one place
+### 15. Or use Composio for everything
 
 _Give Claude your tools_
 
@@ -125,7 +125,7 @@ _Set it up once, the three files_
 
 Plain text, each under a page. Keep them in whatever your assistant calls a project or a folder, so they load automatically. The voice file is the one people underestimate. Give it your real emails and it stops sounding like a brochure. The ICP file is what makes research and list-ranking useful. The product file keeps it from inventing features.
 
-### 17. Put them where the assistant reads them every time
+### 17. Put the files where every chat reads them
 
 _Set it up once, the three files_
 
@@ -232,7 +232,7 @@ I'll paste each prompt in the chat as I run it; they're all in the repo. Nobody 
 
 _Research an account_
 
-Screen share. Run the prompt from the last slide on the target account, thinking out loud. When UNVERIFIED markers show up, stop and point at them; that's the moment to land. Click one link live, fix one wrong thing, then say the "why now" sentence in your own words. If the assistant stalls, read the prepared brief instead and keep moving.
+Screen share Prospector, our training companion. Use /prospector:qualify on the target account with the ICP and product files loaded. Keep the account-brief prompt from the last slide ready as the fallback. Think out loud. When UNVERIFIED markers show up, stop and point at them; that's the moment to land. Click one link live, fix one wrong thing, then say the "why now" sentence in your own words. If the assistant stalls, read the prepared brief instead and keep moving.
 
 ### 35. Four things it gets wrong, and how you catch them
 
@@ -313,13 +313,13 @@ _Before, during and after the call_
 
 The structure for CRM notes is whatever your team uses. Change the six headings to match HubSpot or Salesforce. The contradiction flag at the end is the quiet win: it catches the moment the buyer told you something that changes the deal and you were too busy listening to write it down.
 
-### 48. Claude (formerly Cowork) does the work for you
+### 48. Claude, formerly Cowork, does the work
 
 _Claude or Claude Code_
 
 This used to be called Cowork. Now it's just Claude, and it's the one most of you will live in. You don't tell it how, you tell it what: build the account list from these three files, turn last week's calls into a pipeline summary. It opens your files, uses your connectors and the browser, shows each step, and hands you something to review. You can schedule it, so the weekly readout is waiting when you sit down. Anthropic folded Cowork into Claude itself, so on paid plans you just ask and it picks up the work.
 
-### 49. Claude Code: when the job is building software
+### 49. Claude Code is for building software
 
 _Claude or Claude Code_
 
@@ -355,7 +355,7 @@ _Put it all together, Chatterbuilt Mail_
 
 Everything we've covered, the connectors, the skills, the voice file, the rule that you send, running in one place. This is my inbox.
 
-### 55. Chatterbuilt Mail reads the room before you reply
+### 55. Chatterbuilt Mail reads the room first
 
 _Put it all together, Chatterbuilt Mail_
 
@@ -461,7 +461,7 @@ Don't try to do everything this week. Week one is setup. Week two is the shared 
 
 _Close_
 
-Give them the link and tell them the folder is built to be read by a chatbot, not just a person. "Open the repo, paste the prompts folder into your assistant, tell it who you sell to." Then take questions for whatever time is left.
+Give them the link and tell them the folder is built to be read by a chatbot, not just a person. "Open the repo, paste the prompts folder into your assistant, tell it who you sell to." Share the Prospector companion guide too. It contains the setup steps and the same exercise we demonstrated. Confirm attendees can open the repository before sharing; provide the handout directly if they cannot. Then take questions for whatever time is left.
 
 ### 73. Thanks. Go brief three accounts before Friday.
 

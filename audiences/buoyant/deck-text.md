@@ -30,6 +30,8 @@ I've been on both sides of this table
 
 - I still sell every day: sponsorships, tickets, consulting. Same quota pressure you have, smaller team
 
+Mark R. Hinkle
+
 Notes: One story, under a minute. The point to land: I'm not a vendor selling you an AI tool. I use these things to sell, and I've watched three platform shifts. Every time, the people who won weren't the earliest adopters. They were the ones who understood what the thing actually was before they bet their week on it.
 
 ## 03 · one-rule · layout statement · module 00-opening
@@ -51,7 +53,7 @@ Where AI fits in a seller's week
 Set it up once, the three files
 
 10 min
-Research an account in ten minutes
+Research an account
 
 8 min
 Outreach that sounds like you
@@ -169,13 +171,13 @@ Notes: Plain text, each under a page. Keep them in whatever your assistant calls
 ## 11 · where-files-live · layout image · module 02-three-files
 
 the three files · where they live
-Put them where the assistant reads them every time
+Keep the three files in your assistant
 
-- ChatGPT calls it a Project, Claude calls it a Project, Gemini calls it a Gem
+- Use a Project in ChatGPT or Claude; a Gem in Gemini
 
-- Upload the three files once. Every new chat in that folder starts with them loaded
+- Upload voice, ICP and product context once
 
-- Use the company seat, so the files stay inside your company's account
+- Use your company-approved account
 
 Claude Projects, where the three files live. November 2026
 
@@ -214,7 +216,7 @@ Notes: Most complaints about these tools come down to under-briefing. People typ
 ## 14 · divider · layout divider · module 03-research
 
 02
-Research an account in ten minutes
+Research an account
 
         The brief you'd want before any first call, with links, from a company name.
 
@@ -286,13 +288,20 @@ Cite a source for every factual claim. If you can't source it, mark it UNVERIFIE
 Notes: Read the last line out loud. UNVERIFIED in capital letters is the whole trick. The model will tell you what it's unsure of if you give it permission. Then the brief becomes a to-do list for your own checking instead of a trap.
 I'll paste each prompt in the chat as I run it; they're all in the repo. Nobody needs to transcribe a slide.
 
-## 18 · demo-research · layout statement · module 03-research
+## 18 · demo-research · layout body · module 03-research
 
-live demo · research
-Watch me do it on a real target account.
-Ten minutes on the clock. Collect, run the prompt, click two links, write the "why now" sentence.
+live demo · Spotify research
+Spotify gives us evidence, but no buying signal
 
-Notes: Screen share. Run the prompt from the last slide on the target account, thinking out loud. When UNVERIFIED markers show up, stop and point at them; that's the moment to land. Click one link live, fix one wrong thing, then say the "why now" sentence in your own words. If the assistant stalls, read the prepared brief instead and keep moving.
+- 2021 Kubernetes article: historical architecture, not today's need
+
+- 2025 perimeter outage: no proof Linkerd would prevent it
+
+- Current buyer, initiative and customer relationship remain unknown
+
+- Prospector qualify, or the saved prompt with no plugin
+
+Notes: Open demo/sources.md and the synthetic voice, ICP and product files. Spotify is a public research candidate, not an approved Buoyant target. Run /prospector:qualify Spotify using only that source pack. Click the 2021 article and check its date. The rehearsed qualifier assigned fit 2/5 and timing 0/5; those are subjective judgments, not probabilities. It did no independent browsing. Say: we have no verified why-now. If loading fails once or stalls for thirty seconds, paste demo/fallback-prompt.txt into an ordinary chat. If the network fails too, open demo/fallback-result.md. Ask what current need we would have to verify.
 
 ## 19 · what-to-check · layout body · module 03-research
 
@@ -339,13 +348,20 @@ to say no. Give me three versions with different openings.
 
 Notes: Ninety words is a real constraint and the model respects it. The easy out matters: "if this isn't on your radar, tell me and I'll stop" gets replies because it costs the reader nothing. Three versions, then you pick and tune. Never the first draft.
 
-## 23 · demo-outreach · layout statement · module 04-outreach
+## 23 · demo-outreach · layout body · module 04-outreach
 
-live demo · outreach
-Now the email, from the brief we just built.
-Same account, same thread. Three versions, pick one, count the words.
+live demo · Spotify outreach
+Three drafts for a fictional recipient. Nothing gets sent.
 
-Notes: Back to the screen share. Run the first-touch prompt with the brief still in the conversation. Read the three versions out loud, pick the one that sounds most like a person, cut anything you wouldn't say on the phone, and count the words. Under ninety or cut again. Then show the before-and-after slide.
+- Fictional Spotify platform lead, no address or assumed relationship
+
+- Three alternatives under eighty words, not a sending sequence
+
+- Plugin queue: isolated pending drafts, no approval or send
+
+- Fallback: text review table, no queue storage
+
+Notes: Show demo/drafts.md and the existing isolated rehearsal queue. Do not rerun /prospector:draft in the prepared state: it creates entries. For a fresh run, use a separate empty demo state with the source pack and synthetic voice. /prospector:queue list --status pending and stats show state; keep demo/drafts.md open because list omits bodies and sources. Choose one and count words. Contact basis stays unknown. Nothing is approved or sent. After one failed load or thirty seconds, switch to demo/fallback-prompt.txt or the saved result. Say clearly that the fallback table is only text. Its drafts omit production footer details and are not send-ready.
 
 ## 24 · before-after · layout two-col · module 04-outreach
 
@@ -573,8 +589,11 @@ resources
 Everything from today lives in one place
 The one rule, one more time: the AI drafts. You send.
 The repository
-github.com/mrhinkle/ai-for-sales-training
+github.com/mrhinkle/AI-For-Sales-Professionals
 The deck, the speaker notes, every prompt you saw, and how to point your own assistant at it.
+Prospector companion
+github.com/mrhinkle/AI-For-Sales-Professionals/blob/main/program/PROSPECTOR.md
+The demo, the practice exercise, and the plugin setup guide.
 Questions after today
 mailto:mrhinkle@peripety.com
 Reply with the account you briefed and I'll read it.
@@ -585,7 +604,7 @@ All Things AI
 allthingsai.org
 The conference in Durham, April 18 to 20, 2027.
 
-Notes: Give them the link and tell them the folder is built to be read by a chatbot, not just a person. "Open the repo, paste the prompts folder into your assistant, tell it who you sell to." Then take questions for whatever time is left.
+Notes: Give them the link and tell them the folder is built to be read by a chatbot, not just a person. "Open the repo, paste the prompts folder into your assistant, tell it who you sell to." Share the Prospector companion guide too. It contains the setup steps and the same exercise we demonstrated. Confirm attendees can open the repository before sharing; provide the handout directly if they cannot. Then take questions for whatever time is left.
 
 ## 40 · thanks · layout statement has-photo · module 99-close
 

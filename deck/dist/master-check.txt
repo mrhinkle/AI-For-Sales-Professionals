@@ -1,6 +1,6 @@
 master: 50 slides
 render: 50 slides measured, 0 overflow
-pdf: deck/dist/master.pdf (2251 KB)
+pdf: deck/dist/master.pdf (2295 KB)
 
 PROBLEMS: none
 
@@ -17,11 +17,11 @@ per-slide bottom edge (px from slide top; floor 620):
   8  396  ok  You probably already own the tools
   9  450  ok  Set it up once
   10  430  ok  Three files your assistant reads before every task
-  11  598  ok  Put them where the assistant reads them every time
+  11  616  ok  Put the files where every chat reads them
   12  478  ok  Brief it like a new hire, not like a search box
   13  339  ok  Three habits that fix most bad answers
   14  356  ok  Build your voice file right now
-  15  465  ok  Research an account in ten minutes
+  15  432  ok  Research an account
   16  450  ok  Collect, brief, verify, then one sentence on why now
   17  573  ok  Six places to collect from, in the order that pays
   18  404  ok  The account brief prompt
@@ -38,7 +38,7 @@ per-slide bottom edge (px from slide top; floor 620):
   29  429  ok  Five minutes before, nothing during, ten minutes after
   30  356  ok  The prep sheet prompt
   31  382  ok  Rehearse the hard conversation before you have it
-  32  547  ok  The recorder is the only new tool most of you need
+  32  583  ok  The recorder is the only new tool most of you need
   33  406  ok  Follow up in ten minutes from the transcript
   34  339  ok  Three rounds with your toughest buyer
   35  432  ok  Proposals and the paperwork
@@ -47,7 +47,7 @@ per-slide bottom edge (px from slide top; floor 620):
   38  432  ok  Keep the pipeline honest
   39  332  ok  Ask it to be the skeptic in your deal review
   40  426  ok  Hygiene without the Friday afternoon
-  41  608  ok  Your CRM ships an assistant now. Give it the boring half.
+  41  616  ok  Give your CRM the boring half.
   42  465  ok  The rules that keep you employed
   43  504  ok  Four rules
   44  481  ok  At 99 percent accuracy, a thousand automated sends is ten mistakes with your signature on them.
@@ -55,5 +55,5 @@ per-slide bottom edge (px from slide top; floor 620):
   46  458  ok  Five days, one habit each
   47  339  ok  Measure three things, nothing fancy
   48  420  ok  Pick one workflow. Do it every day for two weeks. Then add the next.
-  49  434  ok  Everything from today lives in one place
+  49  535  ok  Everything from today lives in one place
   50  450  ok  Thanks. Go brief three accounts before Friday.

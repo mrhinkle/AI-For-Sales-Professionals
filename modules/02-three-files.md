@@ -40,7 +40,7 @@ Plain text, each under a page. Keep them in whatever your assistant calls a proj
 <!-- layout: image -->
 <!-- eyebrow: the three files · where they live -->
 <!-- id: where-files-live -->
-## Put them where the assistant reads them every time
+## Put the files where every chat reads them
 
 - ChatGPT calls it a Project, Claude calls it a Project, Gemini calls it a Gem
 - Upload the three files once. Every new chat in that folder starts with them loaded

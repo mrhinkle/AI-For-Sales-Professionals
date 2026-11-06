@@ -54,10 +54,10 @@ Ninety words is a real constraint and the model respects it. The easy out matter
 <!-- id: demo-outreach -->
 # Now the email, from the brief we just built.
 
-Same account, same thread. Three versions, pick one, count the words.
+Same account in Prospector. Draft, check the evidence, review the queue.
 
 notes:
-Back to the screen share. Run the first-touch prompt with the brief still in the conversation. Read the three versions out loud, pick the one that sounds most like a person, cut anything you wouldn't say on the phone, and count the words. Under ninety or cut again. Then show the before-and-after slide.
+Back to Prospector. Use /prospector:draft with the verified brief, then /prospector:queue to review the draft. Ask for three versions and stay under 80 words for this demo. If the plugin is unavailable, use the first-touch prompt with the brief still in the conversation. Read the three versions out loud, pick the one that sounds most like a person, cut anything you wouldn't say on the phone, and count the words. Under ninety or cut again. Then show the before-and-after slide.
 
 ---
 

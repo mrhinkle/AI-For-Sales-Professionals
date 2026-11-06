@@ -84,7 +84,7 @@ _Set it up once, the three files_
 
 Plain text, each under a page. Keep them in whatever your assistant calls a project or a folder, so they load automatically. The voice file is the one people underestimate. Give it your real emails and it stops sounding like a brochure. The ICP file is what makes research and list-ranking useful. The product file keeps it from inventing features.
 
-### 11. Put them where the assistant reads them every time
+### 11. Put the files where every chat reads them
 
 _Set it up once, the three files_
 
@@ -143,7 +143,7 @@ These four cover almost every embarrassing research mistake I've seen. They take
 
 _Research an account_
 
-Eight minutes with a timer on the screen. Walk the room and look for people stuck on Collect; help them grab the job postings. The debrief is the "why now" sentences. Push back gently on vague ones. If it isn't something you'd say on a call, it isn't done.
+Use the Prospector companion exercise in program/PROSPECTOR.md, or the account-brief prompt if the plugin is unavailable. Eight minutes with a timer on the screen. Walk the room and look for people stuck on Collect; help them grab the job postings. The debrief is the "why now" sentences. Push back gently on vague ones. If it isn't something you'd say on a call, it isn't done.
 
 ### 21. Outreach that sounds like you
 
@@ -265,11 +265,11 @@ _Keep the pipeline honest_
 
 The weekly summary prompt takes two minutes and makes your manager's week easier, which is a career move dressed up as hygiene. Point at the fourth line: CRM copilots are good at structured summaries. The judgment prompts belong in your general assistant with your three files loaded.
 
-### 41. Your CRM ships an assistant now. Give it the boring half.
+### 41. Give your CRM the boring half.
 
 _Keep the pipeline honest_
 
-Every CRM is shipping agents this year. They're good at the structured work: summaries, field updates, follow-up reminders, because they sit on the data. They're generic at the judgment work, because they don't have your three files. Split it that way and you get the best of both.
+Your CRM ships an assistant now. Every CRM is shipping agents this year. They're good at the structured work: summaries, field updates, follow-up reminders, because they sit on the data. They're generic at the judgment work, because they don't have your three files. Split it that way and you get the best of both.
 
 ### 42. The rules that keep you employed
 
@@ -317,7 +317,7 @@ Last word before the close. The people who get value from this are the ones who 
 
 _Close_
 
-Give them the link and tell them the folder is built to be read by a chatbot, not just a person. "Open the repo, paste the prompts folder into your assistant, tell it who you sell to." Then take questions for whatever time is left.
+Give them the link and tell them the folder is built to be read by a chatbot, not just a person. "Open the repo, paste the prompts folder into your assistant, tell it who you sell to." Share the Prospector companion guide too. It contains the setup steps and the same exercise we demonstrated. Confirm attendees can open the repository before sharing; provide the handout directly if they cannot. Then take questions for whatever time is left.
 
 ### 50. Thanks. Go brief three accounts before Friday.
 

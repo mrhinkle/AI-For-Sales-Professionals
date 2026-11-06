@@ -24,4 +24,6 @@ Every prompt from the session, ready to copy. Each one assumes your assistant ha
 
 Step-by-step versions of 13 to 16, with checklists and the sentence that saves each as a skill, are in [program/WALKTHROUGHS.md](../program/WALKTHROUGHS.md).
 
+For the plugin version of the research-to-outreach exercise, use the [Prospector companion guide](../program/PROSPECTOR.md). The prompts above also work without the plugin.
+
 The rule that goes with all of them: the AI drafts, you send.
