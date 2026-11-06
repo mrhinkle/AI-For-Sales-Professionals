@@ -52,9 +52,15 @@ The weekly summary prompt takes two minutes and makes your manager's week easier
 <!-- layout: image -->
 <!-- eyebrow: pipeline · the crm's own assistant -->
 <!-- id: crm-assistant -->
-## Your CRM ships an assistant now. Give it the boring half.
+## Give your CRM the boring half.
+
+- Summaries, field updates and reminders belong in the CRM
+- Judgment stays in your assistant, with your three files
+- It sits on the data. It doesn't know how you sell
+
+|||
 
 ![HubSpot's Agent Hub, the CRM's own assistants. November 2026](screenshots/hubspot-agent-hub.jpg)
 
 notes:
-Every CRM is shipping agents this year. They're good at the structured work: summaries, field updates, follow-up reminders, because they sit on the data. They're generic at the judgment work, because they don't have your three files. Split it that way and you get the best of both.
+Your CRM ships an assistant now. Every CRM is shipping agents this year. They're good at the structured work: summaries, field updates, follow-up reminders, because they sit on the data. They're generic at the judgment work, because they don't have your three files. Split it that way and you get the best of both.

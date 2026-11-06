@@ -9,7 +9,7 @@ outcomes:
 <!-- layout: image -->
 <!-- eyebrow: which claude · claude, formerly cowork -->
 <!-- id: cowork -->
-## Claude (formerly Cowork) does the work for you
+## Claude, formerly Cowork, does the work
 
 - Give it a goal. It works across your files and tools
 - Runs while you're away, on a schedule if you want
@@ -27,7 +27,7 @@ This used to be called Cowork. Now it's just Claude, and it's the one most of yo
 <!-- layout: image -->
 <!-- eyebrow: which claude · claude code -->
 <!-- id: claude-code -->
-## Claude Code: when the job is building software
+## Claude Code is for building software
 
 - Hand it a fix, a test or a whole migration
 - Runs in the terminal, your code editor, Slack or the web

@@ -55,7 +55,7 @@ Four places, and we'll take them in order. Connectors are the big one. Skills ar
 <!-- layout: image -->
 <!-- eyebrow: connections · the native ones -->
 <!-- id: native-connectors -->
-## Turn on the connectors Claude already ships
+## Turn on the connectors Claude ships
 
 - Gmail, Google Calendar and Drive, or Microsoft 365 for Outlook and Teams
 - HubSpot, Slack, Notion and Zoom, each a one-click connect
@@ -66,7 +66,7 @@ Four places, and we'll take them in order. Connectors are the big one. Skills ar
 ![Claude's connectors directory, claude.com. November 2026](screenshots/claude-connectors.jpg)
 
 notes:
-This is the directory. You get to it from Settings, then Connectors, then Browse. Click one, sign in with the account you already use, done. Start with email, calendar and your CRM. Those three alone change the research and follow-up we're about to do, because Claude can read the thread and the meeting instead of you pasting them in. Use your company account, and if IT controls connectors, ask them which ones are approved before you start clicking.
+These are the connectors Claude already ships. This is the directory. You get to it from Settings, then Connectors, then Browse. Click one, sign in with the account you already use, done. Start with email, calendar and your CRM. Those three alone change the research and follow-up we're about to do, because Claude can read the thread and the meeting instead of you pasting them in. Use your company account, and if IT controls connectors, ask them which ones are approved before you start clicking.
 
 ---
 
@@ -114,7 +114,7 @@ Here's the map for a seller. CRM first, because that's where the truth about an 
 <!-- layout: image -->
 <!-- eyebrow: connections · all in one place -->
 <!-- id: composio -->
-## Or do what I do: Composio, everything in one place
+## Or use Composio for everything
 
 - One connection gives Claude access to over 1,500 tools
 - Salesforce, HubSpot, Gmail, LinkedIn and the long tail

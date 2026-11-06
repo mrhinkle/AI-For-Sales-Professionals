@@ -84,7 +84,7 @@ _Set it up once, the three files_
 
 Plain text, each under a page. Keep them in whatever your assistant calls a project or a folder, so they load automatically. The voice file is the one people underestimate. Give it your real emails and it stops sounding like a brochure. The ICP file is what makes research and list-ranking useful. The product file keeps it from inventing features.
 
-### 11. Put them where the assistant reads them every time
+### 11. Put the files where every chat reads them
 
 _Set it up once, the three files_
 
@@ -265,11 +265,11 @@ _Keep the pipeline honest_
 
 The weekly summary prompt takes two minutes and makes your manager's week easier, which is a career move dressed up as hygiene. Point at the fourth line: CRM copilots are good at structured summaries. The judgment prompts belong in your general assistant with your three files loaded.
 
-### 41. Your CRM ships an assistant now. Give it the boring half.
+### 41. Give your CRM the boring half.
 
 _Keep the pipeline honest_
 
-Every CRM is shipping agents this year. They're good at the structured work: summaries, field updates, follow-up reminders, because they sit on the data. They're generic at the judgment work, because they don't have your three files. Split it that way and you get the best of both.
+Your CRM ships an assistant now. Every CRM is shipping agents this year. They're good at the structured work: summaries, field updates, follow-up reminders, because they sit on the data. They're generic at the judgment work, because they don't have your three files. Split it that way and you get the best of both.
 
 ### 42. The rules that keep you employed
 

@@ -20,7 +20,7 @@ Everything we've covered, the connectors, the skills, the voice file, the rule t
 <!-- layout: image -->
 <!-- eyebrow: chatterbuilt mail -->
 <!-- id: chatterbuilt-mail -->
-## Chatterbuilt Mail reads the room before you reply
+## Chatterbuilt Mail reads the room first
 
 - Open a thread. It shows what your CRM, calendar and notes know
 - Drafts in your voice, then checks it before you hit Send
